@@ -1,0 +1,564 @@
+[
+  {
+    "id": "services-hero",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "background_background": "gradient",
+      "background_color": "#1e3a8a",
+      "background_color_b": "#3b82f6",
+      "background_gradient_angle": {"unit": "deg", "size": 135},
+      "padding": {"unit": "px", "top": "100", "right": "20", "bottom": "100", "left": "20"}
+    },
+    "elements": [
+      {
+        "id": "services-hero-col",
+        "elType": "column",
+        "settings": {"_column_size": 100},
+        "elements": [
+          {
+            "id": "services-hero-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Our {{trade}} Services",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_font_size": {"unit": "px", "size": 48},
+              "typography_font_weight": "700"
+            }
+          },
+          {
+            "id": "services-hero-tagline",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #e0e7ff; font-size: 20px; margin-top: 10px;'>{{tagline}}</p>",
+              "align": "center"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "services-grid",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#f9fafb",
+      "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20"}
+    },
+    "elements": [
+      {
+        "id": "services-grid-col-1",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "service-card-1",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "{{service_1_name}}",
+              "description_text": "{{service_1_desc}}",
+              "icon": {"value": "fas fa-wrench", "library": "fa-solid"},
+              "icon_color": "#3b82f6",
+              "icon_size": {"unit": "px", "size": 40},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "background_background": "classic",
+              "background_color": "#ffffff",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1"},
+              "border_color": "#e5e7eb",
+              "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8"},
+              "padding": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30"}
+            }
+          },
+          {
+            "id": "service-price-1",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #059669; font-weight: 700; font-size: 18px; margin: 15px 0;'>{{service_1_price}}</p>"
+            }
+          },
+          {
+            "id": "service-button-1",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Learn More",
+              "align": "center",
+              "button_type": "default",
+              "background_color": "#3b82f6",
+              "button_text_color": "#ffffff",
+              "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5"}
+            }
+          }
+        ]
+      },
+      {
+        "id": "services-grid-col-2",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "service-card-2",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "{{service_2_name}}",
+              "description_text": "{{service_2_desc}}",
+              "icon": {"value": "fas fa-cog", "library": "fa-solid"},
+              "icon_color": "#ef4444",
+              "icon_size": {"unit": "px", "size": 40},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "background_background": "classic",
+              "background_color": "#ffffff",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1"},
+              "border_color": "#e5e7eb",
+              "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8"},
+              "padding": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30"}
+            }
+          },
+          {
+            "id": "service-price-2",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #059669; font-weight: 700; font-size: 18px; margin: 15px 0;'>{{service_2_price}}</p>"
+            }
+          },
+          {
+            "id": "service-button-2",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Learn More",
+              "align": "center",
+              "button_type": "default",
+              "background_color": "#3b82f6",
+              "button_text_color": "#ffffff",
+              "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5"}
+            }
+          }
+        ]
+      },
+      {
+        "id": "services-grid-col-3",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "service-card-3",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "{{service_3_name}}",
+              "description_text": "{{service_3_desc}}",
+              "icon": {"value": "fas fa-tools", "library": "fa-solid"},
+              "icon_color": "#f59e0b",
+              "icon_size": {"unit": "px", "size": 40},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "background_background": "classic",
+              "background_color": "#ffffff",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1"},
+              "border_color": "#e5e7eb",
+              "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8"},
+              "padding": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30"}
+            }
+          },
+          {
+            "id": "service-price-3",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #059669; font-weight: 700; font-size: 18px; margin: 15px 0;'>{{service_3_price}}</p>"
+            }
+          },
+          {
+            "id": "service-button-3",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Learn More",
+              "align": "center",
+              "button_type": "default",
+              "background_color": "#3b82f6",
+              "button_text_color": "#ffffff",
+              "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5"}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "services-grid-row-2",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#f9fafb",
+      "padding": {"unit": "px", "top": "0", "right": "20", "bottom": "80", "left": "20"}
+    },
+    "elements": [
+      {
+        "id": "services-grid-col-4",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "service-card-4",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "{{service_4_name}}",
+              "description_text": "{{service_4_desc}}",
+              "icon": {"value": "fas fa-hammer", "library": "fa-solid"},
+              "icon_color": "#10b981",
+              "icon_size": {"unit": "px", "size": 40},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "background_background": "classic",
+              "background_color": "#ffffff",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1"},
+              "border_color": "#e5e7eb",
+              "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8"},
+              "padding": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30"}
+            }
+          },
+          {
+            "id": "service-price-4",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #059669; font-weight: 700; font-size: 18px; margin: 15px 0;'>{{service_4_price}}</p>"
+            }
+          },
+          {
+            "id": "service-button-4",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Learn More",
+              "align": "center",
+              "button_type": "default",
+              "background_color": "#3b82f6",
+              "button_text_color": "#ffffff",
+              "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5"}
+            }
+          }
+        ]
+      },
+      {
+        "id": "services-grid-col-5",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "service-card-5",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "{{service_5_name}}",
+              "description_text": "{{service_5_desc}}",
+              "icon": {"value": "fas fa-hard-hat", "library": "fa-solid"},
+              "icon_color": "#8b5cf6",
+              "icon_size": {"unit": "px", "size": 40},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "background_background": "classic",
+              "background_color": "#ffffff",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1"},
+              "border_color": "#e5e7eb",
+              "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8"},
+              "padding": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30"}
+            }
+          },
+          {
+            "id": "service-price-5",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #059669; font-weight: 700; font-size: 18px; margin: 15px 0;'>{{service_5_price}}</p>"
+            }
+          },
+          {
+            "id": "service-button-5",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Learn More",
+              "align": "center",
+              "button_type": "default",
+              "background_color": "#3b82f6",
+              "button_text_color": "#ffffff",
+              "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5"}
+            }
+          }
+        ]
+      },
+      {
+        "id": "services-grid-col-6",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "service-card-6",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "{{service_6_name}}",
+              "description_text": "{{service_6_desc}}",
+              "icon": {"value": "fas fa-clipboard-check", "library": "fa-solid"},
+              "icon_color": "#ec4899",
+              "icon_size": {"unit": "px", "size": 40},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "background_background": "classic",
+              "background_color": "#ffffff",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1"},
+              "border_color": "#e5e7eb",
+              "border_radius": {"unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8"},
+              "padding": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30"}
+            }
+          },
+          {
+            "id": "service-price-6",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #059669; font-weight: 700; font-size: 18px; margin: 15px 0;'>{{service_6_price}}</p>"
+            }
+          },
+          {
+            "id": "service-button-6",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Learn More",
+              "align": "center",
+              "button_type": "default",
+              "background_color": "#3b82f6",
+              "button_text_color": "#ffffff",
+              "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5"}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "how-it-works",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20"}
+    },
+    "elements": [
+      {
+        "id": "how-it-works-heading-col",
+        "elType": "column",
+        "settings": {"_column_size": 100},
+        "elements": [
+          {
+            "id": "how-it-works-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "How It Works",
+              "align": "center",
+              "title_color": "#1f2937",
+              "typography_font_size": {"unit": "px", "size": 36},
+              "typography_font_weight": "700"
+            }
+          }
+        ]
+      },
+      {
+        "id": "how-it-works-col-1",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "step-1",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "1. {{step_1}}",
+              "description_text": "Contact us by phone or online to discuss your service needs.",
+              "icon": {"value": "fas fa-phone", "library": "fa-solid"},
+              "icon_color": "#3b82f6",
+              "icon_size": {"unit": "px", "size": 50},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "position": "top",
+              "content_vertical_alignment": "top"
+            }
+          }
+        ]
+      },
+      {
+        "id": "how-it-works-col-2",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "step-2",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "2. {{step_2}}",
+              "description_text": "We arrange a convenient time for our experts to visit your location.",
+              "icon": {"value": "fas fa-calendar-alt", "library": "fa-solid"},
+              "icon_color": "#10b981",
+              "icon_size": {"unit": "px", "size": 50},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "position": "top",
+              "content_vertical_alignment": "top"
+            }
+          }
+        ]
+      },
+      {
+        "id": "how-it-works-col-3",
+        "elType": "column",
+        "settings": {"_column_size": 33},
+        "elements": [
+          {
+            "id": "step-3",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "title_text": "3. {{step_3}}",
+              "description_text": "Our team completes the work to your satisfaction with quality results.",
+              "icon": {"value": "fas fa-check-circle", "library": "fa-solid"},
+              "icon_color": "#059669",
+              "icon_size": {"unit": "px", "size": 50},
+              "title_color": "#1f2937",
+              "description_color": "#6b7280",
+              "position": "top",
+              "content_vertical_alignment": "top"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "service-area",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#f9fafb",
+      "padding": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20"}
+    },
+    "elements": [
+      {
+        "id": "service-area-col",
+        "elType": "column",
+        "settings": {"_column_size": 100},
+        "elements": [
+          {
+            "id": "service-area-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Areas We Serve",
+              "align": "center",
+              "title_color": "#1f2937",
+              "typography_font_size": {"unit": "px", "size": 32},
+              "typography_font_weight": "700"
+            }
+          },
+          {
+            "id": "service-area-text",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #4b5563; font-size: 18px; margin-top: 20px;'>{{service_areas}}</p>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "services-cta",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "background_background": "gradient",
+      "background_color": "#059669",
+      "background_color_b": "#10b981",
+      "background_gradient_angle": {"unit": "deg", "size": 135},
+      "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20"}
+    },
+    "elements": [
+      {
+        "id": "services-cta-col",
+        "elType": "column",
+        "settings": {"_column_size": 100},
+        "elements": [
+          {
+            "id": "services-cta-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Get Your Free Estimate Today",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_font_size": {"unit": "px", "size": 40},
+              "typography_font_weight": "700"
+            }
+          },
+          {
+            "id": "services-cta-text",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='text-align: center; color: #d1fae5; font-size: 18px; margin: 20px 0;'>Contact {{name}} for professional {{trade}} services you can trust.</p>",
+              "align": "center"
+            }
+          },
+          {
+            "id": "services-cta-button",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Request Free Estimate",
+              "align": "center",
+              "size": "lg",
+              "background_color": "#ffffff",
+              "button_text_color": "#059669",
+              "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5"},
+              "button_box_shadow_box_shadow_type": "yes",
+              "button_box_shadow_box_shadow": {
+                "horizontal": 0,
+                "vertical": 4,
+                "blur": 6,
+                "spread": 0,
+                "color": "rgba(0,0,0,0.1)"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
