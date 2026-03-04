@@ -36,7 +36,7 @@ function inject_header_data($header_template_json, $contractor_data) {
     // Standard injection
     $modified_data = inject_template_recursive($data, $contractor_data);
 
-    return json_encode($modified_data);
+    return json_encode($modified_data, JSON_UNESCAPED_SLASHES);
 }
 
 /**
@@ -64,7 +64,7 @@ function inject_footer_data($footer_template_json, $contractor_data) {
     // Standard injection
     $modified_data = inject_template_recursive($data, $contractor_data);
 
-    return json_encode($modified_data);
+    return json_encode($modified_data, JSON_UNESCAPED_SLASHES);
 }
 
 /**

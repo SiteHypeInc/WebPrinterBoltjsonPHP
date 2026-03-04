@@ -269,10 +269,12 @@ function print_contractor_site($contractor_data, $options = []) {
                 'name' => $contractor_data['company_name'],
                 'phone' => $contractor_data['phone'],
                 'email' => $contractor_data['email'],
-                'address' => $contractor_data['address'],
+                'address' => "{$contractor_data['address']}, {$contractor_data['city']}, {$contractor_data['state']} {$contractor_data['zip']}",
                 'city' => $contractor_data['city'],
                 'state' => $contractor_data['state'],
                 'zip' => $contractor_data['zip'],
+                'tagline' => $contractor_data['tagline'] ?? "Professional {$contractor_data['trade']} Services",
+                'license' => $contractor_data['license'] ?? 'Licensed & Insured',
                 'facebook' => $contractor_data['social_media']['facebook'] ?? '',
                 'twitter' => $contractor_data['social_media']['twitter'] ?? '',
                 'instagram' => $contractor_data['social_media']['instagram'] ?? '',
@@ -334,8 +336,9 @@ function print_contractor_site($contractor_data, $options = []) {
 
         // Step 6: Generate Estimate Page
         echo "Generating estimate page...\n";
-        $estimate_json = inject_estimate_data(
-            file_get_contents('elementor-estimate-template.json'),
+        $estimate_template = json_decode(file_get_contents('elementor-estimate-template.json'), true);
+        $estimate_result = inject_estimate_data(
+            $estimate_template,
             [
                 'name' => $contractor_data['company_name'],
                 'phone' => $contractor_data['phone'],
@@ -349,23 +352,24 @@ function print_contractor_site($contractor_data, $options = []) {
                 ]
             ]
         );
-        $results['templates']['estimate'] = $estimate_json;
+        $results['templates']['estimate'] = json_encode($estimate_result);
 
         // Step 7: Generate Contact Page
         echo "Generating contact page...\n";
-        $contact_json = inject_contact_data(
-            file_get_contents('elementor-contact-template.json'),
+        $contact_template = json_decode(file_get_contents('elementor-contact-template.json'), true);
+        $contact_result = inject_contact_data(
+            $contact_template,
             [
                 'name' => $contractor_data['company_name'],
                 'phone' => $contractor_data['phone'],
                 'email' => $contractor_data['email'],
-                'address' => $contractor_data['address'],
+                'address' => "{$contractor_data['address']}, {$contractor_data['city']}, {$contractor_data['state']} {$contractor_data['zip']}",
                 'hours' => $contractor_data['hours'] ?? 'Mon-Fri: 8am-5pm',
                 'emergency' => $contractor_data['emergency'] ?? false,
                 'emergency_phone' => $contractor_data['emergency_phone'] ?? $contractor_data['phone']
             ]
         );
-        $results['templates']['contact'] = $contact_json;
+        $results['templates']['contact'] = json_encode($contact_result);
 
         // Step 8: Generate Schema Markup
         echo "Generating schema markup...\n";

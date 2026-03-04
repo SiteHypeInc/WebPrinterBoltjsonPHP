@@ -48,7 +48,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "{{tagline}}",
+              "editor": "{{tagline}}<br><br><a href=\"{{facebook}}\" target=\"_blank\" style=\"color: #3b5998; margin-right: 15px;\">Facebook</a><a href=\"{{twitter}}\" target=\"_blank\" style=\"color: #1da1f2; margin-right: 15px;\">Twitter</a><a href=\"{{instagram}}\" target=\"_blank\" style=\"color: #e4405f;\">Instagram</a>",
               "align": "left",
               "text_color": "#95a5a6",
               "typography_typography": "custom",
