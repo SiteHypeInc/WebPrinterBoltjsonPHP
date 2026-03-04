@@ -1,0 +1,688 @@
+[
+  {
+    "id": "about-hero",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "content_width": "boxed",
+      "background_background": "gradient",
+      "background_color": "#f8f9fa",
+      "background_color_b": "#e9ecef",
+      "background_gradient_angle": {
+        "unit": "deg",
+        "size": 135
+      },
+      "padding": {
+        "unit": "px",
+        "top": "100",
+        "right": "0",
+        "bottom": "100",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "about-hero-col",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "about-hero-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "About {{name}}",
+              "header_size": "h1",
+              "align": "center",
+              "title_color": "#2c3e50",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 48
+              },
+              "typography_font_weight": "700"
+            }
+          },
+          {
+            "id": "about-hero-subtitle",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "{{story}}",
+              "align": "center",
+              "text_color": "#5a6c7d",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "margin": {
+                "unit": "px",
+                "top": "20",
+                "right": "auto",
+                "bottom": "0",
+                "left": "auto"
+              },
+              "width": {
+                "unit": "%",
+                "size": 80
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "our-story",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {
+        "unit": "px",
+        "top": "80",
+        "right": "0",
+        "bottom": "80",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "our-story-col",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "our-story-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Our Story",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#2c3e50",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 36
+              },
+              "typography_font_weight": "700",
+              "margin": {
+                "unit": "px",
+                "bottom": "30"
+              }
+            }
+          },
+          {
+            "id": "our-story-text",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Founded in {{founded}} by {{founder}}, {{name}} has been proudly serving {{city}}, {{state}} for over {{years_in_business}} years. What started as a small family business has grown into a trusted team of {{team_size}} dedicated professionals.</p><p>{{story}}</p><p>Today, we continue to uphold the same values that {{founder}} established from day one: exceptional service, honest pricing, and treating every customer like family.</p>",
+              "align": "left",
+              "text_color": "#5a6c7d",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.8
+              },
+              "width": {
+                "unit": "%",
+                "size": 85
+              },
+              "margin": {
+                "unit": "px",
+                "right": "auto",
+                "left": "auto"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "why-choose-us",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "content_width": "boxed",
+      "background_background": "classic",
+      "background_color": "#f8f9fa",
+      "padding": {
+        "unit": "px",
+        "top": "80",
+        "right": "0",
+        "bottom": "80",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "why-choose-heading-col",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "why-choose-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Why Choose {{name}}?",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#2c3e50",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 36
+              },
+              "typography_font_weight": "700",
+              "margin": {
+                "unit": "px",
+                "bottom": "50"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trust-signals-row",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#f8f9fa",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "60",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "trust-col-1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25
+        },
+        "elements": [
+          {
+            "id": "trust-box-1",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-shield",
+              "title_text": "{{trust_0}}",
+              "description_text": "Your protection is our priority",
+              "position": "top",
+              "icon_color": "#3498db",
+              "title_color": "#2c3e50",
+              "description_color": "#7f8c8d",
+              "align": "center",
+              "typography_title": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "title_typography_font_weight": "600"
+            }
+          }
+        ]
+      },
+      {
+        "id": "trust-col-2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25
+        },
+        "elements": [
+          {
+            "id": "trust-box-2",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-certificate",
+              "title_text": "{{trust_1}}",
+              "description_text": "Certified professionals you can trust",
+              "position": "top",
+              "icon_color": "#e74c3c",
+              "title_color": "#2c3e50",
+              "description_color": "#7f8c8d",
+              "align": "center",
+              "typography_title": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "title_typography_font_weight": "600"
+            }
+          }
+        ]
+      },
+      {
+        "id": "trust-col-3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25
+        },
+        "elements": [
+          {
+            "id": "trust-box-3",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-star",
+              "title_text": "{{trust_2}}",
+              "description_text": "Rated by customers like you",
+              "position": "top",
+              "icon_color": "#f39c12",
+              "title_color": "#2c3e50",
+              "description_color": "#7f8c8d",
+              "align": "center",
+              "typography_title": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "title_typography_font_weight": "600"
+            }
+          }
+        ]
+      },
+      {
+        "id": "trust-col-4",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25
+        },
+        "elements": [
+          {
+            "id": "trust-box-4",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-clock-o",
+              "title_text": "{{trust_3}}",
+              "description_text": "Experience you can rely on",
+              "position": "top",
+              "icon_color": "#27ae60",
+              "title_color": "#2c3e50",
+              "description_color": "#7f8c8d",
+              "align": "center",
+              "typography_title": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "title_typography_font_weight": "600"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meet-team",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {
+        "unit": "px",
+        "top": "80",
+        "right": "0",
+        "bottom": "80",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "meet-team-col",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "meet-team-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Meet The Team",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#2c3e50",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 36
+              },
+              "typography_font_weight": "700",
+              "margin": {
+                "unit": "px",
+                "bottom": "30"
+              }
+            }
+          },
+          {
+            "id": "meet-team-text",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Our team of {{team_size}} skilled professionals is the heart of {{name}}. Led by founder {{founder}}, each member brings years of experience and a commitment to excellence. We're not just technicians—we're your neighbors, dedicated to keeping {{city}} homes and businesses comfortable year-round.</p><p>Every team member is background-checked, drug-tested, and continuously trained on the latest industry standards and technologies. When you work with us, you're working with the best in {{state}}.</p>",
+              "align": "left",
+              "text_color": "#5a6c7d",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.8
+              },
+              "width": {
+                "unit": "%",
+                "size": 85
+              },
+              "margin": {
+                "unit": "px",
+                "right": "auto",
+                "left": "auto"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "values",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "content_width": "boxed",
+      "background_background": "classic",
+      "background_color": "#2c3e50",
+      "padding": {
+        "unit": "px",
+        "top": "80",
+        "right": "0",
+        "bottom": "80",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "values-heading-col",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "values-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Our Values",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 36
+              },
+              "typography_font_weight": "700",
+              "margin": {
+                "unit": "px",
+                "bottom": "50"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "values-row",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#2c3e50",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "60",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "value-col-1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "value-box-1",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-wrench",
+              "title_text": "{{value_0}}",
+              "description_text": "We never cut corners. Every job is completed to the highest standards with attention to every detail.",
+              "position": "top",
+              "icon_color": "#3498db",
+              "title_color": "#ffffff",
+              "description_color": "#bdc3c7",
+              "align": "center",
+              "typography_title": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 24
+              },
+              "title_typography_font_weight": "600"
+            }
+          }
+        ]
+      },
+      {
+        "id": "value-col-2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "value-box-2",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-heart",
+              "title_text": "{{value_1}}",
+              "description_text": "You can count on us to show up on time, communicate clearly, and stand behind our work.",
+              "position": "top",
+              "icon_color": "#e74c3c",
+              "title_color": "#ffffff",
+              "description_color": "#bdc3c7",
+              "align": "center",
+              "typography_title": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 24
+              },
+              "title_typography_font_weight": "600"
+            }
+          }
+        ]
+      },
+      {
+        "id": "value-col-3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "value-box-3",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-handshake-o",
+              "title_text": "{{value_2}}",
+              "description_text": "Your satisfaction is our success. We're here to help, educate, and ensure you're completely happy.",
+              "position": "top",
+              "icon_color": "#27ae60",
+              "title_color": "#ffffff",
+              "description_color": "#bdc3c7",
+              "align": "center",
+              "typography_title": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 24
+              },
+              "title_typography_font_weight": "600"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cta-section",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "content_width": "boxed",
+      "background_background": "gradient",
+      "background_color": "#3498db",
+      "background_color_b": "#2980b9",
+      "background_gradient_angle": {
+        "unit": "deg",
+        "size": 45
+      },
+      "padding": {
+        "unit": "px",
+        "top": "80",
+        "right": "0",
+        "bottom": "80",
+        "left": "0"
+      }
+    },
+    "elements": [
+      {
+        "id": "cta-col",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "cta-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Ready to Work Together?",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 40
+              },
+              "typography_font_weight": "700"
+            }
+          },
+          {
+            "id": "cta-subtext",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "Experience the {{name}} difference. Call us today for a free consultation.",
+              "align": "center",
+              "text_color": "#ecf0f1",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "margin": {
+                "unit": "px",
+                "top": "15",
+                "bottom": "30"
+              }
+            }
+          },
+          {
+            "id": "cta-button",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Contact Us Today",
+              "link": {
+                "url": "/contact",
+                "is_external": "",
+                "nofollow": ""
+              },
+              "align": "center",
+              "size": "lg",
+              "button_background_color": "#ffffff",
+              "button_text_color": "#3498db",
+              "hover_background_color": "#ecf0f1",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_weight": "700",
+              "border_radius": {
+                "unit": "px",
+                "top": "50",
+                "right": "50",
+                "bottom": "50",
+                "left": "50"
+              },
+              "padding": {
+                "unit": "px",
+                "top": "18",
+                "right": "40",
+                "bottom": "18",
+                "left": "40"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
