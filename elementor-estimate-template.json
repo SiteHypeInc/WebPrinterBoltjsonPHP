@@ -1,0 +1,730 @@
+{
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "background_background": "gradient",
+        "background_color": "#1e40af",
+        "background_color_b": "#3b82f6",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get Your Free Estimate",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "hero-subtext",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #e0e7ff; font-size: 20px; margin-top: 16px;\">{{response_time}} response • 100% Free • No Obligation</p>",
+                "text_color": "#e0e7ff"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "embed-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 900
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#f9fafb"
+      },
+      "elements": [
+        {
+          "id": "embed-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "embed-intro",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Tell Us About Your Project",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "embed-description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #6b7280; font-size: 16px; margin-bottom: 32px;\">Fill out the quick form below and get a detailed estimate from our experts</p>"
+              }
+            },
+            {
+              "id": "instabid-embed",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "{{instabid_embed}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trust-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "trust-col-1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "trust-icon-1",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-clock",
+                  "library": "fa-solid"
+                },
+                "align": "center",
+                "primary_color": "#3b82f6",
+                "size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "trust-text-1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{trust_signal_1}}",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        },
+        {
+          "id": "trust-col-2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "trust-icon-2",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-dollar-sign",
+                  "library": "fa-solid"
+                },
+                "align": "center",
+                "primary_color": "#3b82f6",
+                "size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "trust-text-2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{trust_signal_2}}",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        },
+        {
+          "id": "trust-col-3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "trust-icon-3",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-check-circle",
+                  "library": "fa-solid"
+                },
+                "align": "center",
+                "primary_color": "#3b82f6",
+                "size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "trust-text-3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{trust_signal_3}}",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        },
+        {
+          "id": "trust-col-4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "trust-icon-4",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-shield-alt",
+                  "library": "fa-solid"
+                },
+                "align": "center",
+                "primary_color": "#3b82f6",
+                "size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "trust-text-4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{trust_signal_4}}",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#f9fafb"
+      },
+      "elements": [
+        {
+          "id": "how-it-works-header-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "how-it-works-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "How It Works",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steps-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#f9fafb"
+      },
+      "elements": [
+        {
+          "id": "step-col-1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "step-number-1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "1",
+                "align": "center",
+                "title_color": "#3b82f6",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "step-title-1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{step_1}}",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "step-desc-1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #6b7280;\">Submit your project details through our quick online form</p>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "step-col-2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "step-number-2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "2",
+                "align": "center",
+                "title_color": "#3b82f6",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "step-title-2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{step_2}}",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "step-desc-2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #6b7280;\">Our team reviews your request and prepares a detailed estimate</p>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "step-col-3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "step-number-3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "3",
+                "align": "center",
+                "title_color": "#3b82f6",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "step-title-3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{step_3}}",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "step-desc-3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #6b7280;\">You receive your free estimate with no obligation</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 900
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "faq-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "faq-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frequently Asked Questions",
+                "align": "center",
+                "title_color": "#1f2937",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "faq-accordion",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "{{faq_1_q}}",
+                    "tab_content": "{{faq_1_a}}"
+                  },
+                  {
+                    "tab_title": "{{faq_2_q}}",
+                    "tab_content": "{{faq_2_a}}"
+                  },
+                  {
+                    "tab_title": "{{faq_3_q}}",
+                    "tab_content": "{{faq_3_a}}"
+                  }
+                ],
+                "title_color": "#1f2937",
+                "content_color": "#6b7280",
+                "border_width": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "border_color": "#e5e7eb"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-alt-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        },
+        "background_background": "gradient",
+        "background_color": "#3b82f6",
+        "background_color_b": "#1e40af",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        }
+      },
+      "elements": [
+        {
+          "id": "contact-alt-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "contact-alt-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Prefer to Call?",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "contact-alt-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #e0e7ff; font-size: 18px; margin-top: 8px;\">Speak directly with our team</p>"
+              }
+            },
+            {
+              "id": "contact-phone",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{phone}}",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "contact-hours",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; color: #bfdbfe; font-size: 16px; margin-top: 8px;\">Available 7 days a week • {{response_time}} response time</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_canvas"
+  },
+  "version": "3.16.0",
+  "title": "Get Estimate Template",
+  "type": "page"
+}
