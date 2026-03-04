@@ -1,0 +1,210 @@
+[
+  {
+    "id": "header-main",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "content_width": "boxed",
+      "gap": "no",
+      "structure": "20",
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {
+        "unit": "px",
+        "top": "20",
+        "right": "0",
+        "bottom": "20",
+        "left": "0"
+      },
+      "box_shadow_box_shadow_type": "yes",
+      "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 2,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0,0,0,0.1)"
+      }
+    },
+    "elements": [
+      {
+        "id": "header-col-logo",
+        "elType": "column",
+        "settings": {
+          "_column_size": 30,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "logo-widget",
+            "elType": "widget",
+            "widgetType": "image",
+            "settings": {
+              "image": {
+                "url": "{{logo_url}}",
+                "id": ""
+              },
+              "image_size": "medium",
+              "align": "left",
+              "width": {
+                "unit": "px",
+                "size": 180
+              },
+              "link": {
+                "url": "/",
+                "is_external": "",
+                "nofollow": ""
+              }
+            }
+          },
+          {
+            "id": "business-name-widget",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "{{name}}",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#333333",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 24
+              },
+              "typography_font_weight": "700",
+              "margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "header-col-nav",
+        "elType": "column",
+        "settings": {
+          "_column_size": 45,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "nav-menu-widget",
+            "elType": "widget",
+            "widgetType": "nav-menu",
+            "settings": {
+              "layout": "horizontal",
+              "align_items": "center",
+              "pointer": "underline",
+              "menu_items": [
+                {
+                  "text": "{{nav_0}}",
+                  "url": "/",
+                  "_id": "nav-item-0"
+                },
+                {
+                  "text": "{{nav_1}}",
+                  "url": "/services",
+                  "_id": "nav-item-1"
+                },
+                {
+                  "text": "{{nav_2}}",
+                  "url": "/about",
+                  "_id": "nav-item-2"
+                },
+                {
+                  "text": "{{nav_3}}",
+                  "url": "/contact",
+                  "_id": "nav-item-3"
+                }
+              ],
+              "menu_text_color": "#333333",
+              "menu_text_hover_color": "#0066cc",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_font_weight": "500"
+            }
+          }
+        ]
+      },
+      {
+        "id": "header-col-contact",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "phone-widget",
+            "elType": "widget",
+            "widgetType": "icon-box",
+            "settings": {
+              "icon": "fa fa-phone",
+              "title_text": "Call Now",
+              "description_text": "{{phone}}",
+              "link": {
+                "url": "tel:{{phone}}",
+                "is_external": "",
+                "nofollow": ""
+              },
+              "position": "left",
+              "title_color": "#666666",
+              "description_color": "#0066cc",
+              "icon_color": "#0066cc",
+              "typography_description": "custom",
+              "description_typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "description_typography_font_weight": "700"
+            }
+          },
+          {
+            "id": "cta-button-widget",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "{{cta}}",
+              "link": {
+                "url": "/contact",
+                "is_external": "",
+                "nofollow": ""
+              },
+              "align": "right",
+              "size": "md",
+              "button_background_color": "#ff6600",
+              "button_text_color": "#ffffff",
+              "hover_background_color": "#cc5200",
+              "typography_typography": "custom",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_font_weight": "600",
+              "border_radius": {
+                "unit": "px",
+                "top": "4",
+                "right": "4",
+                "bottom": "4",
+                "left": "4"
+              },
+              "padding": {
+                "unit": "px",
+                "top": "12",
+                "right": "24",
+                "bottom": "12",
+                "left": "24"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
