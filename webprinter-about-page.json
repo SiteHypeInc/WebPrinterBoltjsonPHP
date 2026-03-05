@@ -1,0 +1,1349 @@
+{
+  "content": [
+    {
+      "id": "about-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "min_height": {
+          "unit": "px",
+          "size": 400
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "about-hero-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "about-hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "ABOUT US",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 4
+                },
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "about-hero-subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 20px; color: #C8A96E; margin-top: 15px;'>30 years of craftsmanship. One standard: excellence.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-story",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0F0F0F",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "our-story-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "column": 60,
+              "row": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "story-left",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 55
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "story-label",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Mono; font-size: 12px; color: #C8A96E; letter-spacing: 3px; margin-bottom: 20px;'>OUR STORY</p>"
+                  }
+                },
+                {
+                  "id": "story-heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BUILT ON REPUTATION. DRIVEN BY RESULTS.",
+                    "header_size": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 2
+                    },
+                    "title_color": "#FFFFFF",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 30
+                    }
+                  }
+                },
+                {
+                  "id": "story-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 16px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[Paragraph 1: Founding story - how the company started, the founder's vision, early challenges and breakthroughs. 3-4 sentences about the beginning.]</p><p style='font-family: DM Sans; font-size: 16px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[Paragraph 2: Growth and evolution - how the business expanded, key milestones, building the team, earning community trust. 3-4 sentences about development.]</p><p style='font-family: DM Sans; font-size: 16px; line-height: 1.7; color: #CCCCCC; margin-bottom: 30px;'>[Paragraph 3: Values and mission - what drives the company today, commitment to quality, customer satisfaction, innovation. 3-4 sentences about philosophy.]</p>"
+                  }
+                },
+                {
+                  "id": "story-credentials",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Mono; font-size: 13px; color: #C8A96E; letter-spacing: 1px;'>[FOUNDED YEAR] | [CITY, STATE] | [LICENSE #XXXXX]</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "story-right",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 45
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "story-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": ""
+                    },
+                    "image_size": "full",
+                    "caption_source": "none"
+                  }
+                },
+                {
+                  "id": "story-stat-overlay",
+                  "elType": "container",
+                  "settings": {
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 3,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 25,
+                      "right": 30,
+                      "bottom": 25,
+                      "left": 30
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": -60
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "stat-overlay-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: Bebas Neue; font-size: 48px; color: #C8A96E; margin: 0; line-height: 1;'>[X] YEARS</p><p style='text-align: center; font-family: DM Sans; font-size: 14px; color: #CCCCCC; margin-top: 8px;'>Serving [CITY]</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-values",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "core-values-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "values-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "WHAT WE STAND FOR",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 60
+                }
+              }
+            },
+            {
+              "id": "values-grid",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 40,
+                  "row": 40
+                }
+              },
+              "elements": [
+                {
+                  "id": "value-1",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 3,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 30,
+                      "bottom": 40,
+                      "left": 30
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "value-1-icon",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<svg width='64' height='64' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg' style='margin-bottom: 25px;'><path d='M32 8L36 16L44 12L40 20H48L42 28L50 32L42 36L48 44H40L44 52L36 48L32 56L28 48L20 52L24 44H16L22 36L14 32L22 28L16 20H24L20 12L28 16L32 8Z' stroke='#C8A96E' stroke-width='2' fill='none'/><path d='M24 32L28 36L36 28' stroke='#C8A96E' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                      }
+                    },
+                    {
+                      "id": "value-1-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "QUALITY FIRST",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Bebas Neue",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.5
+                        },
+                        "title_color": "#C8A96E",
+                        "align": "center",
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 15
+                        }
+                      }
+                    },
+                    {
+                      "id": "value-1-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 15px; line-height: 1.6; color: #CCCCCC;'>[Description of quality commitment - superior materials, skilled craftsmanship, attention to detail, lasting results. 2-3 sentences.]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "value-2",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 3,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 30,
+                      "bottom": 40,
+                      "left": 30
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "value-2-icon",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<svg width='64' height='64' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg' style='margin-bottom: 25px;'><path d='M20 28C20 28 22 24 26 24C30 24 32 28 32 28C32 28 34 24 38 24C42 24 44 28 44 28' stroke='#C8A96E' stroke-width='2' stroke-linecap='round'/><path d='M16 32L20 28L24 32L28 28L32 32L36 28L40 32L44 28L48 32' stroke='#C8A96E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/><circle cx='26' cy='38' r='8' stroke='#C8A96E' stroke-width='2'/><circle cx='38' cy='38' r='8' stroke='#C8A96E' stroke-width='2'/><path d='M18 38H34M30 38H46' stroke='#C8A96E' stroke-width='2'/></svg>"
+                      }
+                    },
+                    {
+                      "id": "value-2-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "HONEST PRICING",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Bebas Neue",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.5
+                        },
+                        "title_color": "#C8A96E",
+                        "align": "center",
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 15
+                        }
+                      }
+                    },
+                    {
+                      "id": "value-2-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 15px; line-height: 1.6; color: #CCCCCC;'>[Description of pricing transparency - clear quotes, no hidden fees, fair value, InstaBid accuracy. 2-3 sentences.]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "value-3",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 3,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 30,
+                      "bottom": 40,
+                      "left": 30
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "value-3-icon",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<svg width='64' height='64' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg' style='margin-bottom: 25px;'><circle cx='32' cy='32' r='20' stroke='#C8A96E' stroke-width='2'/><path d='M32 20V32L42 42' stroke='#C8A96E' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M32 12V16M32 48V52M48 32H52M12 32H16' stroke='#C8A96E' stroke-width='2' stroke-linecap='round'/></svg>"
+                      }
+                    },
+                    {
+                      "id": "value-3-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "ON TIME, EVERY TIME",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Bebas Neue",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.5
+                        },
+                        "title_color": "#C8A96E",
+                        "align": "center",
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 15
+                        }
+                      }
+                    },
+                    {
+                      "id": "value-3-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 15px; line-height: 1.6; color: #CCCCCC;'>[Description of reliability - punctual service, respect for schedules, efficient project management, deadline commitments. 2-3 sentences.]</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0F0F0F",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "team-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "team-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "MEET THE TEAM",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 60
+                }
+              }
+            },
+            {
+              "id": "team-grid",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 40,
+                  "row": 40
+                }
+              },
+              "elements": [
+                {
+                  "id": "team-member-1",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "member-1-photo",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": ""
+                        },
+                        "image_size": "full",
+                        "caption_source": "none"
+                      }
+                    },
+                    {
+                      "id": "member-1-name",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[OWNER NAME]",
+                        "header_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Bebas Neue",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "title_color": "#C8A96E",
+                        "margin": {
+                          "unit": "px",
+                          "top": 20,
+                          "bottom": 5
+                        }
+                      }
+                    },
+                    {
+                      "id": "member-1-title",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 13px; color: #888888; margin-bottom: 12px;'>Owner & Founder</p>"
+                      }
+                    },
+                    {
+                      "id": "member-1-bio",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 14px; line-height: 1.6; color: #CCCCCC;'>[One-line bio highlighting expertise, years of experience, or key achievement]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "team-member-2",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "member-2-photo",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": ""
+                        },
+                        "image_size": "full",
+                        "caption_source": "none"
+                      }
+                    },
+                    {
+                      "id": "member-2-name",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[LEAD TECHNICIAN]",
+                        "header_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Bebas Neue",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "title_color": "#C8A96E",
+                        "margin": {
+                          "unit": "px",
+                          "top": 20,
+                          "bottom": 5
+                        }
+                      }
+                    },
+                    {
+                      "id": "member-2-title",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 13px; color: #888888; margin-bottom: 12px;'>Lead Technician</p>"
+                      }
+                    },
+                    {
+                      "id": "member-2-bio",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 14px; line-height: 1.6; color: #CCCCCC;'>[One-line bio highlighting expertise, years of experience, or key achievement]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "team-member-3",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "member-3-photo",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": ""
+                        },
+                        "image_size": "full",
+                        "caption_source": "none"
+                      }
+                    },
+                    {
+                      "id": "member-3-name",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[OFFICE MANAGER]",
+                        "header_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Bebas Neue",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1
+                        },
+                        "title_color": "#C8A96E",
+                        "margin": {
+                          "unit": "px",
+                          "top": 20,
+                          "bottom": 5
+                        }
+                      }
+                    },
+                    {
+                      "id": "member-3-title",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 13px; color: #888888; margin-bottom: 12px;'>Office Manager</p>"
+                      }
+                    },
+                    {
+                      "id": "member-3-bio",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 14px; line-height: 1.6; color: #CCCCCC;'>[One-line bio highlighting expertise, years of experience, or key achievement]</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credentials-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "credentials-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "credentials-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "LICENSED, BONDED & INSURED",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 50
+                }
+              }
+            },
+            {
+              "id": "credentials-grid",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 30,
+                  "row": 30
+                }
+              },
+              "elements": [
+                {
+                  "id": "credential-1",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 30,
+                      "right": 20,
+                      "bottom": 30,
+                      "left": 20
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "credential-1-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #C8A96E; font-weight: 700; margin-bottom: 8px;'>STATE LICENSED</p><p style='text-align: center; font-family: DM Mono; font-size: 12px; color: #888888;'>[License #]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "credential-2",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 30,
+                      "right": 20,
+                      "bottom": 30,
+                      "left": 20
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "credential-2-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #C8A96E; font-weight: 700; margin-bottom: 8px;'>FULLY BONDED</p><p style='text-align: center; font-family: DM Mono; font-size: 12px; color: #888888;'>[Bond #]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "credential-3",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 30,
+                      "right": 20,
+                      "bottom": 30,
+                      "left": 20
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "credential-3-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #C8A96E; font-weight: 700; margin-bottom: 8px;'>BBB ACCREDITED</p><p style='text-align: center; font-family: DM Mono; font-size: 12px; color: #888888;'>[Rating: A+]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "credential-4",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 25
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 30,
+                      "right": 20,
+                      "bottom": 30,
+                      "left": 20
+                    },
+                    "flex_direction": "column",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "credential-4-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #C8A96E; font-weight: 700; margin-bottom: 8px;'>INSURED</p><p style='text-align: center; font-family: DM Mono; font-size: 12px; color: #888888;'>[$XM Coverage]</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "cta-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "LET'S WORK TOGETHER",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 20
+                }
+              }
+            },
+            {
+              "id": "cta-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 16px; line-height: 1.6; color: #CCCCCC; max-width: 600px; margin: 0 auto 35px;'>[Brief pitch encouraging potential customers to take the next step. Emphasize quality, reliability, and customer satisfaction. 2-3 sentences.]</p>"
+              }
+            },
+            {
+              "id": "cta-buttons",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 20,
+                  "row": 15
+                }
+              },
+              "elements": [
+                {
+                  "id": "cta-btn-1",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "GET A FREE ESTIMATE",
+                    "link": {
+                      "url": "/quote"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "button_background_color": "#C8A96E",
+                    "button_text_color": "#0A0A0A",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 18,
+                      "right": 45,
+                      "bottom": 18,
+                      "left": 45
+                    }
+                  }
+                },
+                {
+                  "id": "cta-btn-2",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "CALL US NOW",
+                    "link": {
+                      "url": "tel:[PHONE]"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "button_background_color": "transparent",
+                    "button_text_color": "#C8A96E",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 18,
+                      "right": 45,
+                      "bottom": 18,
+                      "left": 45
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-strip",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "border_color": "#C8A96E",
+        "padding": {
+          "unit": "px",
+          "top": 50,
+          "right": 20,
+          "bottom": 50,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "column": 60,
+              "row": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "footer-col-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "footer-brand",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[COMPANY NAME]",
+                    "header_size": "h4",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E"
+                  }
+                },
+                {
+                  "id": "footer-tagline",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 14px; line-height: 1.6; color: #888888;'>[Your tagline or brief company description]</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "footer-links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; color: #CCCCCC; list-style: none; padding: 0; margin: 0;'><li style='margin-bottom: 10px;'><a href='/' style='color: #CCCCCC; text-decoration: none;'>Home</a></li><li style='margin-bottom: 10px;'><a href='/services' style='color: #CCCCCC; text-decoration: none;'>Services</a></li><li style='margin-bottom: 10px;'><a href='/about' style='color: #CCCCCC; text-decoration: none;'>About</a></li><li style='margin-bottom: 10px;'><a href='/contact' style='color: #CCCCCC; text-decoration: none;'>Contact</a></li><li style='margin-bottom: 10px;'><a href='/quote' style='color: #C8A96E; text-decoration: none;'>Get a Quote</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_align_items": "flex-end",
+                "flex_align_items_tablet": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "footer-powered",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Mono; font-size: 12px; color: #888888; text-align: right;'>Powered by<br><span style='color: #C8A96E; font-size: 16px; font-weight: 700;'>InstaBid</span></p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "About",
+  "type": "page"
+}
