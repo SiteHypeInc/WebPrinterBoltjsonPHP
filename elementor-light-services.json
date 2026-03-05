@@ -1,0 +1,645 @@
+{
+  "content": [
+    {
+      "id": "services-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "gradient",
+        "background_color": "#2B6CB0",
+        "background_color_b": "#1E4E8C",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 400
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-hero-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "services-hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Services",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700",
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 16
+                }
+              }
+            },
+            {
+              "id": "services-hero-subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: Open Sans; font-size: 20px; color: #E6F2FF; max-width: 700px; margin: 0 auto;'>Professional [TRADE] services for homes and businesses in [CITY, STATE].</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-intro",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-intro-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "row": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "intro-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Comprehensive Solutions",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_weight": "700",
+                "title_color": "#1A202C",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 16
+                }
+              }
+            },
+            {
+              "id": "intro-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: Open Sans; font-size: 17px; line-height: 1.7; color: #4A5568; max-width: 800px; margin: 0 auto;'>We provide expert [TRADE] services backed by years of experience, professional-grade equipment, and a commitment to excellence. From routine maintenance to complex projects, we deliver quality results on time and within budget.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-list",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F7FAFC",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-list-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "row": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "services-grid",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 30,
+                  "row": 30
+                },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "service-1",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 50
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "#E2E8F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 40,
+                      "bottom": 40,
+                      "left": 40
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "row": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "service-1-icon",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style='width: 64px; height: 64px; background: #EBF4FF; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 8px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#2B6CB0' stroke-width='2'><path d='M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z'/><polyline points='9 22 9 12 15 12 15 22'/></svg></div>"
+                      }
+                    },
+                    {
+                      "id": "service-1-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[SERVICE 1 NAME]",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Poppins",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "600",
+                        "title_color": "#1A202C",
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 12
+                        }
+                      }
+                    },
+                    {
+                      "id": "service-1-desc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: Open Sans; font-size: 15px; line-height: 1.7; color: #4A5568; margin-bottom: 16px;'>[SERVICE 1 description - 3-4 sentences explaining this service, what it includes, and the benefits to customers.]</p>"
+                      }
+                    },
+                    {
+                      "id": "service-1-features",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style='font-family: Open Sans; font-size: 14px; line-height: 1.8; color: #718096; margin: 0; padding-left: 20px;'><li>[Key feature or benefit 1]</li><li>[Key feature or benefit 2]</li><li>[Key feature or benefit 3]</li><li>[Key feature or benefit 4]</li></ul>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "service-2",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 50
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "#E2E8F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 40,
+                      "bottom": 40,
+                      "left": 40
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "row": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "service-2-icon",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style='width: 64px; height: 64px; background: #EBF4FF; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 8px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#2B6CB0' stroke-width='2'><rect x='3' y='3' width='18' height='18' rx='2'/><path d='M3 9h18M9 21V9'/></svg></div>"
+                      }
+                    },
+                    {
+                      "id": "service-2-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[SERVICE 2 NAME]",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Poppins",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "600",
+                        "title_color": "#1A202C",
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 12
+                        }
+                      }
+                    },
+                    {
+                      "id": "service-2-desc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: Open Sans; font-size: 15px; line-height: 1.7; color: #4A5568; margin-bottom: 16px;'>[SERVICE 2 description - 3-4 sentences explaining this service, what it includes, and the benefits to customers.]</p>"
+                      }
+                    },
+                    {
+                      "id": "service-2-features",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style='font-family: Open Sans; font-size: 14px; line-height: 1.8; color: #718096; margin: 0; padding-left: 20px;'><li>[Key feature or benefit 1]</li><li>[Key feature or benefit 2]</li><li>[Key feature or benefit 3]</li><li>[Key feature or benefit 4]</li></ul>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "service-3",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 50
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "#E2E8F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 40,
+                      "bottom": 40,
+                      "left": 40
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "row": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "service-3-icon",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style='width: 64px; height: 64px; background: #EBF4FF; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 8px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#2B6CB0' stroke-width='2'><circle cx='12' cy='12' r='10'/><path d='M12 6v6l4 2'/></svg></div>"
+                      }
+                    },
+                    {
+                      "id": "service-3-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[SERVICE 3 NAME]",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Poppins",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "600",
+                        "title_color": "#1A202C",
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 12
+                        }
+                      }
+                    },
+                    {
+                      "id": "service-3-desc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: Open Sans; font-size: 15px; line-height: 1.7; color: #4A5568; margin-bottom: 16px;'>[SERVICE 3 description - 3-4 sentences explaining this service, what it includes, and the benefits to customers.]</p>"
+                      }
+                    },
+                    {
+                      "id": "service-3-features",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style='font-family: Open Sans; font-size: 14px; line-height: 1.8; color: #718096; margin: 0; padding-left: 20px;'><li>[Key feature or benefit 1]</li><li>[Key feature or benefit 2]</li><li>[Key feature or benefit 3]</li><li>[Key feature or benefit 4]</li></ul>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "service-4",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 50
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "#E2E8F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 40,
+                      "bottom": 40,
+                      "left": 40
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "row": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "service-4-icon",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style='width: 64px; height: 64px; background: #EBF4FF; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 8px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#2B6CB0' stroke-width='2'><path d='M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z'/></svg></div>"
+                      }
+                    },
+                    {
+                      "id": "service-4-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[SERVICE 4 NAME]",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Poppins",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "600",
+                        "title_color": "#1A202C",
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 12
+                        }
+                      }
+                    },
+                    {
+                      "id": "service-4-desc",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: Open Sans; font-size: 15px; line-height: 1.7; color: #4A5568; margin-bottom: 16px;'>[SERVICE 4 description - 3-4 sentences explaining this service, what it includes, and the benefits to customers.]</p>"
+                      }
+                    },
+                    {
+                      "id": "service-4-features",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style='font-family: Open Sans; font-size: 14px; line-height: 1.8; color: #718096; margin: 0; padding-left: 20px;'><li>[Key feature or benefit 1]</li><li>[Key feature or benefit 2]</li><li>[Key feature or benefit 3]</li><li>[Key feature or benefit 4]</li></ul>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-cta",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#2B6CB0",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "20",
+          "bottom": "70",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-cta-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "services-cta-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need a Custom Solution?",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700",
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 16
+                }
+              }
+            },
+            {
+              "id": "services-cta-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: Open Sans; font-size: 18px; color: #E6F2FF; margin: 0 auto 36px; max-width: 600px;'>Get an instant estimate tailored to your specific needs with InstaBid.</p>"
+              }
+            },
+            {
+              "id": "services-cta-btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get Free Estimate",
+                "link": {
+                  "url": "/quote"
+                },
+                "size": "lg",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_weight": "600",
+                "button_background_color": "#FFFFFF",
+                "button_text_color": "#2B6CB0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 6,
+                  "right": 6,
+                  "bottom": 6,
+                  "left": 6
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": 16,
+                  "right": 42,
+                  "bottom": 16,
+                  "left": 42
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Services",
+  "type": "page"
+}
