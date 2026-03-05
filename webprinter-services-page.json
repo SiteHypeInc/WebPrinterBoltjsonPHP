@@ -1,0 +1,1624 @@
+{
+  "content": [
+    {
+      "id": "services-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "background_image": {
+          "url": ""
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 400
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-hero-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "services-hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "OUR SERVICES",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 4
+                },
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "services-hero-subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 20px; color: #C8A96E; margin-top: 20px; margin-bottom: 30px;'>Professional [TRADE] services for residential & commercial — [CITY, STATE]</p>"
+              }
+            },
+            {
+              "id": "services-hero-cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "GET A FREE ESTIMATE",
+                "link": {
+                  "url": "/quote"
+                },
+                "size": "lg",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "button_background_color": "#C8A96E",
+                "button_text_color": "#0A0A0A",
+                "button_padding": {
+                  "unit": "px",
+                  "top": 18,
+                  "right": 45,
+                  "bottom": 18,
+                  "left": 45
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-intro",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0F0F0F",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-intro-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "column": 60,
+              "row": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "intro-left",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 60
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "intro-heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "WHAT WE DO",
+                    "header_size": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 2
+                    },
+                    "title_color": "#FFFFFF",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 25
+                    }
+                  }
+                },
+                {
+                  "id": "intro-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 16px; line-height: 1.8; color: #CCCCCC; margin-bottom: 20px;'>[Paragraph 1: Overview of your core services and what makes your approach unique. Explain your commitment to quality, customer service, or specialization.]</p><p style='font-family: DM Sans; font-size: 16px; line-height: 1.8; color: #CCCCCC;'>[Paragraph 2: Who you serve (residential, commercial, or both) and what customers can expect when they work with you. Highlight your process, reliability, or expertise.]</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "intro-right",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 40
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "row": 20
+                }
+              },
+              "elements": [
+                {
+                  "id": "stat-1",
+                  "elType": "container",
+                  "settings": {
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 3
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 25,
+                      "bottom": 20,
+                      "left": 25
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "stat-1-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 18px; font-weight: 700; color: #C8A96E; margin: 0;'>[X]+ Years Experience</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "stat-2",
+                  "elType": "container",
+                  "settings": {
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 3
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 25,
+                      "bottom": 20,
+                      "left": 25
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "stat-2-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 18px; font-weight: 700; color: #C8A96E; margin: 0;'>[X]+ Projects Completed</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "stat-3",
+                  "elType": "container",
+                  "settings": {
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 3
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 25,
+                      "bottom": 20,
+                      "left": 25
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "stat-3-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 18px; font-weight: 700; color: #C8A96E; margin: 0;'>100% Satisfaction Guaranteed</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-1",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0
+        },
+        "border_color": "rgba(200,169,110,0.2)",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-1-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "service-1-number",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-1-num-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: Bebas Neue; font-size: 120px; color: rgba(200,169,110,0.15); margin: 0; line-height: 1;'>01</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-1-content",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "service-1-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[Residential Services]",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 15
+                    }
+                  }
+                },
+                {
+                  "id": "service-1-desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[3-4 sentence description of residential services. Explain what types of projects you handle, your approach to working with homeowners, and what makes your residential service stand out.]</p>"
+                  }
+                },
+                {
+                  "id": "service-1-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; line-height: 1.8; color: #AAAAAA; margin: 0; padding-left: 20px;'><li>[Included service item 1]</li><li>[Included service item 2]</li><li>[Included service item 3]</li><li>[Included service item 4]</li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-1-cta",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "center",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "service-1-btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "GET ESTIMATE →",
+                    "link": {
+                      "url": "/quote"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "button_background_color": "transparent",
+                    "button_text_color": "#C8A96E",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 28,
+                      "bottom": 14,
+                      "left": 28
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-2",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0
+        },
+        "border_color": "rgba(200,169,110,0.2)",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-2-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "service-2-number",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-2-num-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: Bebas Neue; font-size: 120px; color: rgba(200,169,110,0.15); margin: 0; line-height: 1;'>02</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-2-content",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "service-2-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[Commercial Projects]",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 15
+                    }
+                  }
+                },
+                {
+                  "id": "service-2-desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[3-4 sentence description of commercial services. Explain what types of commercial projects you handle, your experience with business clients, and your approach to minimizing disruption.]</p>"
+                  }
+                },
+                {
+                  "id": "service-2-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; line-height: 1.8; color: #AAAAAA; margin: 0; padding-left: 20px;'><li>[Included service item 1]</li><li>[Included service item 2]</li><li>[Included service item 3]</li><li>[Included service item 4]</li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-2-cta",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "center",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "service-2-btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "GET ESTIMATE →",
+                    "link": {
+                      "url": "/quote"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "button_background_color": "transparent",
+                    "button_text_color": "#C8A96E",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 28,
+                      "bottom": 14,
+                      "left": 28
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-3",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0
+        },
+        "border_color": "rgba(200,169,110,0.2)",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-3-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "service-3-number",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-3-num-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: Bebas Neue; font-size: 120px; color: rgba(200,169,110,0.15); margin: 0; line-height: 1;'>03</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-3-content",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "service-3-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[Emergency Response]",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 15
+                    }
+                  }
+                },
+                {
+                  "id": "service-3-desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[3-4 sentence description of emergency services. Explain your availability, response time, types of emergencies you handle, and your commitment to getting customers back to normal quickly.]</p>"
+                  }
+                },
+                {
+                  "id": "service-3-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; line-height: 1.8; color: #AAAAAA; margin: 0; padding-left: 20px;'><li>[Included service item 1]</li><li>[Included service item 2]</li><li>[Included service item 3]</li><li>[Included service item 4]</li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-3-cta",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "center",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "service-3-btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "GET ESTIMATE →",
+                    "link": {
+                      "url": "/quote"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "button_background_color": "transparent",
+                    "button_text_color": "#C8A96E",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 28,
+                      "bottom": 14,
+                      "left": 28
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-4",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0
+        },
+        "border_color": "rgba(200,169,110,0.2)",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-4-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "service-4-number",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-4-num-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: Bebas Neue; font-size: 120px; color: rgba(200,169,110,0.15); margin: 0; line-height: 1;'>04</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-4-content",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "service-4-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[Inspections & Assessments]",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 15
+                    }
+                  }
+                },
+                {
+                  "id": "service-4-desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[3-4 sentence description of inspection and assessment services. Explain what you inspect, your thoroughness, reporting process, and how you help customers make informed decisions.]</p>"
+                  }
+                },
+                {
+                  "id": "service-4-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; line-height: 1.8; color: #AAAAAA; margin: 0; padding-left: 20px;'><li>[Included service item 1]</li><li>[Included service item 2]</li><li>[Included service item 3]</li><li>[Included service item 4]</li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-4-cta",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "center",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "service-4-btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "GET ESTIMATE →",
+                    "link": {
+                      "url": "/quote"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "button_background_color": "transparent",
+                    "button_text_color": "#C8A96E",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 28,
+                      "bottom": 14,
+                      "left": 28
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-5",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0
+        },
+        "border_color": "rgba(200,169,110,0.2)",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-5-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "service-5-number",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-5-num-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: Bebas Neue; font-size: 120px; color: rgba(200,169,110,0.15); margin: 0; line-height: 1;'>05</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-5-content",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "service-5-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[Maintenance Programs]",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 15
+                    }
+                  }
+                },
+                {
+                  "id": "service-5-desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[3-4 sentence description of maintenance programs. Explain the benefits of preventative maintenance, what your programs include, frequency of service, and how they save customers money long-term.]</p>"
+                  }
+                },
+                {
+                  "id": "service-5-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; line-height: 1.8; color: #AAAAAA; margin: 0; padding-left: 20px;'><li>[Included service item 1]</li><li>[Included service item 2]</li><li>[Included service item 3]</li><li>[Included service item 4]</li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-5-cta",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "center",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "service-5-btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "GET ESTIMATE →",
+                    "link": {
+                      "url": "/quote"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "button_background_color": "transparent",
+                    "button_text_color": "#C8A96E",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 28,
+                      "bottom": 14,
+                      "left": 28
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-6",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0
+        },
+        "border_color": "rgba(200,169,110,0.2)",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-6-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "service-6-number",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-6-num-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: Bebas Neue; font-size: 120px; color: rgba(200,169,110,0.15); margin: 0; line-height: 1;'>06</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-6-content",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "service-6-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[Specialty Work]",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 15
+                    }
+                  }
+                },
+                {
+                  "id": "service-6-desc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.7; color: #CCCCCC; margin-bottom: 20px;'>[3-4 sentence description of specialty work. Explain any unique or advanced services you offer, special certifications or training, complex projects you handle, or niche expertise that sets you apart.]</p>"
+                  }
+                },
+                {
+                  "id": "service-6-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; line-height: 1.8; color: #AAAAAA; margin: 0; padding-left: 20px;'><li>[Included service item 1]</li><li>[Included service item 2]</li><li>[Included service item 3]</li><li>[Included service item 4]</li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-6-cta",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "center",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "service-6-btn",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "GET ESTIMATE →",
+                    "link": {
+                      "url": "/quote"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "button_background_color": "transparent",
+                    "button_text_color": "#C8A96E",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 2,
+                      "right": 2,
+                      "bottom": 2,
+                      "left": 2
+                    },
+                    "border_color": "#C8A96E",
+                    "button_padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 28,
+                      "bottom": 14,
+                      "left": 28
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "instabid-cta",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "gradient",
+        "background_color": "#1A1A1A",
+        "background_color_b": "#0A0A0A",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "instabid-cta-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "instabid-cta-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "READY TO GET YOUR ESTIMATE?",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "title_color": "#C8A96E",
+                "align": "center"
+              }
+            },
+            {
+              "id": "instabid-cta-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 18px; color: #CCCCCC; margin-top: 15px; margin-bottom: 35px;'>Skip the back-and-forth. Get real pricing in minutes — powered by InstaBid.</p>"
+              }
+            },
+            {
+              "id": "instabid-cta-btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "GET INSTANT ESTIMATE",
+                "link": {
+                  "url": "/quote"
+                },
+                "size": "lg",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "button_background_color": "#C8A96E",
+                "button_text_color": "#0A0A0A",
+                "button_padding": {
+                  "unit": "px",
+                  "top": 20,
+                  "right": 50,
+                  "bottom": 20,
+                  "left": 50
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-strip",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "border_color": "#C8A96E",
+        "padding": {
+          "unit": "px",
+          "top": 50,
+          "right": 20,
+          "bottom": 50,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "column": 60,
+              "row": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "footer-col-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "footer-brand",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[COMPANY NAME]",
+                    "header_size": "h4",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E"
+                  }
+                },
+                {
+                  "id": "footer-tagline",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 14px; line-height: 1.6; color: #888888;'>[Your tagline or brief company description]</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "footer-links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; color: #CCCCCC; list-style: none; padding: 0; margin: 0;'><li style='margin-bottom: 10px;'><a href='/' style='color: #CCCCCC; text-decoration: none;'>Home</a></li><li style='margin-bottom: 10px;'><a href='/services' style='color: #CCCCCC; text-decoration: none;'>Services</a></li><li style='margin-bottom: 10px;'><a href='/about' style='color: #CCCCCC; text-decoration: none;'>About</a></li><li style='margin-bottom: 10px;'><a href='/contact' style='color: #CCCCCC; text-decoration: none;'>Contact</a></li><li style='margin-bottom: 10px;'><a href='/quote' style='color: #C8A96E; text-decoration: none;'>Get a Quote</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_align_items": "flex-end",
+                "flex_align_items_tablet": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "footer-powered",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Mono; font-size: 12px; color: #888888; text-align: right;'>Powered by<br><span style='color: #C8A96E; font-size: 16px; font-weight: 700;'>InstaBid</span></p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Services",
+  "type": "page"
+}

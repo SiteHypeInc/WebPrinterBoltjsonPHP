@@ -1,0 +1,877 @@
+{
+  "content": [
+    {
+      "id": "quote-top",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "quote-top-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "quote-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "GET YOUR FREE ESTIMATE",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 3
+                },
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "quote-subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 18px; color: #C8A96E; margin-top: 15px; margin-bottom: 25px;'>Real pricing. Real materials. No back-and-forth. Powered by InstaBid.</p>"
+              }
+            },
+            {
+              "id": "quote-trust-indicators",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 15px; color: #CCCCCC;'><span style='color: #C8A96E; margin-right: 15px;'>✓ Takes 2 minutes</span> <span style='margin: 0 15px;'>|</span> <span style='color: #C8A96E; margin: 0 15px;'>✓ No obligation</span> <span style='margin: 0 15px;'>|</span> <span style='color: #C8A96E; margin-left: 15px;'>✓ Professional PDF included</span></p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "instabid-embed",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0F0F0F",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "instabid-embed-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "embed-container",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#1A1A1A",
+                "border_border": "dashed",
+                "border_width": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2
+                },
+                "border_color": "#C8A96E",
+                "min_height": {
+                  "unit": "px",
+                  "size": 600
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 60,
+                  "right": 40,
+                  "bottom": 60,
+                  "left": 40
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "embed-placeholder-heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[ INSTABID CALCULATOR LOADS HERE ]",
+                    "header_size": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 2
+                    },
+                    "title_color": "#C8A96E",
+                    "align": "center",
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 20
+                    }
+                  }
+                },
+                {
+                  "id": "embed-instructions",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 16px; color: #CCCCCC; margin-bottom: 25px;'>Replace this container with your InstaBid embed code after import.</p>"
+                  }
+                },
+                {
+                  "id": "embed-code-example",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 13px; color: rgba(200,169,110,0.4); line-height: 1.8;'>&lt;div data-instabid-widget=&quot;true&quot;<br>data-contractor-id=&quot;[CONTRACTOR-ID]&quot;&gt;&lt;/div&gt;</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trust-row",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "trust-row-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40,
+              "row": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "trust-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "trust-1-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg' style='margin-bottom: 15px;'><path d='M24 4L28 10L36 12L30 18L32 26L24 22L16 26L18 18L12 12L20 10L24 4Z' stroke='#C8A96E' stroke-width='2' fill='none'/><path d='M18 22L21 25L27 19' stroke='#C8A96E' stroke-width='2'/></svg>"
+                  }
+                },
+                {
+                  "id": "trust-1-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #CCCCCC; margin: 0;'>Licensed & Insured</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "trust-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "trust-2-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg' style='margin-bottom: 15px;'><path d='M24 8L27 17H36L29 22L32 31L24 26L16 31L19 22L12 17H21L24 8Z' stroke='#C8A96E' stroke-width='2' fill='none'/></svg>"
+                  }
+                },
+                {
+                  "id": "trust-2-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #CCCCCC; margin: 0;'>[X]★ Average Rating</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "trust-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "trust-3-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg' style='margin-bottom: 15px;'><circle cx='24' cy='24' r='16' stroke='#C8A96E' stroke-width='2'/><path d='M16 24L21 29L32 18' stroke='#C8A96E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                  }
+                },
+                {
+                  "id": "trust-3-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #CCCCCC; margin: 0;'>[X]+ Projects Done</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "trust-4",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "trust-4-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg' style='margin-bottom: 15px;'><circle cx='24' cy='24' r='16' stroke='#C8A96E' stroke-width='2'/><path d='M24 12V24L32 32' stroke='#C8A96E' stroke-width='2' stroke-linecap='round'/></svg>"
+                  }
+                },
+                {
+                  "id": "trust-4-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='text-align: center; font-family: DM Mono; font-size: 14px; color: #CCCCCC; margin: 0;'>Fast Turnaround</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0F0F0F",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "testimonials-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "testimonials-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "WHAT CUSTOMERS SAY ABOUT OUR ESTIMATES",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 50
+                }
+              }
+            },
+            {
+              "id": "testimonials-grid",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 30,
+                  "row": 30
+                }
+              },
+              "elements": [
+                {
+                  "id": "testimonial-1",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 3
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 30,
+                      "right": 25,
+                      "bottom": 30,
+                      "left": 25
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-1-quote",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 48px; line-height: 1; color: rgba(200,169,110,0.3); margin: 0 0 15px 0;'>&ldquo;</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-1-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.6; color: #CCCCCC; margin-bottom: 20px;'>[Customer testimonial about the estimate process. 2-3 sentences highlighting speed, accuracy, transparency, or professionalism.]</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-1-stars",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 18px; color: #C8A96E; margin-bottom: 10px;'>★★★★★</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-1-author",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 13px; color: #888888; margin: 0;'>[CUSTOMER NAME], [CITY]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "testimonial-2",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 3
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 30,
+                      "right": 25,
+                      "bottom": 30,
+                      "left": 25
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-2-quote",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 48px; line-height: 1; color: rgba(200,169,110,0.3); margin: 0 0 15px 0;'>&ldquo;</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-2-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.6; color: #CCCCCC; margin-bottom: 20px;'>[Customer testimonial about the estimate process. 2-3 sentences highlighting speed, accuracy, transparency, or professionalism.]</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-2-stars",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 18px; color: #C8A96E; margin-bottom: 10px;'>★★★★★</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-2-author",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 13px; color: #888888; margin: 0;'>[CUSTOMER NAME], [CITY]</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "testimonial-3",
+                  "elType": "container",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 33
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#1A1A1A",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 3
+                    },
+                    "border_color": "#C8A96E",
+                    "padding": {
+                      "unit": "px",
+                      "top": 30,
+                      "right": 25,
+                      "bottom": 30,
+                      "left": 25
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-3-quote",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 48px; line-height: 1; color: rgba(200,169,110,0.3); margin: 0 0 15px 0;'>&ldquo;</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-3-text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 15px; line-height: 1.6; color: #CCCCCC; margin-bottom: 20px;'>[Customer testimonial about the estimate process. 2-3 sentences highlighting speed, accuracy, transparency, or professionalism.]</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-3-stars",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Sans; font-size: 18px; color: #C8A96E; margin-bottom: 10px;'>★★★★★</p>"
+                      }
+                    },
+                    {
+                      "id": "testimonial-3-author",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: DM Mono; font-size: 13px; color: #888888; margin: 0;'>[CUSTOMER NAME], [CITY]</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alternative-contact",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "alternative-contact-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "alt-contact-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 16px; color: #CCCCCC; margin-bottom: 15px;'>Prefer to talk to a human?</p>"
+              }
+            },
+            {
+              "id": "alt-contact-phone",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "[PHONE NUMBER]",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "title_color": "#C8A96E",
+                "align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 10
+                }
+              }
+            },
+            {
+              "id": "alt-contact-hours",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; font-family: DM Sans; font-size: 15px; color: #CCCCCC; margin-bottom: 25px;'>Mon-Fri 7AM-6PM | Same-day response guaranteed</p>"
+              }
+            },
+            {
+              "id": "alt-contact-btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "CALL NOW",
+                "link": {
+                  "url": "tel:[PHONE]"
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Bebas Neue",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "button_background_color": "transparent",
+                "button_text_color": "#C8A96E",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2
+                },
+                "border_color": "#C8A96E",
+                "button_padding": {
+                  "unit": "px",
+                  "top": 16,
+                  "right": 40,
+                  "bottom": 16,
+                  "left": 40
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-strip",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "border_color": "#C8A96E",
+        "padding": {
+          "unit": "px",
+          "top": 50,
+          "right": 20,
+          "bottom": 50,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "column": 60,
+              "row": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "footer-col-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "footer-brand",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[COMPANY NAME]",
+                    "header_size": "h4",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Bebas Neue",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "title_color": "#C8A96E"
+                  }
+                },
+                {
+                  "id": "footer-tagline",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Sans; font-size: 14px; line-height: 1.6; color: #888888;'>[Your tagline or brief company description]</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "footer-links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style='font-family: DM Sans; font-size: 14px; color: #CCCCCC; list-style: none; padding: 0; margin: 0;'><li style='margin-bottom: 10px;'><a href='/' style='color: #CCCCCC; text-decoration: none;'>Home</a></li><li style='margin-bottom: 10px;'><a href='/services' style='color: #CCCCCC; text-decoration: none;'>Services</a></li><li style='margin-bottom: 10px;'><a href='/about' style='color: #CCCCCC; text-decoration: none;'>About</a></li><li style='margin-bottom: 10px;'><a href='/contact' style='color: #CCCCCC; text-decoration: none;'>Contact</a></li><li style='margin-bottom: 10px;'><a href='/quote' style='color: #C8A96E; text-decoration: none;'>Get a Quote</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-col-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 33
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "flex_align_items": "flex-end",
+                "flex_align_items_tablet": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "footer-powered",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: DM Mono; font-size: 12px; color: #888888; text-align: right;'>Powered by<br><span style='color: #C8A96E; font-size: 16px; font-weight: 700;'>InstaBid</span></p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Get a Quote",
+  "type": "page"
+}
