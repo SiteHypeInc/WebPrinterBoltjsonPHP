@@ -1,0 +1,302 @@
+[
+  {
+    "id": "green-about-hero",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#F7FAF7",
+      "padding": {"unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 24}
+    },
+    "elements": [
+      {
+        "id": "green-about-hero-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Building a Greener Future",
+          "header_size": "h1",
+          "color": "#2E7D32",
+          "typography_font_family": "Inter",
+          "typography_font_size": {"unit": "px", "size": 52},
+          "typography_font_size_tablet": {"unit": "px", "size": 40},
+          "typography_font_size_mobile": {"unit": "px", "size": 32},
+          "typography_font_weight": "700",
+          "align": "center"
+        }
+      },
+      {
+        "id": "green-about-hero-text",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p style='color:#212121;font-family:Inter,sans-serif;font-size:18px;line-height:1.7;text-align:center;max-width:800px;'>We're committed to sustainable construction practices that protect our planet while delivering exceptional results for our clients.</p>",
+          "align": "center"
+        }
+      }
+    ]
+  },
+  {
+    "id": "green-about-story",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FFFFFF",
+      "padding": {"unit": "px", "top": 90, "right": 40, "bottom": 90, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 32}
+    },
+    "elements": [
+      {
+        "id": "green-about-story-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Our Mission",
+          "header_size": "h2",
+          "color": "#2E7D32",
+          "typography_font_family": "Inter",
+          "typography_font_size": {"unit": "px", "size": 42},
+          "typography_font_size_tablet": {"unit": "px", "size": 36},
+          "typography_font_size_mobile": {"unit": "px", "size": 30},
+          "typography_font_weight": "700",
+          "align": "center"
+        }
+      },
+      {
+        "id": "green-about-story-content",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p style='color:#212121;font-family:Inter,sans-serif;font-size:17px;line-height:1.8;text-align:center;max-width:900px;'>At [COMPANY NAME], we believe that quality construction and environmental responsibility go hand in hand. Since our founding, we've been at the forefront of green building practices, helping homeowners and businesses reduce their carbon footprint while creating beautiful, functional spaces.</p><p style='color:#212121;font-family:Inter,sans-serif;font-size:17px;line-height:1.8;text-align:center;max-width:900px;margin-top:20px;'>Our team of certified green building professionals brings decades of combined experience in sustainable construction, renewable energy systems, and eco-friendly landscaping. We stay current with the latest green technologies and building standards to ensure every project meets the highest environmental benchmarks.</p>",
+          "align": "center"
+        }
+      }
+    ]
+  },
+  {
+    "id": "green-about-values",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#F7FAF7",
+      "padding": {"unit": "px", "top": 90, "right": 40, "bottom": 90, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 48}
+    },
+    "elements": [
+      {
+        "id": "green-about-values-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Our Core Values",
+          "header_size": "h2",
+          "color": "#2E7D32",
+          "typography_font_family": "Inter",
+          "typography_font_size": {"unit": "px", "size": 42},
+          "typography_font_size_tablet": {"unit": "px", "size": 36},
+          "typography_font_size_mobile": {"unit": "px", "size": 30},
+          "typography_font_weight": "700",
+          "align": "center"
+        }
+      },
+      {
+        "id": "green-about-values-grid",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 100},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {"unit": "px", "size": 32},
+          "flex_justify_content": "center"
+        },
+        "elements": [
+          {
+            "id": "green-about-value-1",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_radius": {"unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true},
+              "padding": {"unit": "px", "top": 36, "right": 32, "bottom": 36, "left": 32, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 32, "right": 28, "bottom": 32, "left": 28, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 28, "right": 24, "bottom": 28, "left": 24, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 16},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "green-about-value-1-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='#2E7D32' stroke-width='2'><path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path><polyline points='22 4 12 14.01 9 11.01'></polyline></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "green-about-value-1-title",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Sustainability",
+                  "header_size": "h3",
+                  "color": "#212121",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {"unit": "px", "size": 22},
+                  "typography_font_size_tablet": {"unit": "px", "size": 20},
+                  "typography_font_size_mobile": {"unit": "px", "size": 19},
+                  "typography_font_weight": "600",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "green-about-value-1-desc",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#212121;font-family:Inter,sans-serif;font-size:15px;line-height:1.7;text-align:center;'>Environmental responsibility in every decision we make</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "id": "green-about-value-2",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_radius": {"unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true},
+              "padding": {"unit": "px", "top": 36, "right": 32, "bottom": 36, "left": 32, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 32, "right": 28, "bottom": 32, "left": 28, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 28, "right": 24, "bottom": 28, "left": 24, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 16},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "green-about-value-2-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='#2E7D32' stroke-width='2'><path d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z'></path></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "green-about-value-2-title",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Quality",
+                  "header_size": "h3",
+                  "color": "#212121",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {"unit": "px", "size": 22},
+                  "typography_font_size_tablet": {"unit": "px", "size": 20},
+                  "typography_font_size_mobile": {"unit": "px", "size": 19},
+                  "typography_font_weight": "600",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "green-about-value-2-desc",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#212121;font-family:Inter,sans-serif;font-size:15px;line-height:1.7;text-align:center;'>Exceptional craftsmanship that stands the test of time</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "id": "green-about-value-3",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_radius": {"unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true},
+              "padding": {"unit": "px", "top": 36, "right": 32, "bottom": 36, "left": 32, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 32, "right": 28, "bottom": 32, "left": 28, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 28, "right": 24, "bottom": 28, "left": 24, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 16},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "green-about-value-3-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='#2E7D32' stroke-width='2'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'></path><circle cx='9' cy='7' r='4'></circle><path d='M23 21v-2a4 4 0 0 0-3-3.87'></path><path d='M16 3.13a4 4 0 0 1 0 7.75'></path></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "green-about-value-3-title",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Community",
+                  "header_size": "h3",
+                  "color": "#212121",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {"unit": "px", "size": 22},
+                  "typography_font_size_tablet": {"unit": "px", "size": 20},
+                  "typography_font_size_mobile": {"unit": "px", "size": 19},
+                  "typography_font_weight": "600",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "green-about-value-3-desc",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#212121;font-family:Inter,sans-serif;font-size:15px;line-height:1.7;text-align:center;'>Supporting local businesses and strengthening our community</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

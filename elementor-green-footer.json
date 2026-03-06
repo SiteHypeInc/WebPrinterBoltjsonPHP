@@ -1,0 +1,184 @@
+[
+  {
+    "id": "green-footer",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#F7FAF7",
+      "padding": {"unit": "px", "top": 60, "right": 40, "bottom": 40, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 50, "right": 30, "bottom": 35, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 40, "right": 20, "bottom": 30, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_gap": {"unit": "px", "size": 48},
+      "border_border": "solid",
+      "border_width": {"unit": "px", "top": 1, "right": 0, "bottom": 0, "left": 0, "isLinked": false},
+      "border_color": "#E0E0E0"
+    },
+    "elements": [
+      {
+        "id": "green-footer-main",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 100},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {"unit": "px", "size": 48},
+          "flex_justify_content": "space-between"
+        },
+        "elements": [
+          {
+            "id": "green-footer-brand",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 16}
+            },
+            "elements": [
+              {
+                "id": "green-footer-company",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "[COMPANY NAME]",
+                  "header_size": "h3",
+                  "color": "#2E7D32",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_size_tablet": {"unit": "px", "size": 22},
+                  "typography_font_size_mobile": {"unit": "px", "size": 20},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "green-footer-tagline",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#212121;font-family:Inter,sans-serif;font-size:15px;line-height:1.6;'>[TAGLINE]</p>"
+                }
+              }
+            ]
+          },
+          {
+            "id": "green-footer-nav",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 20},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 12}
+            },
+            "elements": [
+              {
+                "id": "green-footer-nav-title",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Navigation",
+                  "header_size": "h4",
+                  "color": "#212121",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {"unit": "px", "size": 16},
+                  "typography_font_size_tablet": {"unit": "px", "size": 15},
+                  "typography_font_size_mobile": {"unit": "px", "size": 15},
+                  "typography_font_weight": "600"
+                }
+              },
+              {
+                "id": "green-footer-nav-links",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='display:flex;flex-direction:column;gap:8px;'><a href='#home' style='color:#212121;text-decoration:none;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;'>Home</a><a href='#services' style='color:#212121;text-decoration:none;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;'>Services</a><a href='#about' style='color:#212121;text-decoration:none;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;'>About</a><a href='#contact' style='color:#212121;text-decoration:none;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;'>Contact</a><a href='#quote' style='color:#212121;text-decoration:none;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;'>Get Quote</a></div>"
+                }
+              }
+            ]
+          },
+          {
+            "id": "green-footer-contact",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 12}
+            },
+            "elements": [
+              {
+                "id": "green-footer-contact-title",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Contact",
+                  "header_size": "h4",
+                  "color": "#212121",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {"unit": "px", "size": 16},
+                  "typography_font_size_tablet": {"unit": "px", "size": 15},
+                  "typography_font_size_mobile": {"unit": "px", "size": 15},
+                  "typography_font_weight": "600"
+                }
+              },
+              {
+                "id": "green-footer-contact-info",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='display:flex;flex-direction:column;gap:8px;'><p style='color:#212121;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;margin:0;'>[CITY, STATE]</p><p style='color:#212121;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;margin:0;'>[PHONE NUMBER]</p><p style='color:#212121;font-family:Inter,sans-serif;font-size:14px;line-height:1.6;margin:0;'>[EMAIL ADDRESS]</p></div>"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "green-footer-bottom",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 100},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "column",
+          "flex_align_items": "center",
+          "flex_gap": {"unit": "px", "size": 12},
+          "border_border": "solid",
+          "border_width": {"unit": "px", "top": 1, "right": 0, "bottom": 0, "left": 0, "isLinked": false},
+          "border_color": "#E0E0E0",
+          "padding": {"unit": "px", "top": 24, "right": 0, "bottom": 0, "left": 0, "isLinked": false},
+          "padding_tablet": {"unit": "px", "top": 20, "right": 0, "bottom": 0, "left": 0, "isLinked": false},
+          "padding_mobile": {"unit": "px", "top": 16, "right": 0, "bottom": 0, "left": 0, "isLinked": false}
+        },
+        "elements": [
+          {
+            "id": "green-footer-copyright",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='color:#666666;font-family:Inter,sans-serif;font-size:13px;text-align:center;margin:0;'>© 2024 [COMPANY NAME]. All rights reserved.</p>",
+              "align": "center"
+            }
+          },
+          {
+            "id": "green-footer-instabid",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='color:#999999;font-family:Inter,sans-serif;font-size:12px;text-align:center;margin:0;'>Powered by InstaBid</p>",
+              "align": "center"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
