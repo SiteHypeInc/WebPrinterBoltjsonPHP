@@ -1,0 +1,421 @@
+{
+  "content": [
+    {
+      "id": "footer-main",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FAF7F2",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "32",
+          "bottom": "32",
+          "left": "32"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "24",
+          "left": "20"
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "border_color": "#E8E3DB",
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": "60"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "48"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-top",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": "60"
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": "48"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": "40"
+            }
+          },
+          "elements": [
+            {
+              "id": "footer-brand",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "30"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-company-name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[COMPANY NAME]",
+                    "html_tag": "div",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Cormorant Garamond, serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "28"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "26"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "24"
+                    },
+                    "typography_font_weight": "600",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.2"
+                    },
+                    "color": "#2C2C2C"
+                  }
+                },
+                {
+                  "id": "footer-tagline",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "[TAGLINE]",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Lato, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.6"
+                    },
+                    "text_color": "#6B6B6B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-navigation",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "20"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "48"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-nav-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Navigation",
+                    "html_tag": "div",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Lato, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "13"
+                    },
+                    "typography_font_weight": "600",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": "1"
+                    },
+                    "typography_text_transform": "uppercase",
+                    "color": "#2C2C2C"
+                  }
+                },
+                {
+                  "id": "footer-nav-links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style='display: flex; flex-direction: column; gap: 12px;'><a href='/' style='color: #6B6B6B; text-decoration: none; font-family: Lato, sans-serif; font-size: 15px; font-weight: 400; transition: color 0.3s ease;'>Home</a><a href='/services' style='color: #6B6B6B; text-decoration: none; font-family: Lato, sans-serif; font-size: 15px; font-weight: 400; transition: color 0.3s ease;'>Services</a><a href='/about' style='color: #6B6B6B; text-decoration: none; font-family: Lato, sans-serif; font-size: 15px; font-weight: 400; transition: color 0.3s ease;'>About</a><a href='/contact' style='color: #6B6B6B; text-decoration: none; font-family: Lato, sans-serif; font-size: 15px; font-weight: 400; transition: color 0.3s ease;'>Contact</a><a href='/quote' style='color: #6B6B6B; text-decoration: none; font-family: Lato, sans-serif; font-size: 15px; font-weight: 400; transition: color 0.3s ease;'>Get a Quote</a></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-contact",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "25"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "48"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-contact-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact",
+                    "html_tag": "div",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Lato, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "13"
+                    },
+                    "typography_font_weight": "600",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": "1"
+                    },
+                    "typography_text_transform": "uppercase",
+                    "color": "#2C2C2C"
+                  }
+                },
+                {
+                  "id": "footer-contact-info",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style='display: flex; flex-direction: column; gap: 10px; font-family: Lato, sans-serif; font-size: 15px; color: #6B6B6B; line-height: 1.6;'><div>[CITY, STATE]</div><div><a href='tel:[PHONE NUMBER]' style='color: #6B6B6B; text-decoration: none; transition: color 0.3s ease;'>[PHONE NUMBER]</a></div><div><a href='mailto:[EMAIL ADDRESS]' style='color: #6B6B6B; text-decoration: none; transition: color 0.3s ease;'>[EMAIL ADDRESS]</a></div></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-hours",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "20"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-hours-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Studio Hours",
+                    "html_tag": "div",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Lato, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "13"
+                    },
+                    "typography_font_weight": "600",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": "1"
+                    },
+                    "typography_text_transform": "uppercase",
+                    "color": "#2C2C2C"
+                  }
+                },
+                {
+                  "id": "footer-hours-info",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style='font-family: Lato, sans-serif; font-size: 15px; color: #6B6B6B; line-height: 1.8;'>Mon - Fri: 9am - 5pm<br>Sat: By Appointment<br>Sun: Closed</div>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footer-bottom",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": "20"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": "28",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "24",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "border_color": "#E8E3DB"
+          },
+          "elements": [
+            {
+              "id": "footer-copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "© 2024 [COMPANY NAME]. All rights reserved.",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "13"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "13"
+                },
+                "typography_font_weight": "400",
+                "text_color": "#8B8B8B"
+              }
+            },
+            {
+              "id": "footer-powered",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Powered by <a href='https://instabid.io' style='color: #8B7355; text-decoration: none; font-weight: 500;'>InstaBid</a>",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "13"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "13"
+                },
+                "typography_font_weight": "400",
+                "text_color": "#8B8B8B"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

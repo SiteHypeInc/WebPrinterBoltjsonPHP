@@ -1,0 +1,941 @@
+{
+  "content": [
+    {
+      "id": "about-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vh",
+          "size": "60"
+        },
+        "background_background": "classic",
+        "background_color": "#FAF7F2",
+        "padding": {
+          "unit": "px",
+          "top": "160",
+          "right": "80",
+          "bottom": "100",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "120",
+          "right": "48",
+          "bottom": "80",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "60",
+          "left": "24"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": "28"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "24"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-subtitle",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "About Us",
+            "html_tag": "div",
+            "typography_typography": "custom",
+            "typography_font_family": "Lato, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "13"
+            },
+            "typography_font_weight": "600",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": "2"
+            },
+            "typography_text_transform": "uppercase",
+            "color": "#8B7355",
+            "align": "center"
+          }
+        },
+        {
+          "id": "hero-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Design with Intention,<br>Live with Purpose",
+            "html_tag": "h1",
+            "typography_typography": "custom",
+            "typography_font_family": "Cormorant Garamond, serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "72"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "56"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "44"
+            },
+            "typography_font_weight": "300",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.15"
+            },
+            "color": "#2C2C2C",
+            "align": "center"
+          }
+        },
+        {
+          "id": "hero-description",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "We believe your home should be a reflection of who you are—not a collection of trends. Our approach is rooted in timeless design, thoughtful curation, and a deep respect for how spaces shape daily life.",
+            "typography_typography": "custom",
+            "typography_font_family": "Lato, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "20"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "18"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "17"
+            },
+            "typography_font_weight": "400",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.7"
+            },
+            "text_color": "#6B6B6B",
+            "align": "center",
+            "max_width": {
+              "unit": "px",
+              "size": "900"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "140",
+          "right": "80",
+          "bottom": "140",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24"
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": "80"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "60"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "story-image",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "45"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "min_height": {
+              "unit": "px",
+              "size": "600"
+            },
+            "min_height_tablet": {
+              "unit": "px",
+              "size": "500"
+            },
+            "min_height_mobile": {
+              "unit": "px",
+              "size": "400"
+            },
+            "background_background": "classic",
+            "background_color": "#E8E3DB"
+          },
+          "elements": []
+        },
+        {
+          "id": "story-content",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "55"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": "32"
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": "28"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": "24"
+            }
+          },
+          "elements": [
+            {
+              "id": "story-subtitle",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Story",
+                "html_tag": "div",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "13"
+                },
+                "typography_font_weight": "600",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": "2"
+                },
+                "typography_text_transform": "uppercase",
+                "color": "#8B7355"
+              }
+            },
+            {
+              "id": "story-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Crafting Spaces That Tell Your Story",
+                "html_tag": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond, serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "48"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "40"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "34"
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2"
+                },
+                "color": "#2C2C2C"
+              }
+            },
+            {
+              "id": "story-text-1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Founded in [CITY, STATE], [COMPANY NAME] began with a simple belief: that great design doesn't shout—it resonates. We create interiors that feel effortless, intentional, and deeply personal.",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "17"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                },
+                "text_color": "#6B6B6B"
+              }
+            },
+            {
+              "id": "story-text-2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Our work has been featured in leading design publications, but what we're most proud of are the homes we've helped transform—spaces where families gather, inspiration strikes, and life unfolds beautifully.",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "17"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                },
+                "text_color": "#6B6B6B"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FAF7F2",
+        "padding": {
+          "unit": "px",
+          "top": "140",
+          "right": "80",
+          "bottom": "140",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24"
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": "80"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "60"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "values-header",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "70"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "90"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "values-subtitle",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Values",
+                "html_tag": "div",
+                "typography_typography": "custom",
+                "typography_font_family": "Lato, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "13"
+                },
+                "typography_font_weight": "600",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": "2"
+                },
+                "typography_text_transform": "uppercase",
+                "color": "#8B7355",
+                "align": "center"
+              }
+            },
+            {
+              "id": "values-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "What Guides Our Work",
+                "html_tag": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Cormorant Garamond, serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "52"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "42"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "36"
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2"
+                },
+                "color": "#2C2C2C",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "id": "values-grid",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_direction_tablet": "column",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": "60"
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": "48"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": "40"
+            }
+          },
+          "elements": [
+            {
+              "id": "value-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "30"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "value-1-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width='52' height='52' viewBox='0 0 24 24' fill='none' stroke='#8B7355' stroke-width='1.5'><circle cx='12' cy='12' r='10'/><path d='M12 16v-4'/><path d='M12 8h.01'/></svg>"
+                  }
+                },
+                {
+                  "id": "value-1-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Authenticity",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Cormorant Garamond, serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "32"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "28"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "26"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.3"
+                    },
+                    "color": "#2C2C2C"
+                  }
+                },
+                {
+                  "id": "value-1-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "We design spaces that honor your unique story—not what's trending this season. Every choice is intentional, every detail meaningful.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Lato, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "16"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7"
+                    },
+                    "text_color": "#6B6B6B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "value-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "30"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "value-2-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width='52' height='52' viewBox='0 0 24 24' fill='none' stroke='#8B7355' stroke-width='1.5'><path d='M12 2L2 7l10 5 10-5-10-5z'/><path d='M2 17l10 5 10-5'/><path d='M2 12l10 5 10-5'/></svg>"
+                  }
+                },
+                {
+                  "id": "value-2-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Craftsmanship",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Cormorant Garamond, serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "32"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "28"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "26"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.3"
+                    },
+                    "color": "#2C2C2C"
+                  }
+                },
+                {
+                  "id": "value-2-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Quality over quantity, always. We source thoughtfully, build with care, and believe that timeless materials never go out of style.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Lato, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "16"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7"
+                    },
+                    "text_color": "#6B6B6B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "value-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "30"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "value-3-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width='52' height='52' viewBox='0 0 24 24' fill='none' stroke='#8B7355' stroke-width='1.5'><path d='M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z'/><line x1='16' y1='8' x2='2' y2='22'/><line x1='17.5' y1='15' x2='9' y2='15'/></svg>"
+                  }
+                },
+                {
+                  "id": "value-3-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Collaboration",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Cormorant Garamond, serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "32"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "28"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "26"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.3"
+                    },
+                    "color": "#2C2C2C"
+                  }
+                },
+                {
+                  "id": "value-3-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Your vision is our starting point. We listen deeply, collaborate openly, and work alongside you to create something truly extraordinary.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Lato, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "16"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7"
+                    },
+                    "text_color": "#6B6B6B"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#8B7355",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "80",
+          "bottom": "100",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "80",
+          "right": "48",
+          "bottom": "80",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24"
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": "36"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "32"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "28"
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Let's Work Together",
+            "html_tag": "h2",
+            "typography_typography": "custom",
+            "typography_font_family": "Cormorant Garamond, serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "48"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "38"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "32"
+            },
+            "typography_font_weight": "300",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.2"
+            },
+            "color": "#FFFFFF",
+            "align": "center"
+          }
+        },
+        {
+          "id": "cta-text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Ready to create a space that feels authentically yours? Let's start the conversation.",
+            "typography_typography": "custom",
+            "typography_font_family": "Lato, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "18"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "17"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "16"
+            },
+            "typography_font_weight": "400",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.6"
+            },
+            "text_color": "#F0EBE3",
+            "align": "center"
+          }
+        },
+        {
+          "id": "cta-button",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Start Your Project",
+            "link": {
+              "url": "/quote"
+            },
+            "size": "md",
+            "typography_typography": "custom",
+            "typography_font_family": "Lato, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "16"
+            },
+            "typography_font_weight": "500",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": "0.5"
+            },
+            "button_text_color": "#2C2C2C",
+            "background_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "48",
+              "bottom": "16",
+              "left": "48"
+            },
+            "button_padding_tablet": {
+              "unit": "px",
+              "top": "14",
+              "right": "40",
+              "bottom": "14",
+              "left": "40"
+            },
+            "button_padding_mobile": {
+              "unit": "px",
+              "top": "12",
+              "right": "32",
+              "bottom": "12",
+              "left": "32"
+            },
+            "hover_color": "#2C2C2C",
+            "button_background_hover_color": "#FAF7F2"
+          }
+        }
+      ]
+    }
+  ]
+}
