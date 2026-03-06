@@ -1,0 +1,391 @@
+[
+  {
+    "id": "premium-about-hero",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FAFAFA",
+      "padding": {"unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 24}
+    },
+    "elements": [
+      {
+        "id": "premium-about-hero-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Craftsmanship & Excellence",
+          "header_size": "h1",
+          "color": "#1A3A5C",
+          "typography_font_family": "Playfair Display",
+          "typography_font_size": {"unit": "px", "size": 52},
+          "typography_font_size_tablet": {"unit": "px", "size": 40},
+          "typography_font_size_mobile": {"unit": "px", "size": 32},
+          "typography_font_weight": "600",
+          "align": "center"
+        }
+      },
+      {
+        "id": "premium-about-hero-text",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:18px;line-height:1.7;text-align:center;max-width:800px;'>A legacy of superior workmanship and dedication to perfection</p>",
+          "align": "center"
+        }
+      }
+    ]
+  },
+  {
+    "id": "premium-about-story",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FFFFFF",
+      "padding": {"unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 50}
+    },
+    "elements": [
+      {
+        "id": "premium-about-story-content",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 100},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "max_width": {"unit": "px", "size": 900},
+          "flex_direction": "column",
+          "flex_gap": {"unit": "px", "size": 24}
+        },
+        "elements": [
+          {
+            "id": "premium-about-story-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Our Story",
+              "header_size": "h2",
+              "color": "#1A3A5C",
+              "typography_font_family": "Playfair Display",
+              "typography_font_size": {"unit": "px", "size": 38},
+              "typography_font_size_tablet": {"unit": "px", "size": 32},
+              "typography_font_size_mobile": {"unit": "px", "size": 28},
+              "typography_font_weight": "600",
+              "align": "center"
+            }
+          },
+          {
+            "id": "premium-about-story-text",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:16px;line-height:1.8;text-align:center;'>At [COMPANY NAME], we believe that your home should be a reflection of your refined taste and lifestyle. With decades of experience in luxury remodeling, we have established ourselves as the premier choice for discerning homeowners in [CITY, STATE].</p><p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:16px;line-height:1.8;text-align:center;margin-top:20px;'>Our commitment to excellence is evident in every detail, from the initial design consultation to the final installation. We work exclusively with the finest materials and employ master craftsmen who share our dedication to perfection.</p>",
+              "align": "center"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "premium-about-values",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FAFAFA",
+      "padding": {"unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 50}
+    },
+    "elements": [
+      {
+        "id": "premium-about-values-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Our Core Values",
+          "header_size": "h2",
+          "color": "#1A3A5C",
+          "typography_font_family": "Playfair Display",
+          "typography_font_size": {"unit": "px", "size": 38},
+          "typography_font_size_tablet": {"unit": "px", "size": 32},
+          "typography_font_size_mobile": {"unit": "px", "size": 28},
+          "typography_font_weight": "600",
+          "align": "center"
+        }
+      },
+      {
+        "id": "premium-about-values-grid",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 100},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {"unit": "px", "size": 32},
+          "flex_justify_content": "center"
+        },
+        "elements": [
+          {
+            "id": "premium-about-value-1",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "size": 1, "sizes": []},
+              "border_color": "#E5E5E5",
+              "padding": {"unit": "px", "top": 40, "right": 32, "bottom": 40, "left": 32, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 32, "right": 24, "bottom": 32, "left": 24, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 24, "right": 20, "bottom": 24, "left": 20, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 16},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "premium-about-value-1-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='1.5'><path d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z'></path></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-about-value-1-name",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Excellence",
+                  "header_size": "h3",
+                  "color": "#1A3A5C",
+                  "typography_font_family": "Playfair Display",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_size_tablet": {"unit": "px", "size": 22},
+                  "typography_font_size_mobile": {"unit": "px", "size": 20},
+                  "typography_font_weight": "600",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-about-value-1-desc",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:15px;line-height:1.7;text-align:center;'>Uncompromising quality in every aspect of our work</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "id": "premium-about-value-2",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "size": 1, "sizes": []},
+              "border_color": "#E5E5E5",
+              "padding": {"unit": "px", "top": 40, "right": 32, "bottom": 40, "left": 32, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 32, "right": 24, "bottom": 32, "left": 24, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 24, "right": 20, "bottom": 24, "left": 20, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 16},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "premium-about-value-2-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='1.5'><path d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'></path><circle cx='12' cy='7' r='4'></circle></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-about-value-2-name",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Partnership",
+                  "header_size": "h3",
+                  "color": "#1A3A5C",
+                  "typography_font_family": "Playfair Display",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_size_tablet": {"unit": "px", "size": 22},
+                  "typography_font_size_mobile": {"unit": "px", "size": 20},
+                  "typography_font_weight": "600",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-about-value-2-desc",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:15px;line-height:1.7;text-align:center;'>Collaborative approach to realize your unique vision</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "id": "premium-about-value-3",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "size": 1, "sizes": []},
+              "border_color": "#E5E5E5",
+              "padding": {"unit": "px", "top": 40, "right": 32, "bottom": 40, "left": 32, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 32, "right": 24, "bottom": 32, "left": 24, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 24, "right": 20, "bottom": 24, "left": 20, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 16},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "premium-about-value-3-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='1.5'><polyline points='22 12 18 12 15 21 9 3 6 12 2 12'></polyline></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-about-value-3-name",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Integrity",
+                  "header_size": "h3",
+                  "color": "#1A3A5C",
+                  "typography_font_family": "Playfair Display",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_size_tablet": {"unit": "px", "size": 22},
+                  "typography_font_size_mobile": {"unit": "px", "size": 20},
+                  "typography_font_weight": "600",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-about-value-3-desc",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:15px;line-height:1.7;text-align:center;'>Transparent communication and honest practices</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "premium-about-cta",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#1A3A5C",
+      "padding": {"unit": "px", "top": 80, "right": 40, "bottom": 80, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 60, "right": 30, "bottom": 60, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 40, "right": 20, "bottom": 40, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 28}
+    },
+    "elements": [
+      {
+        "id": "premium-about-cta-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Begin Your Transformation",
+          "header_size": "h2",
+          "color": "#FFFFFF",
+          "typography_font_family": "Playfair Display",
+          "typography_font_size": {"unit": "px", "size": 40},
+          "typography_font_size_tablet": {"unit": "px", "size": 34},
+          "typography_font_size_mobile": {"unit": "px", "size": 28},
+          "typography_font_weight": "600",
+          "align": "center"
+        }
+      },
+      {
+        "id": "premium-about-cta-text",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p style='color:#FFFFFF;font-family:Lato,sans-serif;font-size:17px;line-height:1.7;text-align:center;max-width:650px;opacity:0.95;'>Experience the difference that true craftsmanship makes</p>",
+          "align": "center"
+        }
+      },
+      {
+        "id": "premium-about-cta-button",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+          "text": "Schedule Consultation",
+          "link": {"url": "#quote"},
+          "align": "center",
+          "align_tablet": "center",
+          "align_mobile": "center",
+          "background_color": "#FFFFFF",
+          "color": "#1A3A5C",
+          "typography_font_family": "Lato",
+          "typography_font_size": {"unit": "px", "size": 16},
+          "typography_font_size_tablet": {"unit": "px", "size": 15},
+          "typography_font_size_mobile": {"unit": "px", "size": 14},
+          "typography_font_weight": "500",
+          "typography_letter_spacing": {"unit": "px", "size": 0.5},
+          "border_radius": {"unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true},
+          "padding": {"unit": "px", "top": 18, "right": 36, "bottom": 18, "left": 36, "isLinked": false},
+          "padding_tablet": {"unit": "px", "top": 16, "right": 32, "bottom": 16, "left": 32, "isLinked": false},
+          "padding_mobile": {"unit": "px", "top": 14, "right": 28, "bottom": 14, "left": 28, "isLinked": false},
+          "button_hover_background_color": "#F5F5F5"
+        }
+      }
+    ]
+  }
+]

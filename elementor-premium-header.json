@@ -1,0 +1,73 @@
+[
+  {
+    "id": "premium-header-1",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FFFFFF",
+      "border_border": "solid",
+      "border_width": {"unit": "px", "size": 1, "sizes": []},
+      "border_color": "#E5E5E5",
+      "padding": {"unit": "px", "top": 20, "right": 40, "bottom": 20, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 15, "right": 20, "bottom": 15, "left": 20, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 12, "right": 15, "bottom": 12, "left": 15, "isLinked": false},
+      "position": "fixed",
+      "z_index": 1000,
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "row",
+      "flex_align_items": "center",
+      "flex_justify_content": "space-between"
+    },
+    "elements": [
+      {
+        "id": "premium-header-logo",
+        "elType": "widget",
+        "widgetType": "image",
+        "settings": {
+          "image": {"url": "", "id": ""},
+          "image_size": "medium",
+          "width": {"unit": "px", "size": 180},
+          "width_tablet": {"unit": "px", "size": 150},
+          "width_mobile": {"unit": "px", "size": 120},
+          "align": "left"
+        }
+      },
+      {
+        "id": "premium-header-nav",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<div style='display:flex;gap:32px;align-items:center;'><a href='#home' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:15px;font-weight:400;letter-spacing:0.3px;'>Home</a><a href='#services' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:15px;font-weight:400;letter-spacing:0.3px;'>Services</a><a href='#about' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:15px;font-weight:400;letter-spacing:0.3px;'>About</a><a href='#contact' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:15px;font-weight:400;letter-spacing:0.3px;'>Contact</a></div>",
+          "align": "center"
+        }
+      },
+      {
+        "id": "premium-header-cta",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+          "text": "Request Consultation",
+          "link": {"url": "#quote"},
+          "align": "right",
+          "align_tablet": "right",
+          "align_mobile": "right",
+          "background_color": "#1A3A5C",
+          "color": "#FFFFFF",
+          "typography_font_family": "Lato",
+          "typography_font_size": {"unit": "px", "size": 14},
+          "typography_font_size_tablet": {"unit": "px", "size": 13},
+          "typography_font_size_mobile": {"unit": "px", "size": 12},
+          "typography_font_weight": "500",
+          "typography_letter_spacing": {"unit": "px", "size": 0.5},
+          "border_radius": {"unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true},
+          "padding": {"unit": "px", "top": 14, "right": 28, "bottom": 14, "left": 28, "isLinked": false},
+          "padding_tablet": {"unit": "px", "top": 12, "right": 24, "bottom": 12, "left": 24, "isLinked": false},
+          "padding_mobile": {"unit": "px", "top": 10, "right": 20, "bottom": 10, "left": 20, "isLinked": false},
+          "button_hover_background_color": "#0F2A42"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "premium-quote-hero",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FAFAFA",
+      "padding": {"unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 24}
+    },
+    "elements": [
+      {
+        "id": "premium-quote-hero-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Request Your Consultation",
+          "header_size": "h1",
+          "color": "#1A3A5C",
+          "typography_font_family": "Playfair Display",
+          "typography_font_size": {"unit": "px", "size": 52},
+          "typography_font_size_tablet": {"unit": "px", "size": 40},
+          "typography_font_size_mobile": {"unit": "px", "size": 32},
+          "typography_font_weight": "600",
+          "align": "center"
+        }
+      },
+      {
+        "id": "premium-quote-hero-text",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:18px;line-height:1.7;text-align:center;max-width:800px;'>Begin your journey to a beautifully transformed home. Share your project details and we'll provide a personalized assessment.</p>",
+          "align": "center"
+        }
+      }
+    ]
+  },
+  {
+    "id": "premium-quote-form",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FFFFFF",
+      "padding": {"unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 70, "right": 30, "bottom": 70, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 50, "right": 20, "bottom": 50, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 40}
+    },
+    "elements": [
+      {
+        "id": "premium-quote-embed",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 100},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "max_width": {"unit": "px", "size": 800},
+          "background_background": "classic",
+          "background_color": "#FAFAFA",
+          "border_border": "solid",
+          "border_width": {"unit": "px", "size": 1, "sizes": []},
+          "border_color": "#E5E5E5",
+          "padding": {"unit": "px", "top": 50, "right": 50, "bottom": 50, "left": 50, "isLinked": false},
+          "padding_tablet": {"unit": "px", "top": 40, "right": 40, "bottom": 40, "left": 40, "isLinked": false},
+          "padding_mobile": {"unit": "px", "top": 30, "right": 30, "bottom": 30, "left": 30, "isLinked": false},
+          "flex_direction": "column",
+          "flex_gap": {"unit": "px", "size": 24}
+        },
+        "elements": [
+          {
+            "id": "premium-quote-embed-heading",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Project Information",
+              "header_size": "h2",
+              "color": "#1A3A5C",
+              "typography_font_family": "Playfair Display",
+              "typography_font_size": {"unit": "px", "size": 34},
+              "typography_font_size_tablet": {"unit": "px", "size": 30},
+              "typography_font_size_mobile": {"unit": "px", "size": 26},
+              "typography_font_weight": "600",
+              "align": "center"
+            }
+          },
+          {
+            "id": "premium-quote-embed-text",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:16px;line-height:1.7;text-align:center;'>Complete the form below and a member of our team will contact you within 24 hours to discuss your project in detail.</p>",
+              "align": "center"
+            }
+          },
+          {
+            "id": "premium-quote-instabid",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div id='instabid-form-container' style='min-height:400px;'><p style='color:#666666;font-family:Lato,sans-serif;font-size:14px;text-align:center;padding:40px 20px;'>InstaBid form will be embedded here</p></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "premium-quote-benefits",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FAFAFA",
+      "padding": {"unit": "px", "top": 80, "right": 40, "bottom": 80, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 60, "right": 30, "bottom": 60, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 40, "right": 20, "bottom": 40, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "column",
+      "flex_align_items": "center",
+      "flex_gap": {"unit": "px", "size": 40}
+    },
+    "elements": [
+      {
+        "id": "premium-quote-benefits-heading",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "What to Expect",
+          "header_size": "h2",
+          "color": "#1A3A5C",
+          "typography_font_family": "Playfair Display",
+          "typography_font_size": {"unit": "px", "size": 38},
+          "typography_font_size_tablet": {"unit": "px", "size": 32},
+          "typography_font_size_mobile": {"unit": "px", "size": 28},
+          "typography_font_weight": "600",
+          "align": "center"
+        }
+      },
+      {
+        "id": "premium-quote-benefits-grid",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 100},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {"unit": "px", "size": 32},
+          "flex_justify_content": "center"
+        },
+        "elements": [
+          {
+            "id": "premium-quote-benefit-1",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "size": 1, "sizes": []},
+              "border_color": "#E5E5E5",
+              "padding": {"unit": "px", "top": 32, "right": 28, "bottom": 32, "left": 28, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 28, "right": 24, "bottom": 28, "left": 24, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 24, "right": 20, "bottom": 24, "left": 20, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 12},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "premium-quote-benefit-1-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='40' height='40' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='2'><path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path><polyline points='22 4 12 14.01 9 11.01'></polyline></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-quote-benefit-1-text",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:15px;line-height:1.6;text-align:center;'>Complimentary in-home consultation</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "id": "premium-quote-benefit-2",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "size": 1, "sizes": []},
+              "border_color": "#E5E5E5",
+              "padding": {"unit": "px", "top": 32, "right": 28, "bottom": 32, "left": 28, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 28, "right": 24, "bottom": 28, "left": 24, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 24, "right": 20, "bottom": 24, "left": 20, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 12},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "premium-quote-benefit-2-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='40' height='40' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='2'><rect x='3' y='3' width='18' height='18' rx='2' ry='2'></rect><line x1='3' y1='9' x2='21' y2='9'></line><line x1='9' y1='21' x2='9' y2='9'></line></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-quote-benefit-2-text",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:15px;line-height:1.6;text-align:center;'>Detailed project proposal and timeline</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          },
+          {
+            "id": "premium-quote-benefit-3",
+            "elType": "container",
+            "settings": {
+              "width": {"unit": "%", "size": 30},
+              "width_tablet": {"unit": "%", "size": 45},
+              "width_mobile": {"unit": "%", "size": 100},
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "border_border": "solid",
+              "border_width": {"unit": "px", "size": 1, "sizes": []},
+              "border_color": "#E5E5E5",
+              "padding": {"unit": "px", "top": 32, "right": 28, "bottom": 32, "left": 28, "isLinked": false},
+              "padding_tablet": {"unit": "px", "top": 28, "right": 24, "bottom": 28, "left": 24, "isLinked": false},
+              "padding_mobile": {"unit": "px", "top": 24, "right": 20, "bottom": 24, "left": 20, "isLinked": false},
+              "flex_direction": "column",
+              "flex_gap": {"unit": "px", "size": 12},
+              "flex_align_items": "center"
+            },
+            "elements": [
+              {
+                "id": "premium-quote-benefit-3-icon",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<div style='margin-bottom:8px;'><svg width='40' height='40' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='2'><path d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z'></path></svg></div>",
+                  "align": "center"
+                }
+              },
+              {
+                "id": "premium-quote-benefit-3-text",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:15px;line-height:1.6;text-align:center;'>Transparent pricing with no hidden fees</p>",
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

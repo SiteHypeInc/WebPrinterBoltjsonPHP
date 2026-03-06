@@ -1,0 +1,168 @@
+[
+  {
+    "id": "premium-footer-1",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FAFAFA",
+      "border_border": "solid",
+      "border_width": {"unit": "px", "top": 1, "right": 0, "bottom": 0, "left": 0, "isLinked": false},
+      "border_color": "#E5E5E5",
+      "padding": {"unit": "px", "top": 60, "right": 40, "bottom": 60, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 40, "right": 30, "bottom": 40, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 30, "right": 20, "bottom": 30, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "row",
+      "flex_align_items": "flex-start",
+      "flex_justify_content": "space-between",
+      "flex_wrap": "wrap"
+    },
+    "elements": [
+      {
+        "id": "premium-footer-company",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 30},
+          "width_tablet": {"unit": "%", "size": 100},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "column",
+          "flex_gap": {"unit": "px", "size": 16}
+        },
+        "elements": [
+          {
+            "id": "premium-footer-name",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "[COMPANY NAME]",
+              "header_size": "h3",
+              "color": "#1A3A5C",
+              "typography_font_family": "Playfair Display",
+              "typography_font_size": {"unit": "px", "size": 28},
+              "typography_font_size_tablet": {"unit": "px", "size": 24},
+              "typography_font_size_mobile": {"unit": "px", "size": 22},
+              "typography_font_weight": "600"
+            }
+          },
+          {
+            "id": "premium-footer-tagline",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:15px;line-height:1.6;'>[TAGLINE]</p>",
+              "align": "left"
+            }
+          }
+        ]
+      },
+      {
+        "id": "premium-footer-nav",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 20},
+          "width_tablet": {"unit": "%", "size": 48},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "column",
+          "flex_gap": {"unit": "px", "size": 12}
+        },
+        "elements": [
+          {
+            "id": "premium-footer-nav-title",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Navigation",
+              "header_size": "h4",
+              "color": "#1A3A5C",
+              "typography_font_family": "Lato",
+              "typography_font_size": {"unit": "px", "size": 16},
+              "typography_font_size_tablet": {"unit": "px", "size": 15},
+              "typography_font_size_mobile": {"unit": "px", "size": 14},
+              "typography_font_weight": "600",
+              "typography_text_transform": "uppercase",
+              "typography_letter_spacing": {"unit": "px", "size": 0.5}
+            }
+          },
+          {
+            "id": "premium-footer-nav-links",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<div style='display:flex;flex-direction:column;gap:8px;'><a href='#home' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:14px;'>Home</a><a href='#services' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:14px;'>Services</a><a href='#about' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:14px;'>About</a><a href='#contact' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:14px;'>Contact</a><a href='#quote' style='color:#2D2D2D;text-decoration:none;font-family:Lato,sans-serif;font-size:14px;'>Get Quote</a></div>",
+              "align": "left"
+            }
+          }
+        ]
+      },
+      {
+        "id": "premium-footer-contact",
+        "elType": "container",
+        "settings": {
+          "width": {"unit": "%", "size": 30},
+          "width_tablet": {"unit": "%", "size": 48},
+          "width_mobile": {"unit": "%", "size": 100},
+          "flex_direction": "column",
+          "flex_gap": {"unit": "px", "size": 12}
+        },
+        "elements": [
+          {
+            "id": "premium-footer-contact-title",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Contact",
+              "header_size": "h4",
+              "color": "#1A3A5C",
+              "typography_font_family": "Lato",
+              "typography_font_size": {"unit": "px", "size": 16},
+              "typography_font_size_tablet": {"unit": "px", "size": 15},
+              "typography_font_size_mobile": {"unit": "px", "size": 14},
+              "typography_font_weight": "600",
+              "typography_text_transform": "uppercase",
+              "typography_letter_spacing": {"unit": "px", "size": 0.5}
+            }
+          },
+          {
+            "id": "premium-footer-contact-info",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<div style='display:flex;flex-direction:column;gap:8px;color:#2D2D2D;font-family:Lato,sans-serif;font-size:14px;line-height:1.6;'><div><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='2' style='display:inline-block;vertical-align:middle;margin-right:8px;'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'></path></svg>[PHONE NUMBER]</div><div><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='2' style='display:inline-block;vertical-align:middle;margin-right:8px;'><path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'></path><polyline points='22,6 12,13 2,6'></polyline></svg>[EMAIL ADDRESS]</div><div><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#1A3A5C' stroke-width='2' style='display:inline-block;vertical-align:middle;margin-right:8px;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'></path><circle cx='12' cy='10' r='3'></circle></svg>[CITY, STATE]</div></div>",
+              "align": "left"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "premium-footer-bottom",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#FFFFFF",
+      "padding": {"unit": "px", "top": 20, "right": 40, "bottom": 20, "left": 40, "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": 15, "right": 30, "bottom": 15, "left": 30, "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": 12, "right": 20, "bottom": 12, "left": 20, "isLinked": false},
+      "width": {"unit": "%", "size": 100},
+      "width_tablet": {"unit": "%", "size": 100},
+      "width_mobile": {"unit": "%", "size": 100},
+      "flex_direction": "row",
+      "flex_align_items": "center",
+      "flex_justify_content": "center"
+    },
+    "elements": [
+      {
+        "id": "premium-footer-powered",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p style='color:#666666;font-family:Lato,sans-serif;font-size:13px;text-align:center;'>Powered by <a href='https://instabid.io' style='color:#1A3A5C;text-decoration:none;font-weight:500;'>InstaBid</a></p>",
+          "align": "center"
+        }
+      }
+    ]
+  }
+]
