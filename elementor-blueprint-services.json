@@ -1,0 +1,941 @@
+{
+  "content": [
+    {
+      "id": "services-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vh",
+          "size": "50"
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "140",
+          "right": "80",
+          "bottom": "80",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "120",
+          "right": "48",
+          "bottom": "60",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "48",
+          "left": "24"
+        },
+        "border_top_border": "solid",
+        "border_top_width": {
+          "unit": "px",
+          "size": "1"
+        },
+        "border_top_color": "#0057FF",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": "28"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "24"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-label",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "/ WHAT WE DO",
+            "html_tag": "div",
+            "typography_typography": "custom",
+            "typography_font_family": "Space Grotesk, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "13"
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": "2"
+            },
+            "color": "#0057FF"
+          }
+        },
+        {
+          "id": "hero-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Comprehensive Architecture<br>& Engineering Services",
+            "html_tag": "h1",
+            "typography_typography": "custom",
+            "typography_font_family": "Space Grotesk, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "68"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "52"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "40"
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.1"
+            },
+            "color": "#111111"
+          }
+        },
+        {
+          "id": "hero-description",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "From initial concept to final construction, we deliver end-to-end design-build solutions backed by decades of technical expertise.",
+            "typography_typography": "custom",
+            "typography_font_family": "DM Sans, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "20"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "18"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "17"
+            },
+            "typography_font_weight": "400",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.6"
+            },
+            "text_color": "#6B6B6B"
+          }
+        }
+      ]
+    },
+    {
+      "id": "service-1-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F4F4F4",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "80",
+          "bottom": "120",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24"
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": "80"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "60"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-1-content",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": "28"
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": "24"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "service-1-number",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "01",
+                "html_tag": "div",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "18"
+                },
+                "typography_font_weight": "700",
+                "color": "#0057FF"
+              }
+            },
+            {
+              "id": "service-1-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "[SERVICE 1 NAME]",
+                "html_tag": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "48"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "40"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "34"
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2"
+                },
+                "color": "#111111"
+              }
+            },
+            {
+              "id": "service-1-description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[SERVICE 1 description]",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "17"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.7"
+                },
+                "text_color": "#6B6B6B"
+              }
+            },
+            {
+              "id": "service-1-features",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>• Conceptual design & feasibility studies<br>• 3D modeling & photorealistic renderings<br>• Construction documentation<br>• Code compliance & permitting support<br>• Design-build coordination",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                },
+                "text_color": "#6B6B6B"
+              }
+            }
+          ]
+        },
+        {
+          "id": "service-1-image",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "min_height": {
+              "unit": "px",
+              "size": "500"
+            },
+            "min_height_tablet": {
+              "unit": "px",
+              "size": "400"
+            },
+            "min_height_mobile": {
+              "unit": "px",
+              "size": "350"
+            },
+            "background_background": "classic",
+            "background_color": "#E0E0E0"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "service-2-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "80",
+          "bottom": "120",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24"
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "column-reverse",
+        "flex_direction_mobile": "column-reverse",
+        "flex_gap": {
+          "unit": "px",
+          "size": "80"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "60"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-2-image",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "min_height": {
+              "unit": "px",
+              "size": "500"
+            },
+            "min_height_tablet": {
+              "unit": "px",
+              "size": "400"
+            },
+            "min_height_mobile": {
+              "unit": "px",
+              "size": "350"
+            },
+            "background_background": "classic",
+            "background_color": "#E0E0E0"
+          },
+          "elements": []
+        },
+        {
+          "id": "service-2-content",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": "28"
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": "24"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "service-2-number",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "02",
+                "html_tag": "div",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "18"
+                },
+                "typography_font_weight": "700",
+                "color": "#0057FF"
+              }
+            },
+            {
+              "id": "service-2-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "[SERVICE 2 NAME]",
+                "html_tag": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "48"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "40"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "34"
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2"
+                },
+                "color": "#111111"
+              }
+            },
+            {
+              "id": "service-2-description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[SERVICE 2 description]",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "17"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.7"
+                },
+                "text_color": "#6B6B6B"
+              }
+            },
+            {
+              "id": "service-2-features",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>• Load & stress analysis<br>• Foundation & framing design<br>• Seismic & lateral force engineering<br>• Steel, concrete & timber specifications<br>• Third-party plan reviews",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                },
+                "text_color": "#6B6B6B"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-3-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F4F4F4",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "80",
+          "bottom": "120",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24"
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": "80"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "60"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "service-3-content",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": "28"
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": "24"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "service-3-number",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "03",
+                "html_tag": "div",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "18"
+                },
+                "typography_font_weight": "700",
+                "color": "#0057FF"
+              }
+            },
+            {
+              "id": "service-3-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "[SERVICE 3 NAME]",
+                "html_tag": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "48"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "40"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "34"
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2"
+                },
+                "color": "#111111"
+              }
+            },
+            {
+              "id": "service-3-description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[SERVICE 3 description]",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "17"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.7"
+                },
+                "text_color": "#6B6B6B"
+              }
+            },
+            {
+              "id": "service-3-features",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>• Project scheduling & budgeting<br>• Quality control & site supervision<br>• Subcontractor coordination<br>• Material procurement & logistics<br>• Final commissioning & turnover",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                },
+                "text_color": "#6B6B6B"
+              }
+            }
+          ]
+        },
+        {
+          "id": "service-3-image",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "min_height": {
+              "unit": "px",
+              "size": "500"
+            },
+            "min_height_tablet": {
+              "unit": "px",
+              "size": "400"
+            },
+            "min_height_mobile": {
+              "unit": "px",
+              "size": "350"
+            },
+            "background_background": "classic",
+            "background_color": "#E0E0E0"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "80",
+          "bottom": "100",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "80",
+          "right": "48",
+          "bottom": "80",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24"
+        },
+        "flex_direction": "column",
+        "flex_align_items": "flex-start",
+        "flex_gap": {
+          "unit": "px",
+          "size": "32"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "28"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "24"
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ready to Build?",
+            "html_tag": "h2",
+            "typography_typography": "custom",
+            "typography_font_family": "Space Grotesk, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "56"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "44"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "36"
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.15"
+            },
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "cta-text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Let's discuss your project requirements and create a custom solution.",
+            "typography_typography": "custom",
+            "typography_font_family": "DM Sans, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "18"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "17"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "16"
+            },
+            "typography_font_weight": "400",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.6"
+            },
+            "text_color": "#B0B0B0"
+          }
+        },
+        {
+          "id": "cta-button",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Schedule Consultation",
+            "link": {
+              "url": "/contact"
+            },
+            "size": "md",
+            "typography_typography": "custom",
+            "typography_font_family": "DM Sans, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "16"
+            },
+            "typography_font_weight": "600",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": "0.5"
+            },
+            "button_text_color": "#FFFFFF",
+            "background_color": "#0057FF",
+            "border_radius": {
+              "unit": "px",
+              "top": "2",
+              "right": "2",
+              "bottom": "2",
+              "left": "2"
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "40",
+              "bottom": "18",
+              "left": "40"
+            },
+            "button_padding_tablet": {
+              "unit": "px",
+              "top": "16",
+              "right": "36",
+              "bottom": "16",
+              "left": "36"
+            },
+            "button_padding_mobile": {
+              "unit": "px",
+              "top": "14",
+              "right": "32",
+              "bottom": "14",
+              "left": "32"
+            },
+            "hover_color": "#FFFFFF",
+            "button_background_hover_color": "#0046CC"
+          }
+        }
+      ]
+    }
+  ]
+}

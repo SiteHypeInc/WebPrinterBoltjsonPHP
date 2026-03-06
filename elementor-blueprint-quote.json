@@ -1,0 +1,738 @@
+{
+  "content": [
+    {
+      "id": "quote-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vh",
+          "size": "40"
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "140",
+          "right": "80",
+          "bottom": "80",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "120",
+          "right": "48",
+          "bottom": "60",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "100",
+          "right": "24",
+          "bottom": "48",
+          "left": "24"
+        },
+        "border_top_border": "solid",
+        "border_top_width": {
+          "unit": "px",
+          "size": "1"
+        },
+        "border_top_color": "#0057FF",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": "28"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "24"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-label",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "/ REQUEST ESTIMATE",
+            "html_tag": "div",
+            "typography_typography": "custom",
+            "typography_font_family": "Space Grotesk, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "13"
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": "2"
+            },
+            "color": "#0057FF"
+          }
+        },
+        {
+          "id": "hero-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Get Your Project Estimate",
+            "html_tag": "h1",
+            "typography_typography": "custom",
+            "typography_font_family": "Space Grotesk, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "68"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "52"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "40"
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.1"
+            },
+            "color": "#111111"
+          }
+        },
+        {
+          "id": "hero-description",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Tell us about your project and receive a detailed estimate. Our team will review your requirements and provide a comprehensive proposal within 48 hours.",
+            "typography_typography": "custom",
+            "typography_font_family": "DM Sans, sans-serif",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "20"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "18"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "17"
+            },
+            "typography_font_weight": "400",
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.6"
+            },
+            "text_color": "#6B6B6B"
+          }
+        }
+      ]
+    },
+    {
+      "id": "form-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F4F4F4",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "80",
+          "bottom": "120",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24"
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "form-container",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "max_width": {
+              "unit": "px",
+              "size": "900"
+            },
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "padding": {
+              "unit": "px",
+              "top": "60",
+              "right": "60",
+              "bottom": "60",
+              "left": "60"
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": "48",
+              "right": "48",
+              "bottom": "48",
+              "left": "48"
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "40",
+              "right": "28",
+              "bottom": "40",
+              "left": "28"
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_color": "#E0E0E0"
+          },
+          "elements": [
+            {
+              "id": "instabid-embed",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='min-height: 600px; display: flex; align-items: center; justify-content: center; background: #F4F4F4; border: 2px dashed #E0E0E0; padding: 60px 40px; text-align: center;'><div><svg width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#0057FF' stroke-width='2' style='margin: 0 auto 24px;'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/><polyline points='14 2 14 8 20 8'/><line x1='16' y1='13' x2='8' y2='13'/><line x1='16' y1='17' x2='8' y2='17'/><polyline points='10 9 9 9 8 9'/></svg><h3 style='font-family: Space Grotesk, sans-serif; font-size: 24px; font-weight: 700; color: #111111; margin: 0 0 12px 0;'>InstaBid Quote Form</h3><p style='font-family: DM Sans, sans-serif; font-size: 16px; color: #6B6B6B; margin: 0; line-height: 1.6;'>Your instant quote form will appear here.<br>Connect your InstaBid account to activate.</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "80",
+          "bottom": "120",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24"
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": "60"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "48"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "process-header",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": "100"
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": "100"
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "process-label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "/ NEXT STEPS",
+                "html_tag": "div",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "13"
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": "2"
+                },
+                "color": "#0057FF"
+              }
+            },
+            {
+              "id": "process-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "What Happens After You Submit",
+                "html_tag": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Space Grotesk, sans-serif",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "48"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "40"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "34"
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2"
+                },
+                "color": "#111111"
+              }
+            }
+          ]
+        },
+        {
+          "id": "process-steps",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_direction_tablet": "column",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": "1"
+            }
+          },
+          "elements": [
+            {
+              "id": "step-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "33.333"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "background_background": "classic",
+                "background_color": "#F4F4F4",
+                "padding": {
+                  "unit": "px",
+                  "top": "48",
+                  "right": "40",
+                  "bottom": "48",
+                  "left": "40"
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "36",
+                  "bottom": "40",
+                  "left": "36"
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "36",
+                  "right": "28",
+                  "bottom": "36",
+                  "left": "28"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "step-1-number",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "01",
+                    "html_tag": "div",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Space Grotesk, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#0057FF"
+                  }
+                },
+                {
+                  "id": "step-1-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Review & Analysis",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Space Grotesk, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "24"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "22"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "20"
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.3"
+                    },
+                    "color": "#111111"
+                  }
+                },
+                {
+                  "id": "step-1-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Our technical team reviews your project requirements and conducts a preliminary feasibility assessment.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "DM Sans, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "16"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7"
+                    },
+                    "text_color": "#6B6B6B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "step-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "33.333"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "background_background": "classic",
+                "background_color": "#F4F4F4",
+                "padding": {
+                  "unit": "px",
+                  "top": "48",
+                  "right": "40",
+                  "bottom": "48",
+                  "left": "40"
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "36",
+                  "bottom": "40",
+                  "left": "36"
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "36",
+                  "right": "28",
+                  "bottom": "36",
+                  "left": "28"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "step-2-number",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "02",
+                    "html_tag": "div",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Space Grotesk, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#0057FF"
+                  }
+                },
+                {
+                  "id": "step-2-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Detailed Proposal",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Space Grotesk, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "24"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "22"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "20"
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.3"
+                    },
+                    "color": "#111111"
+                  }
+                },
+                {
+                  "id": "step-2-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Within 48 hours, you'll receive a comprehensive proposal with scope, timeline, and budget breakdown.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "DM Sans, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "16"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7"
+                    },
+                    "text_color": "#6B6B6B"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "step-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": "33.333"
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "background_background": "classic",
+                "background_color": "#F4F4F4",
+                "padding": {
+                  "unit": "px",
+                  "top": "48",
+                  "right": "40",
+                  "bottom": "48",
+                  "left": "40"
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "36",
+                  "bottom": "40",
+                  "left": "36"
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "36",
+                  "right": "28",
+                  "bottom": "36",
+                  "left": "28"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "step-3-number",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "03",
+                    "html_tag": "div",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Space Grotesk, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700",
+                    "color": "#0057FF"
+                  }
+                },
+                {
+                  "id": "step-3-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Kickoff Meeting",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Space Grotesk, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "24"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "22"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "20"
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.3"
+                    },
+                    "color": "#111111"
+                  }
+                },
+                {
+                  "id": "step-3-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Once approved, we schedule an initial consultation to refine the scope and begin the design phase.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "DM Sans, sans-serif",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "16"
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.7"
+                    },
+                    "text_color": "#6B6B6B"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
