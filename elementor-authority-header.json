@@ -1,0 +1,180 @@
+{
+  "content": [
+    {
+      "id": "header-main",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "padding": {
+          "unit": "px",
+          "top": 20,
+          "right": 40,
+          "bottom": 20,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 16,
+          "right": 24,
+          "bottom": 16,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 12,
+          "right": 16,
+          "bottom": 12,
+          "left": 16,
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#C9A84C33",
+        "position": "fixed",
+        "z_index": 1000,
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_justify_content": "space-between"
+      },
+      "elements": [
+        {
+          "id": "header-logo",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": ""
+            },
+            "image_size": "medium",
+            "width": {
+              "unit": "px",
+              "size": 180
+            },
+            "width_tablet": {
+              "unit": "px",
+              "size": 140
+            },
+            "width_mobile": {
+              "unit": "px",
+              "size": 120
+            },
+            "align": "left"
+          }
+        },
+        {
+          "id": "header-nav-container",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 24
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 16
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "header-nav",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<a href=\"/\" style=\"color: #F8F5F0; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 400; letter-spacing: 0.3px; transition: color 0.3s;\">Home</a> <a href=\"/services\" style=\"color: #F8F5F0; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 400; letter-spacing: 0.3px; margin-left: 40px; transition: color 0.3s;\">Services</a> <a href=\"/about\" style=\"color: #F8F5F0; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 400; letter-spacing: 0.3px; margin-left: 40px; transition: color 0.3s;\">About</a> <a href=\"/contact\" style=\"color: #F8F5F0; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 400; letter-spacing: 0.3px; margin-left: 40px; transition: color 0.3s;\">Contact</a>",
+                "text_color": "#F8F5F0"
+              }
+            },
+            {
+              "id": "header-cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get A Quote",
+                "link": {
+                  "url": "/quote"
+                },
+                "size": "md",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "500",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.5
+                },
+                "button_background_color": "#C9A84C",
+                "button_text_color": "#0D0D0D",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 32,
+                  "bottom": 14,
+                  "left": 32,
+                  "isLinked": false
+                },
+                "button_padding_tablet": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 24,
+                  "bottom": 12,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "button_padding_mobile": {
+                  "unit": "px",
+                  "top": 10,
+                  "right": 20,
+                  "bottom": 10,
+                  "left": 20,
+                  "isLinked": false
+                },
+                "hover_animation": "none",
+                "button_background_hover_color": "#D4B55C"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

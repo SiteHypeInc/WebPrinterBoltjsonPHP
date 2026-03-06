@@ -1,0 +1,638 @@
+{
+  "content": [
+    {
+      "id": "services-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vh",
+          "size": 60
+        },
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "padding": {
+          "unit": "px",
+          "top": 180,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 140,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 120,
+          "right": 16,
+          "bottom": 48,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#C9A84C33"
+      },
+      "elements": [
+        {
+          "id": "services-hero-content",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 900
+            }
+          },
+          "elements": [
+            {
+              "id": "services-hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Services",
+                "html_tag": "h1",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "title_color": "#F8F5F0"
+              }
+            },
+            {
+              "id": "services-hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Strategic partnerships that transform brands and captivate audiences.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "text_color": "#F8F5F099"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-list",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {
+          "unit": "px",
+          "top": 120,
+          "right": 40,
+          "bottom": 120,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 16,
+          "bottom": 60,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 60
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": 48
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 40
+        }
+      },
+      "elements": [
+        {
+          "id": "service-detail-1",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 40
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1200
+            },
+            "background_background": "classic",
+            "background_color": "#0D0D0D",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#C9A84C33",
+            "border_radius": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 60,
+              "right": 60,
+              "bottom": 60,
+              "left": 60,
+              "isLinked": true
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 40,
+              "right": 40,
+              "bottom": 40,
+              "left": 40,
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 32,
+              "right": 24,
+              "bottom": 32,
+              "left": 24,
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "service-detail-1-icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<svg width=\"64\" height=\"64\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2.18\" ry=\"2.18\"/><line x1=\"7\" y1=\"2\" x2=\"7\" y2=\"22\"/><line x1=\"17\" y1=\"2\" x2=\"17\" y2=\"22\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><line x1=\"2\" y1=\"7\" x2=\"7\" y2=\"7\"/><line x1=\"2\" y1=\"17\" x2=\"7\" y2=\"17\"/><line x1=\"17\" y1=\"17\" x2=\"22\" y2=\"17\"/><line x1=\"17\" y1=\"7\" x2=\"22\" y2=\"7\"/></svg>"
+              }
+            },
+            {
+              "id": "service-detail-1-content",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "service-detail-1-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[SERVICE 1 NAME]",
+                    "html_tag": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "service-detail-1-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "[SERVICE 1 description]. From concept to execution, I bring your brand vision to life with cinematic storytelling and authentic audience connection.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service-detail-2",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 40
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1200
+            },
+            "background_background": "classic",
+            "background_color": "#0D0D0D",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#C9A84C33",
+            "border_radius": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 60,
+              "right": 60,
+              "bottom": 60,
+              "left": 60,
+              "isLinked": true
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 40,
+              "right": 40,
+              "bottom": 40,
+              "left": 40,
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 32,
+              "right": 24,
+              "bottom": 32,
+              "left": 24,
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "service-detail-2-icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<svg width=\"64\" height=\"64\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"17 8 12 3 7 8\"/><line x1=\"12\" y1=\"3\" x2=\"12\" y2=\"15\"/></svg>"
+              }
+            },
+            {
+              "id": "service-detail-2-content",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "service-detail-2-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[SERVICE 2 NAME]",
+                    "html_tag": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "service-detail-2-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "[SERVICE 2 description]. Leveraging years of on-air experience and industry connections to amplify your message across all media platforms.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "service-detail-3",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 40
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1200
+            },
+            "background_background": "classic",
+            "background_color": "#0D0D0D",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#C9A84C33",
+            "border_radius": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 60,
+              "right": 60,
+              "bottom": 60,
+              "left": 60,
+              "isLinked": true
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 40,
+              "right": 40,
+              "bottom": 40,
+              "left": 40,
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 32,
+              "right": 24,
+              "bottom": 32,
+              "left": 24,
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "service-detail-3-icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<svg width=\"64\" height=\"64\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>"
+              }
+            },
+            {
+              "id": "service-detail-3-content",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "flex_grow": 1
+              },
+              "elements": [
+                {
+                  "id": "service-detail-3-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[SERVICE 3 NAME]",
+                    "html_tag": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "service-detail-3-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "[SERVICE 3 description]. Transforming complex ideas into compelling narratives that resonate with your target audience and drive measurable results.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

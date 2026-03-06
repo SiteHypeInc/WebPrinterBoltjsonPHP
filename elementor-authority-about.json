@@ -1,0 +1,843 @@
+{
+  "content": [
+    {
+      "id": "about-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vh",
+          "size": 60
+        },
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "padding": {
+          "unit": "px",
+          "top": 180,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 140,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 120,
+          "right": 16,
+          "bottom": 48,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#C9A84C33"
+      },
+      "elements": [
+        {
+          "id": "about-hero-content",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 900
+            }
+          },
+          "elements": [
+            {
+              "id": "about-hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "About",
+                "html_tag": "h1",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "title_color": "#F8F5F0"
+              }
+            },
+            {
+              "id": "about-hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Two decades of storytelling, one mission: authentic brand elevation.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "text_color": "#F8F5F099"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-story",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {
+          "unit": "px",
+          "top": 120,
+          "right": 40,
+          "bottom": 120,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 16,
+          "bottom": 60,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 60
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": 48
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 40
+        }
+      },
+      "elements": [
+        {
+          "id": "story-content",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 80
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 48
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "story-image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": ""
+                },
+                "image_size": "large",
+                "width": {
+                  "unit": "%",
+                  "size": 45
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                }
+              }
+            },
+            {
+              "id": "story-text",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "flex_grow": 1,
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "story-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "The Journey",
+                    "html_tag": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "story-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "From local morning shows to national networks, I've spent two decades mastering the art of authentic connection. My journey from [CITY, STATE] to screens across America has taught me one truth: the best stories don't just inform—they transform.<br><br>Today, I partner with visionary brands who understand that true influence isn't bought, it's built. Through strategic storytelling and genuine audience engagement, we create campaigns that don't just reach people—they move them.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-values",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "padding": {
+          "unit": "px",
+          "top": 120,
+          "right": 40,
+          "bottom": 120,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 16,
+          "bottom": 60,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 80
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": 60
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 48
+        }
+      },
+      "elements": [
+        {
+          "id": "values-header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 800
+            }
+          },
+          "elements": [
+            {
+              "id": "values-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Core Principles",
+                "html_tag": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "title_color": "#F8F5F0"
+              }
+            }
+          ]
+        },
+        {
+          "id": "values-grid",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 32
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 24
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 20
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "value-1",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#111111",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#C9A84C33",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 32,
+                  "bottom": 40,
+                  "left": 32,
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": 32,
+                  "right": 24,
+                  "bottom": 32,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": 28,
+                  "right": 20,
+                  "bottom": 28,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "value-1-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2L2 7l10 5 10-5-10-5z\"/><path d=\"M2 17l10 5 10-5M2 12l10 5 10-5\"/></svg>"
+                  }
+                },
+                {
+                  "id": "value-1-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Authenticity",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "value-1-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "No scripts. No personas. Just genuine connection that audiences can feel.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "value-2",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#111111",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#C9A84C33",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 32,
+                  "bottom": 40,
+                  "left": 32,
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": 32,
+                  "right": 24,
+                  "bottom": 32,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": 28,
+                  "right": 20,
+                  "bottom": 28,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "value-2-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/></svg>"
+                  }
+                },
+                {
+                  "id": "value-2-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Excellence",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "value-2-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Decades of experience meeting the highest standards in broadcast media.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "value-3",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#111111",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": 1,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 1,
+                  "isLinked": true
+                },
+                "border_color": "#C9A84C33",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 32,
+                  "bottom": 40,
+                  "left": 32,
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": 32,
+                  "right": 24,
+                  "bottom": 32,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": 28,
+                  "right": 20,
+                  "bottom": 28,
+                  "left": 20,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "value-3-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"22 12 18 12 15 21 9 3 6 12 2 12\"/></svg>"
+                  }
+                },
+                {
+                  "id": "value-3-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Impact",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "value-3-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Every partnership is measured by real results and lasting transformation.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

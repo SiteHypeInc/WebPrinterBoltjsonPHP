@@ -1,0 +1,404 @@
+{
+  "content": [
+    {
+      "id": "footer-main",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 40,
+          "bottom": 40,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 60,
+          "right": 24,
+          "bottom": 32,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 48,
+          "right": 16,
+          "bottom": 24,
+          "left": 16,
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#C9A84C33",
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 60
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": 48
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 40
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-top",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 40
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 32
+            }
+          },
+          "elements": [
+            {
+              "id": "footer-brand",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 35
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-company",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[COMPANY NAME]",
+                    "html_tag": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    },
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "footer-tagline",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "[TAGLINE]",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "text_color": "#F8F5F099"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-links",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-links-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Quick Links",
+                    "html_tag": "h4",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#C9A84C",
+                    "margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 8,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "footer-links-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<a href=\"/\" style=\"color: #F8F5F0CC; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; display: block; margin-bottom: 12px; transition: color 0.3s;\">Home</a><a href=\"/services\" style=\"color: #F8F5F0CC; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; display: block; margin-bottom: 12px; transition: color 0.3s;\">Services</a><a href=\"/about\" style=\"color: #F8F5F0CC; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; display: block; margin-bottom: 12px; transition: color 0.3s;\">About</a><a href=\"/contact\" style=\"color: #F8F5F0CC; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; display: block; margin-bottom: 12px; transition: color 0.3s;\">Contact</a><a href=\"/quote\" style=\"color: #F8F5F0CC; text-decoration: none; font-family: 'Inter', sans-serif; font-size: 15px; display: block; transition: color 0.3s;\">Get A Quote</a>",
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-contact",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-contact-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Get In Touch",
+                    "html_tag": "h4",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_weight": "600",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#C9A84C",
+                    "margin": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 8,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "footer-contact-info",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin: 0 0 12px 0; font-family: 'Inter', sans-serif; font-size: 15px; color: #F8F5F0CC; line-height: 1.6;\">[CITY, STATE]</p><p style=\"margin: 0 0 12px 0; font-family: 'Inter', sans-serif; font-size: 15px; color: #F8F5F0CC; line-height: 1.6;\">[PHONE NUMBER]</p><p style=\"margin: 0; font-family: 'Inter', sans-serif; font-size: 15px; color: #F8F5F0CC; line-height: 1.6;\">[EMAIL ADDRESS]</p>",
+                    "text_color": "#F8F5F0CC"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footer-bottom",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": 32,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": false
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 24,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 24,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": false
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": false
+            },
+            "border_color": "#C9A84C22"
+          },
+          "elements": [
+            {
+              "id": "footer-copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "© 2024 [COMPANY NAME]. All rights reserved.",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "300",
+                "text_color": "#F8F5F066"
+              }
+            },
+            {
+              "id": "footer-instabid",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Powered by InstaBid",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "300",
+                "text_color": "#C9A84C",
+                "align": "right"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

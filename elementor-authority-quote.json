@@ -1,0 +1,511 @@
+{
+  "content": [
+    {
+      "id": "quote-hero",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vh",
+          "size": 50
+        },
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "padding": {
+          "unit": "px",
+          "top": 180,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 140,
+          "right": 24,
+          "bottom": 60,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 120,
+          "right": 16,
+          "bottom": 48,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#C9A84C33"
+      },
+      "elements": [
+        {
+          "id": "quote-hero-content",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 900
+            }
+          },
+          "elements": [
+            {
+              "id": "quote-hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Start Your Partnership",
+                "html_tag": "h1",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "title_color": "#F8F5F0"
+              }
+            },
+            {
+              "id": "quote-hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Share your vision and let's explore how we can create something extraordinary together.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "text_color": "#F8F5F099"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-form",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": {
+          "unit": "px",
+          "top": 120,
+          "right": 40,
+          "bottom": 120,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 16,
+          "bottom": 60,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "instabid-container",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 800
+            },
+            "background_background": "classic",
+            "background_color": "#0D0D0D",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#C9A84C33",
+            "border_radius": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 60,
+              "right": 60,
+              "bottom": 60,
+              "left": 60,
+              "isLinked": true
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 48,
+              "right": 48,
+              "bottom": 48,
+              "left": 48,
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 32,
+              "right": 24,
+              "bottom": 32,
+              "left": 24,
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "instabid-embed",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"min-height: 400px; display: flex; align-items: center; justify-content: center; font-family: 'Inter', sans-serif; color: #F8F5F099; font-size: 16px;\">[InstaBid Form Embed Placeholder]</div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-benefits",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "padding": {
+          "unit": "px",
+          "top": 100,
+          "right": 40,
+          "bottom": 100,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 24,
+          "bottom": 80,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 16,
+          "bottom": 60,
+          "left": 16,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 60
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": 48
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 40
+        }
+      },
+      "elements": [
+        {
+          "id": "benefits-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What To Expect",
+            "html_tag": "h2",
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "Playfair Display",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 30
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "title_color": "#C9A84C"
+          }
+        },
+        {
+          "id": "benefits-grid",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 32
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": 24
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 20
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1000
+            }
+          },
+          "elements": [
+            {
+              "id": "benefit-1",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "benefit-1-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>"
+                  }
+                },
+                {
+                  "id": "benefit-1-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<strong style=\"color: #F8F5F0; font-family: 'Inter', sans-serif; font-size: 17px;\">24-Hour Response</strong><br><span style=\"color: #F8F5F0CC; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 300;\">Personal reply to every inquiry</span>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "benefit-2",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "benefit-2-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>"
+                  }
+                },
+                {
+                  "id": "benefit-2-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<strong style=\"color: #F8F5F0; font-family: 'Inter', sans-serif; font-size: 17px;\">Custom Strategy</strong><br><span style=\"color: #F8F5F0CC; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 300;\">Tailored to your brand goals</span>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "benefit-3",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "benefit-3-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>"
+                  }
+                },
+                {
+                  "id": "benefit-3-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<strong style=\"color: #F8F5F0; font-family: 'Inter', sans-serif; font-size: 17px;\">Media Network</strong><br><span style=\"color: #F8F5F0CC; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 300;\">Connections across all platforms</span>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "benefit-4",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "benefit-4-icon",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#C9A84C\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg>"
+                  }
+                },
+                {
+                  "id": "benefit-4-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<strong style=\"color: #F8F5F0; font-family: 'Inter', sans-serif; font-size: 17px;\">Proven Results</strong><br><span style=\"color: #F8F5F0CC; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 300;\">Track record of brand elevation</span>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
