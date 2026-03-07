@@ -1,0 +1,2106 @@
+{
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vh",
+          "size": 85
+        },
+        "background_background": "classic",
+        "background_color": "#F5EFE6",
+        "padding": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": true
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": true
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": true
+        },
+        "flex_direction": "column",
+        "flex_align_items": "stretch",
+        "flex_justify_content": "flex-start"
+      },
+      "elements": [
+        {
+          "id": "hero-image-container",
+          "elType": "container",
+          "settings": {
+            "min_height": {
+              "unit": "vh",
+              "size": 70
+            },
+            "min_height_tablet": {
+              "unit": "vh",
+              "size": 60
+            },
+            "min_height_mobile": {
+              "unit": "vh",
+              "size": 50
+            },
+            "background_background": "classic",
+            "background_color": "#E8DDD0",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": ""
+                },
+                "image_size": "full",
+                "object_fit": "cover",
+                "height": {
+                  "unit": "vh",
+                  "size": 70
+                },
+                "height_tablet": {
+                  "unit": "vh",
+                  "size": 60
+                },
+                "height_mobile": {
+                  "unit": "vh",
+                  "size": 50
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "hero-text-container",
+          "elType": "container",
+          "settings": {
+            "padding": {
+              "unit": "px",
+              "top": 60,
+              "right": 60,
+              "bottom": 60,
+              "left": 60,
+              "isLinked": true
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 50,
+              "right": 40,
+              "bottom": 50,
+              "left": 40,
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 40,
+              "right": 20,
+              "bottom": 40,
+              "left": 20,
+              "isLinked": true
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 0,
+              "row": 15
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-name",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "[COMPANY NAME]",
+                "html_tag": "h1",
+                "align": "center",
+                "color": "#2C1810",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #2C1810; font-size: 20px; line-height: 1.5; margin: 0; font-weight: 300; letter-spacing: 3px; text-transform: uppercase;'>Interior Design. [CITY, STATE].</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "hero-tagline",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #C9A96E; font-size: 18px; line-height: 1.6; margin: 10px 0 0 0; font-style: italic;'>[TAGLINE]</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 14
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "philosophy-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 120,
+          "right": 60,
+          "bottom": 120,
+          "left": 60,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 90,
+          "right": 40,
+          "bottom": 90,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 70,
+          "right": 20,
+          "bottom": 70,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "philosophy-content",
+          "elType": "container",
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 60
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 80
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": 0,
+              "row": 30
+            }
+          },
+          "elements": [
+            {
+              "id": "philosophy-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #C9A96E; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; margin: 0; font-weight: 500;'>Philosophy</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            },
+            {
+              "id": "philosophy-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Timeless Design, Personal Expression",
+                "html_tag": "h2",
+                "align": "center",
+                "color": "#2C1810",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.3
+                }
+              }
+            },
+            {
+              "id": "philosophy-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #2C1810CC; font-size: 17px; line-height: 1.8; margin: 0; font-weight: 300;'>I believe every space should tell a story—your story. My approach blends classical principles with modern sensibilities, creating interiors that feel both elevated and intimately personal. Each project begins with listening, evolves through collaboration, and culminates in spaces that stand the test of time.</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F5EFE6",
+        "padding": {
+          "unit": "px",
+          "top": 100,
+          "right": 60,
+          "bottom": 100,
+          "left": 60,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": 0,
+          "row": 60
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "column": 0,
+          "row": 50
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "column": 0,
+          "row": 40
+        }
+      },
+      "elements": [
+        {
+          "id": "portfolio-header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 0,
+              "row": 20
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "portfolio-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #C9A96E; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; margin: 0; font-weight: 500;'>Selected Work</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            },
+            {
+              "id": "portfolio-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Portfolio",
+                "html_tag": "h2",
+                "align": "center",
+                "color": "#2C1810",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "portfolio-grid",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "column": 30,
+              "row": 30
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "column": 25,
+              "row": 25
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "column": 20,
+              "row": 20
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "portfolio-item-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "portfolio-image-1",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": ""
+                    },
+                    "image_size": "full",
+                    "object_fit": "cover",
+                    "height": {
+                      "unit": "px",
+                      "size": 450
+                    },
+                    "height_tablet": {
+                      "unit": "px",
+                      "size": 350
+                    },
+                    "height_mobile": {
+                      "unit": "px",
+                      "size": 280
+                    }
+                  }
+                },
+                {
+                  "id": "portfolio-text-1",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": 25,
+                      "right": 25,
+                      "bottom": 25,
+                      "left": 25,
+                      "isLinked": true
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20,
+                      "isLinked": true
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": 18,
+                      "right": 18,
+                      "bottom": 18,
+                      "left": 18,
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": 0,
+                      "row": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "portfolio-title-1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Modern Penthouse",
+                        "html_tag": "h3",
+                        "color": "#2C1810",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_size_tablet": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        }
+                      }
+                    },
+                    {
+                      "id": "portfolio-desc-1",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #2C1810CC; font-size: 14px; line-height: 1.6; margin: 0; font-weight: 300;'>2,800 sq ft | Downtown | Completed 2023</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "portfolio-item-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "portfolio-image-2",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": ""
+                    },
+                    "image_size": "full",
+                    "object_fit": "cover",
+                    "height": {
+                      "unit": "px",
+                      "size": 550
+                    },
+                    "height_tablet": {
+                      "unit": "px",
+                      "size": 400
+                    },
+                    "height_mobile": {
+                      "unit": "px",
+                      "size": 320
+                    }
+                  }
+                },
+                {
+                  "id": "portfolio-text-2",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": 25,
+                      "right": 25,
+                      "bottom": 25,
+                      "left": 25,
+                      "isLinked": true
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20,
+                      "isLinked": true
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": 18,
+                      "right": 18,
+                      "bottom": 18,
+                      "left": 18,
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": 0,
+                      "row": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "portfolio-title-2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Coastal Estate",
+                        "html_tag": "h3",
+                        "color": "#2C1810",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_size_tablet": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        }
+                      }
+                    },
+                    {
+                      "id": "portfolio-desc-2",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #2C1810CC; font-size: 14px; line-height: 1.6; margin: 0; font-weight: 300;'>5,200 sq ft | Waterfront | Completed 2024</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "portfolio-item-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "portfolio-image-3",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": ""
+                    },
+                    "image_size": "full",
+                    "object_fit": "cover",
+                    "height": {
+                      "unit": "px",
+                      "size": 520
+                    },
+                    "height_tablet": {
+                      "unit": "px",
+                      "size": 380
+                    },
+                    "height_mobile": {
+                      "unit": "px",
+                      "size": 300
+                    }
+                  }
+                },
+                {
+                  "id": "portfolio-text-3",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": 25,
+                      "right": 25,
+                      "bottom": 25,
+                      "left": 25,
+                      "isLinked": true
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20,
+                      "isLinked": true
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": 18,
+                      "right": 18,
+                      "bottom": 18,
+                      "left": 18,
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": 0,
+                      "row": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "portfolio-title-3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Historic Brownstone",
+                        "html_tag": "h3",
+                        "color": "#2C1810",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_size_tablet": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        }
+                      }
+                    },
+                    {
+                      "id": "portfolio-desc-3",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #2C1810CC; font-size: 14px; line-height: 1.6; margin: 0; font-weight: 300;'>4,100 sq ft | Landmark District | Completed 2023</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "portfolio-item-4",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "portfolio-image-4",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": ""
+                    },
+                    "image_size": "full",
+                    "object_fit": "cover",
+                    "height": {
+                      "unit": "px",
+                      "size": 480
+                    },
+                    "height_tablet": {
+                      "unit": "px",
+                      "size": 360
+                    },
+                    "height_mobile": {
+                      "unit": "px",
+                      "size": 290
+                    }
+                  }
+                },
+                {
+                  "id": "portfolio-text-4",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": 25,
+                      "right": 25,
+                      "bottom": 25,
+                      "left": 25,
+                      "isLinked": true
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": 20,
+                      "right": 20,
+                      "bottom": 20,
+                      "left": 20,
+                      "isLinked": true
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": 18,
+                      "right": 18,
+                      "bottom": 18,
+                      "left": 18,
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": 0,
+                      "row": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "portfolio-title-4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Mountain Retreat",
+                        "html_tag": "h3",
+                        "color": "#2C1810",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_size_tablet": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        }
+                      }
+                    },
+                    {
+                      "id": "portfolio-desc-4",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #2C1810CC; font-size: 14px; line-height: 1.6; margin: 0; font-weight: 300;'>3,600 sq ft | Alpine | Completed 2024</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "portfolio-cta-button",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "View Full Portfolio",
+            "link": {
+              "url": "/portfolio"
+            },
+            "align": "center",
+            "button_type": "default",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_font_weight": "400",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "background_color": "#2C1810",
+            "color": "#F5EFE6",
+            "border_radius": {
+              "unit": "px",
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 16,
+              "right": 40,
+              "bottom": 16,
+              "left": 40,
+              "isLinked": false
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 14,
+              "right": 36,
+              "bottom": 14,
+              "left": 36,
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 12,
+              "right": 32,
+              "bottom": 12,
+              "left": 32,
+              "isLinked": false
+            },
+            "button_background_hover_color": "#C9A96E"
+          }
+        }
+      ]
+    },
+    {
+      "id": "press-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 100,
+          "right": 60,
+          "bottom": 100,
+          "left": 60,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "column": 0,
+          "row": 50
+        }
+      },
+      "elements": [
+        {
+          "id": "press-header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 0,
+              "row": 15
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "press-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #C9A96E; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; margin: 0; font-weight: 500;'>As Featured In</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "press-logos",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 60,
+              "row": 30
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "column": 45,
+              "row": 25
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "column": 25,
+              "row": 20
+            },
+            "flex_wrap": "wrap",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "press-logo-1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #2C181066; font-size: 24px; font-weight: 300; font-style: italic; margin: 0; text-align: center;'>Architectural Digest</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "press-logo-2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #2C181066; font-size: 24px; font-weight: 300; font-style: italic; margin: 0; text-align: center;'>Elle Decor</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "press-logo-3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #2C181066; font-size: 24px; font-weight: 300; font-style: italic; margin: 0; text-align: center;'>House Beautiful</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "press-logo-4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #2C181066; font-size: 24px; font-weight: 300; font-style: italic; margin: 0; text-align: center;'>Veranda</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F5EFE6",
+        "padding": {
+          "unit": "px",
+          "top": 100,
+          "right": 60,
+          "bottom": 100,
+          "left": 60,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 80,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": 0,
+          "row": 60
+        }
+      },
+      "elements": [
+        {
+          "id": "services-header",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 0,
+              "row": 20
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "services-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #C9A96E; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; margin: 0; font-weight: 500;'>Services</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 12
+                }
+              }
+            },
+            {
+              "id": "services-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "How We Work Together",
+                "html_tag": "h2",
+                "align": "center",
+                "color": "#2C1810",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 38
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "300",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "services-grid",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "column": 40,
+              "row": 40
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "column": 30,
+              "row": 30
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "column": 0,
+              "row": 30
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "service-card-1",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 35,
+                  "bottom": 40,
+                  "left": 35,
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": 35,
+                  "right": 30,
+                  "bottom": 35,
+                  "left": 30,
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": 30,
+                  "right": 25,
+                  "bottom": 30,
+                  "left": 25,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 18
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-name-1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Full-Service Design",
+                    "html_tag": "h3",
+                    "color": "#2C1810",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "service-desc-1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #2C1810CC; font-size: 15px; line-height: 1.7; margin: 0 0 12px 0; font-weight: 300;'>Comprehensive design from concept through installation. Architecture, space planning, custom furnishings, art curation, and styling.</p><p style='color: #C9A96E; font-size: 14px; margin: 0; font-weight: 400;'>Starting at $50,000</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-card-2",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 35,
+                  "bottom": 40,
+                  "left": 35,
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": 35,
+                  "right": 30,
+                  "bottom": 35,
+                  "left": 30,
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": 30,
+                  "right": 25,
+                  "bottom": 30,
+                  "left": 25,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 18
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-name-2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Design Consultancy",
+                    "html_tag": "h3",
+                    "color": "#2C1810",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "service-desc-2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #2C1810CC; font-size: 15px; line-height: 1.7; margin: 0 0 12px 0; font-weight: 300;'>Strategic design direction and guidance. Ideal for renovation planning, layout optimization, or color/material selection.</p><p style='color: #C9A96E; font-size: 14px; margin: 0; font-weight: 400;'>Starting at $8,500</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-card-3",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 35,
+                  "bottom": 40,
+                  "left": 35,
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": 35,
+                  "right": 30,
+                  "bottom": 35,
+                  "left": 30,
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": 30,
+                  "right": 25,
+                  "bottom": 30,
+                  "left": 25,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 18
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-name-3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Art & Object Curation",
+                    "html_tag": "h3",
+                    "color": "#2C1810",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "service-desc-3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #2C1810CC; font-size: 15px; line-height: 1.7; margin: 0 0 12px 0; font-weight: 300;'>Sourcing and placement of art, antiques, and decorative objects to complete your space with personality and distinction.</p><p style='color: #C9A96E; font-size: 14px; margin: 0; font-weight: 400;'>Starting at $5,000</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-card-4",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 40,
+                  "right": 35,
+                  "bottom": 40,
+                  "left": 35,
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": 35,
+                  "right": 30,
+                  "bottom": 35,
+                  "left": 30,
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": 30,
+                  "right": 25,
+                  "bottom": 30,
+                  "left": 25,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 18
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-name-4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "E-Design Package",
+                    "html_tag": "h3",
+                    "color": "#2C1810",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "service-desc-4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #2C1810CC; font-size: 15px; line-height: 1.7; margin: 0 0 12px 0; font-weight: 300;'>Remote design service with mood boards, layouts, and shopping lists. Perfect for self-directed clients seeking professional guidance.</p><p style='color: #C9A96E; font-size: 14px; margin: 0; font-weight: 400;'>Starting at $2,500</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "press-kit-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#2C1810",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 60,
+          "bottom": 80,
+          "left": 60,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 70,
+          "right": 40,
+          "bottom": 70,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 60,
+          "right": 20,
+          "bottom": 60,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "column": 0,
+          "row": 30
+        }
+      },
+      "elements": [
+        {
+          "id": "press-kit-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Press & Media Inquiries",
+            "html_tag": "h2",
+            "align": "center",
+            "color": "#F5EFE6",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 32
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 26
+            },
+            "typography_font_weight": "300",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.3
+            }
+          }
+        },
+        {
+          "id": "press-kit-text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style='text-align: center; color: #F5EFE6CC; font-size: 16px; line-height: 1.6; margin: 0; max-width: 600px; font-weight: 300;'>Download our complete press kit including high-resolution portfolio images, biography, awards, and press releases.</p>"
+          }
+        },
+        {
+          "id": "press-kit-button",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Download Press Kit",
+            "link": {
+              "url": "#"
+            },
+            "align": "center",
+            "button_type": "default",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_font_weight": "400",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "background_color": "#C9A96E",
+            "color": "#2C1810",
+            "border_radius": {
+              "unit": "px",
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 16,
+              "right": 40,
+              "bottom": 16,
+              "left": 40,
+              "isLinked": false
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 14,
+              "right": 36,
+              "bottom": 14,
+              "left": 36,
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 12,
+              "right": 32,
+              "bottom": 12,
+              "left": 32,
+              "isLinked": false
+            },
+            "button_background_hover_color": "#F5EFE6",
+            "hover_color": "#2C1810"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F5EFE6",
+        "padding": {
+          "unit": "px",
+          "top": 120,
+          "right": 60,
+          "bottom": 120,
+          "left": 60,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 100,
+          "right": 40,
+          "bottom": 100,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 80,
+          "right": 20,
+          "bottom": 80,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "column": 0,
+          "row": 35
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Begin Your Project",
+            "html_tag": "h2",
+            "align": "center",
+            "color": "#2C1810",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 34
+            },
+            "typography_font_weight": "300",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            }
+          }
+        },
+        {
+          "id": "cta-text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style='text-align: center; color: #2C1810CC; font-size: 18px; line-height: 1.7; margin: 0; max-width: 600px; font-weight: 300;'>Let's create something extraordinary together. Share your vision and we'll schedule a complimentary consultation to discuss how we can bring it to life.</p>",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 15
+            }
+          }
+        },
+        {
+          "id": "cta-button",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Start Your Inquiry",
+            "link": {
+              "url": "/quote"
+            },
+            "align": "center",
+            "button_type": "default",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_font_weight": "400",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "background_color": "#2C1810",
+            "color": "#F5EFE6",
+            "border_radius": {
+              "unit": "px",
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": 18,
+              "right": 48,
+              "bottom": 18,
+              "left": 48,
+              "isLinked": false
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": 16,
+              "right": 42,
+              "bottom": 16,
+              "left": 42,
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": 14,
+              "right": 38,
+              "bottom": 14,
+              "left": 38,
+              "isLinked": false
+            },
+            "button_background_hover_color": "#C9A96E"
+          }
+        }
+      ]
+    }
+  ]
+}

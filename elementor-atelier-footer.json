@@ -1,0 +1,415 @@
+{
+  "content": [
+    {
+      "id": "footer-main",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#2C1810",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 60,
+          "bottom": 40,
+          "left": 60,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 60,
+          "right": 40,
+          "bottom": 30,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 50,
+          "right": 20,
+          "bottom": 25,
+          "left": 20,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": 0,
+          "row": 60
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "column": 0,
+          "row": 45
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "column": 0,
+          "row": 35
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-top-row",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_gap": {
+              "unit": "px",
+              "column": 60,
+              "row": 40
+            },
+            "flex_wrap": "wrap",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_direction_mobile": "column"
+          },
+          "elements": [
+            {
+              "id": "footer-brand-col",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 20
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 45
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-company-name",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[COMPANY NAME]",
+                    "html_tag": "h3",
+                    "color": "#F5EFE6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "300",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    }
+                  }
+                },
+                {
+                  "id": "footer-tagline",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #C9A96E; font-size: 15px; line-height: 1.6; margin: 0; font-weight: 300; font-style: italic;'>[TAGLINE]</p>"
+                  }
+                },
+                {
+                  "id": "footer-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #F5EFE6CC; font-size: 14px; line-height: 1.7; margin: 15px 0 0 0;'>Curating elevated, timeless interiors for discerning clients in [CITY, STATE].</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-nav-col",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 18
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-nav-heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Navigate",
+                    "html_tag": "h4",
+                    "color": "#C9A96E",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "500",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 2
+                    },
+                    "typography_text_transform": "uppercase"
+                  }
+                },
+                {
+                  "id": "footer-nav-links",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<style>\n  .footer-nav-links a {\n    display: block;\n    color: #F5EFE6CC;\n    text-decoration: none;\n    font-size: 14px;\n    line-height: 2.2;\n    transition: color 0.3s ease;\n    font-weight: 300;\n  }\n  .footer-nav-links a:hover {\n    color: #C9A96E;\n  }\n  @media (max-width: 767px) {\n    .footer-nav-links a {\n      font-size: 13px;\n      line-height: 2;\n    }\n  }\n</style>\n<div class='footer-nav-links'>\n  <a href='/'>Home</a>\n  <a href='/portfolio'>Portfolio</a>\n  <a href='/services'>Services</a>\n  <a href='/about'>About</a>\n  <a href='/contact'>Contact</a>\n  <a href='/quote'>Begin Project</a>\n</div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-contact-col",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 18
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 45
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-contact-heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Inquiries",
+                    "html_tag": "h4",
+                    "color": "#C9A96E",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "500",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 2
+                    },
+                    "typography_text_transform": "uppercase"
+                  }
+                },
+                {
+                  "id": "footer-contact-info",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style='color: #F5EFE6CC; font-size: 14px; line-height: 1.9; font-weight: 300;'>\n  <p style='margin: 0 0 8px 0;'><a href='tel:[PHONE NUMBER]' style='color: #F5EFE6CC; text-decoration: none; transition: color 0.3s;'>[PHONE NUMBER]</a></p>\n  <p style='margin: 0 0 8px 0;'><a href='mailto:[EMAIL ADDRESS]' style='color: #F5EFE6CC; text-decoration: none; transition: color 0.3s;'>[EMAIL ADDRESS]</a></p>\n  <p style='margin: 15px 0 0 0; color: #C9A96E99; font-size: 13px;'>[CITY, STATE]</p>\n</div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-credentials-col",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": 0,
+                  "row": 18
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 20
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 45
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-credentials-heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Credentials",
+                    "html_tag": "h4",
+                    "color": "#C9A96E",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "500",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 2
+                    },
+                    "typography_text_transform": "uppercase"
+                  }
+                },
+                {
+                  "id": "footer-credentials-list",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style='color: #F5EFE6CC; font-size: 14px; line-height: 2; font-weight: 300;'>\n  <p style='margin: 0;'>ASID Member</p>\n  <p style='margin: 0;'>NCIDQ Certified</p>\n  <p style='margin: 0;'>20+ Years Practice</p>\n  <p style='margin: 0;'>Featured in AD, Elle Decor</p>\n</div>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footer-divider",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#C9A96E33",
+            "height": {
+              "unit": "px",
+              "size": 1
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "footer-bottom-row",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "column": 30,
+              "row": 20
+            },
+            "flex_wrap": "wrap",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_direction_mobile": "column",
+            "flex_align_items_mobile": "center"
+          },
+          "elements": [
+            {
+              "id": "footer-copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #F5EFE6CC; font-size: 13px; margin: 0; font-weight: 300;'>© 2024 [COMPANY NAME]. All rights reserved.</p>"
+              }
+            },
+            {
+              "id": "footer-powered",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #C9A96E99; font-size: 12px; margin: 0; font-weight: 300;'>Powered by <a href='https://instabid.io' style='color: #C9A96E; text-decoration: none;'>InstaBid</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
