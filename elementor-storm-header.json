@@ -1,0 +1,275 @@
+{
+  "content": [
+    {
+      "id": "emergency-banner",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#D32F2F",
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "80",
+          "bottom": "12",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "10",
+          "right": "48",
+          "bottom": "10",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "10",
+          "right": "24",
+          "bottom": "10",
+          "left": "24"
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile": "column",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": "20"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "16"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "12"
+        }
+      },
+      "elements": [
+        {
+          "id": "emergency-text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "⚠️ <strong>STORM DAMAGE? EMERGENCY REPAIRS AVAILABLE 24/7</strong>",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "14"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "13"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "12"
+            },
+            "typography_font_weight": "600",
+            "text_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "emergency-phone",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "📞 <strong>[PHONE NUMBER]</strong>",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "14"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "13"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": "13"
+            },
+            "typography_font_weight": "700",
+            "text_color": "#FFFFFF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "main-header",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1C1C1E",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "80",
+          "bottom": "24",
+          "left": "80"
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "48",
+          "bottom": "20",
+          "left": "48"
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "18",
+          "right": "24",
+          "bottom": "18",
+          "left": "24"
+        },
+        "flex_direction": "row",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile": "column",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": "40"
+        },
+        "flex_gap_tablet": {
+          "unit": "px",
+          "size": "32"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": "24"
+        }
+      },
+      "elements": [
+        {
+          "id": "logo",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": ""
+            },
+            "width": {
+              "unit": "px",
+              "size": "180"
+            },
+            "width_tablet": {
+              "unit": "px",
+              "size": "160"
+            },
+            "width_mobile": {
+              "unit": "px",
+              "size": "140"
+            }
+          }
+        },
+        {
+          "id": "nav-container",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_direction_tablet": "row",
+            "flex_direction_mobile": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": "40"
+            },
+            "flex_gap_tablet": {
+              "unit": "px",
+              "size": "32"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "nav-links",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<a href='/' style='color: #E5E5E7; text-decoration: none; font-weight: 600; font-size: 15px;'>Home</a> &nbsp;&nbsp;&nbsp; <a href='/services' style='color: #E5E5E7; text-decoration: none; font-weight: 600; font-size: 15px;'>Services</a> &nbsp;&nbsp;&nbsp; <a href='/about' style='color: #E5E5E7; text-decoration: none; font-weight: 600; font-size: 15px;'>About</a> &nbsp;&nbsp;&nbsp; <a href='/contact' style='color: #E5E5E7; text-decoration: none; font-weight: 600; font-size: 15px;'>Contact</a>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "600",
+                "text_color": "#E5E5E7"
+              }
+            },
+            {
+              "id": "cta-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Free Inspection",
+                "link": {
+                  "url": "/quote"
+                },
+                "size": "sm",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "700",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#E8703A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "4",
+                  "right": "4",
+                  "bottom": "4",
+                  "left": "4"
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "32",
+                  "bottom": "14",
+                  "left": "32"
+                },
+                "button_padding_tablet": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "28",
+                  "bottom": "12",
+                  "left": "28"
+                },
+                "button_padding_mobile": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "28",
+                  "bottom": "12",
+                  "left": "28"
+                },
+                "hover_color": "#FFFFFF",
+                "button_background_hover_color": "#D66130"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
