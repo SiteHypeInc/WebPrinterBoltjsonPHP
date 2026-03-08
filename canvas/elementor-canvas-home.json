@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Canvas Home",
+  "type": "page",
   "content": [
     {
       "id": "color-strip",
@@ -140,7 +143,7 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "[CITY, STATE]'s Color Experts — Interior & Exterior.",
+                "title": "[CITY, STATE]'s Color Experts \u2014 Interior & Exterior.",
                 "html_tag": "h1",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -168,7 +171,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "[TAGLINE] — Professional painting services that transform your space. From color selection to the final brushstroke, we bring your vision to life.",
+                "editor": "[TAGLINE] \u2014 Professional painting services that transform your space. From color selection to the final brushstroke, we bring your vision to life.",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",

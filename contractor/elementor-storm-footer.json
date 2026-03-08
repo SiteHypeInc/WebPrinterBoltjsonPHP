@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Storm Footer",
+  "type": "page",
   "content": [
     {
       "id": "footer-main",
@@ -357,7 +360,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "© 2024 [COMPANY NAME]. All rights reserved.",
+            "editor": "\u00a9 2024 [COMPANY NAME]. All rights reserved.",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",

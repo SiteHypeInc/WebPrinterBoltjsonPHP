@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Storm Header",
+  "type": "page",
   "content": [
     {
       "id": "emergency-banner",
@@ -52,7 +55,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "⚠️ <strong>STORM DAMAGE? EMERGENCY REPAIRS AVAILABLE 24/7</strong>",
+            "editor": "\u26a0\ufe0f <strong>STORM DAMAGE? EMERGENCY REPAIRS AVAILABLE 24/7</strong>",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",
@@ -75,7 +78,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "📞 <strong>[PHONE NUMBER]</strong>",
+            "editor": "\ud83d\udcde <strong>[PHONE NUMBER]</strong>",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",

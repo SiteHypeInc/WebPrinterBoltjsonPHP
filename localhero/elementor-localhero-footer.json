@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Localhero Footer",
+  "type": "page",
   "content": [
     {
       "id": "footer-main",
@@ -408,7 +411,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style='color:#666666;font-family:Open Sans,sans-serif;font-size:14px;margin:0;'>© 2024 [COMPANY NAME]. All rights reserved.</p>",
+            "editor": "<p style='color:#666666;font-family:Open Sans,sans-serif;font-size:14px;margin:0;'>\u00a9 2024 [COMPANY NAME]. All rights reserved.</p>",
             "typography_font_family": "Open Sans",
             "typography_font_size": {
               "unit": "px",

@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Canvas Header",
+  "type": "page",
   "content": [
     {
       "id": "header-main",

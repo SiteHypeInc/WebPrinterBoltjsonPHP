@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Atelier Contact",
+  "type": "page",
   "content": [
     {
       "id": "contact-hero",
@@ -535,7 +538,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<div style='text-align: center; color: #2C1810; font-size: 16px; line-height: 2; font-weight: 300;'><p style='margin: 0;'><strong style='font-weight: 400;'>Monday – Thursday:</strong> 9:00 AM – 5:00 PM</p><p style='margin: 0;'><strong style='font-weight: 400;'>Friday:</strong> 9:00 AM – 3:00 PM</p><p style='margin: 0;'><strong style='font-weight: 400;'>Saturday – Sunday:</strong> By Appointment</p><p style='margin: 20px 0 0 0; color: #2C1810CC; font-size: 15px; font-style: italic;'>Studio visits are by appointment only to ensure personalized attention.</p></div>"
+            "editor": "<div style='text-align: center; color: #2C1810; font-size: 16px; line-height: 2; font-weight: 300;'><p style='margin: 0;'><strong style='font-weight: 400;'>Monday \u2013 Thursday:</strong> 9:00 AM \u2013 5:00 PM</p><p style='margin: 0;'><strong style='font-weight: 400;'>Friday:</strong> 9:00 AM \u2013 3:00 PM</p><p style='margin: 0;'><strong style='font-weight: 400;'>Saturday \u2013 Sunday:</strong> By Appointment</p><p style='margin: 20px 0 0 0; color: #2C1810CC; font-size: 15px; font-style: italic;'>Studio visits are by appointment only to ensure personalized attention.</p></div>"
           }
         }
       ]

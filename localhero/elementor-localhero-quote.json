@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Localhero Quote",
+  "type": "page",
   "content": [
     {
       "id": "quote-hero",

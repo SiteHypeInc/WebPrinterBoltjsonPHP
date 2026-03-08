@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Storm Home",
+  "type": "page",
   "content": [
     {
       "id": "hero-section",
@@ -53,7 +56,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<span style='background: #E8703A; color: #FFFFFF; padding: 8px 20px; border-radius: 4px; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;'>Licensed • Insured • 25+ Years</span>",
+            "editor": "<span style='background: #E8703A; color: #FFFFFF; padding: 8px 20px; border-radius: 4px; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 1px;'>Licensed \u2022 Insured \u2022 25+ Years</span>",
             "text_color": "#FFFFFF"
           }
         },
@@ -62,7 +65,7 @@
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "[CITY, STATE]'s Most Trusted Roof — Done Right.",
+            "title": "[CITY, STATE]'s Most Trusted Roof \u2014 Done Right.",
             "html_tag": "h1",
             "typography_typography": "custom",
             "typography_font_size": {
@@ -90,7 +93,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "[TAGLINE] — Expert roofing repairs, replacements, and emergency services. We work with all insurance companies.",
+            "editor": "[TAGLINE] \u2014 Expert roofing repairs, replacements, and emergency services. We work with all insurance companies.",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",

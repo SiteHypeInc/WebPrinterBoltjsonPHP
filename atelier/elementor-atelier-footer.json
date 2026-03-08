@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Atelier Footer",
+  "type": "page",
   "content": [
     {
       "id": "footer-main",
@@ -396,7 +399,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='color: #F5EFE6CC; font-size: 13px; margin: 0; font-weight: 300;'>© 2024 [COMPANY NAME]. All rights reserved.</p>"
+                "editor": "<p style='color: #F5EFE6CC; font-size: 13px; margin: 0; font-weight: 300;'>\u00a9 2024 [COMPANY NAME]. All rights reserved.</p>"
               }
             },
             {

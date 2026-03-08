@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Blueprint Mediakit",
+  "type": "page",
   "content": [
     {
       "id": "hero-section",

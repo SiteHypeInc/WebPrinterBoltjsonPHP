@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Blueprint Services",
+  "type": "page",
   "content": [
     {
       "id": "services-hero",
@@ -289,7 +292,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>• Conceptual design & feasibility studies<br>• 3D modeling & photorealistic renderings<br>• Construction documentation<br>• Code compliance & permitting support<br>• Design-build coordination",
+                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>\u2022 Conceptual design & feasibility studies<br>\u2022 3D modeling & photorealistic renderings<br>\u2022 Construction documentation<br>\u2022 Code compliance & permitting support<br>\u2022 Design-build coordination",
                 "typography_typography": "custom",
                 "typography_font_family": "DM Sans, sans-serif",
                 "typography_font_size": {
@@ -537,7 +540,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>• Load & stress analysis<br>• Foundation & framing design<br>• Seismic & lateral force engineering<br>• Steel, concrete & timber specifications<br>• Third-party plan reviews",
+                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>\u2022 Load & stress analysis<br>\u2022 Foundation & framing design<br>\u2022 Seismic & lateral force engineering<br>\u2022 Steel, concrete & timber specifications<br>\u2022 Third-party plan reviews",
                 "typography_typography": "custom",
                 "typography_font_family": "DM Sans, sans-serif",
                 "typography_font_size": {
@@ -719,7 +722,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>• Project scheduling & budgeting<br>• Quality control & site supervision<br>• Subcontractor coordination<br>• Material procurement & logistics<br>• Final commissioning & turnover",
+                "editor": "<strong style='font-family: Space Grotesk, sans-serif; color: #111111; font-size: 15px;'>KEY DELIVERABLES:</strong><br><br>\u2022 Project scheduling & budgeting<br>\u2022 Quality control & site supervision<br>\u2022 Subcontractor coordination<br>\u2022 Material procurement & logistics<br>\u2022 Final commissioning & turnover",
                 "typography_typography": "custom",
                 "typography_font_family": "DM Sans, sans-serif",
                 "typography_font_size": {

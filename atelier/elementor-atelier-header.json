@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Atelier Header",
+  "type": "page",
   "content": [
     {
       "id": "header-main",

@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Atelier About",
+  "type": "page",
   "content": [
     {
       "id": "about-hero",
@@ -259,7 +262,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='color: #2C1810; font-size: 17px; line-height: 1.9; margin: 0; font-weight: 300; text-align: left;'>I believe the most successful interiors aren't dictated by fleeting trends, but rather emerge from a deep understanding of how people live, what they value, and what brings them joy. My approach is collaborative and deeply personal—each project is a unique dialogue between client and designer.</p>"
+                "editor": "<p style='color: #2C1810; font-size: 17px; line-height: 1.9; margin: 0; font-weight: 300; text-align: left;'>I believe the most successful interiors aren't dictated by fleeting trends, but rather emerge from a deep understanding of how people live, what they value, and what brings them joy. My approach is collaborative and deeply personal\u2014each project is a unique dialogue between client and designer.</p>"
               }
             },
             {
@@ -267,7 +270,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='color: #2C1810; font-size: 17px; line-height: 1.9; margin: 0; font-weight: 300; text-align: left;'>I draw inspiration from classical architecture, fine art, natural materials, and global craft traditions. The result is layered, nuanced spaces that feel both timeless and entirely contemporary—interiors that honor history while embracing modern living.</p>"
+                "editor": "<p style='color: #2C1810; font-size: 17px; line-height: 1.9; margin: 0; font-weight: 300; text-align: left;'>I draw inspiration from classical architecture, fine art, natural materials, and global craft traditions. The result is layered, nuanced spaces that feel both timeless and entirely contemporary\u2014interiors that honor history while embracing modern living.</p>"
               }
             },
             {
@@ -275,7 +278,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='color: #2C1810; font-size: 17px; line-height: 1.9; margin: 0; font-weight: 300; text-align: left;'>Above all, I'm committed to creating spaces that endure—environments that grow richer and more meaningful with time, reflecting the lives and stories of those who inhabit them.</p>"
+                "editor": "<p style='color: #2C1810; font-size: 17px; line-height: 1.9; margin: 0; font-weight: 300; text-align: left;'>Above all, I'm committed to creating spaces that endure\u2014environments that grow richer and more meaningful with time, reflecting the lives and stories of those who inhabit them.</p>"
               }
             }
           ]
@@ -666,7 +669,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style='text-align: center; color: #2C1810CC; font-size: 17px; line-height: 1.8; margin: 0; max-width: 800px; font-weight: 300;'>I've had the privilege of working with CEOs, entrepreneurs, artists, and thought leaders on projects ranging from intimate urban apartments to sprawling estates. Discretion and confidentiality are paramount—selected client testimonials available upon request.</p>",
+            "editor": "<p style='text-align: center; color: #2C1810CC; font-size: 17px; line-height: 1.8; margin: 0; max-width: 800px; font-weight: 300;'>I've had the privilege of working with CEOs, entrepreneurs, artists, and thought leaders on projects ranging from intimate urban apartments to sprawling estates. Discretion and confidentiality are paramount\u2014selected client testimonials available upon request.</p>",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",

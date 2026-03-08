@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Authority Home",
+  "type": "page",
   "content": [
     {
       "id": "hero-section",

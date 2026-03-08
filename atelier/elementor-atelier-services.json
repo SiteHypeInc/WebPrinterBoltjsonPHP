@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Atelier Services",
+  "type": "page",
   "content": [
     {
       "id": "services-hero",
@@ -303,7 +306,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>A comprehensive design experience from initial concept through final installation. This white-glove service encompasses architecture collaboration, space planning, custom furnishings, art and antiques sourcing, lighting design, and complete styling.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>• Initial consultation and site analysis<br>• Conceptual design and mood boards<br>• Space planning and architectural drawings<br>• Custom furniture design and sourcing<br>• Art and object curation<br>• Lighting and fixture selection<br>• Project management and installation<br>• Final styling and photography coordination</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $50,000</p>"
+                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>A comprehensive design experience from initial concept through final installation. This white-glove service encompasses architecture collaboration, space planning, custom furnishings, art and antiques sourcing, lighting design, and complete styling.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>\u2022 Initial consultation and site analysis<br>\u2022 Conceptual design and mood boards<br>\u2022 Space planning and architectural drawings<br>\u2022 Custom furniture design and sourcing<br>\u2022 Art and object curation<br>\u2022 Lighting and fixture selection<br>\u2022 Project management and installation<br>\u2022 Final styling and photography coordination</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $50,000</p>"
                   }
                 }
               ]
@@ -401,7 +404,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>Strategic design direction for clients who want professional expertise but prefer to manage implementation themselves. Ideal for renovation planning, layout optimization, or material and color selection.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>• Initial consultation (2 hours)<br>• Comprehensive design recommendations<br>• Space planning concepts<br>• Color and material palette<br>• Furniture layout and specifications<br>• Shopping guide with sourcing recommendations<br>• Two revision rounds<br>• Implementation guidance</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $8,500</p>"
+                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>Strategic design direction for clients who want professional expertise but prefer to manage implementation themselves. Ideal for renovation planning, layout optimization, or material and color selection.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>\u2022 Initial consultation (2 hours)<br>\u2022 Comprehensive design recommendations<br>\u2022 Space planning concepts<br>\u2022 Color and material palette<br>\u2022 Furniture layout and specifications<br>\u2022 Shopping guide with sourcing recommendations<br>\u2022 Two revision rounds<br>\u2022 Implementation guidance</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $8,500</p>"
                   }
                 }
               ]
@@ -571,7 +574,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>Transform your space with carefully selected art, antiques, and decorative objects that reflect your taste and tell your story. This specialized service brings personality and distinction to any interior.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>• In-home consultation and assessment<br>• Art and object sourcing from galleries, auction houses, and private dealers<br>• Custom framing and presentation recommendations<br>• Placement planning and installation coordination<br>• Authentication and appraisal guidance<br>• Collection development strategy</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $5,000</p>"
+                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>Transform your space with carefully selected art, antiques, and decorative objects that reflect your taste and tell your story. This specialized service brings personality and distinction to any interior.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>\u2022 In-home consultation and assessment<br>\u2022 Art and object sourcing from galleries, auction houses, and private dealers<br>\u2022 Custom framing and presentation recommendations<br>\u2022 Placement planning and installation coordination<br>\u2022 Authentication and appraisal guidance<br>\u2022 Collection development strategy</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $5,000</p>"
                   }
                 }
               ]
@@ -669,7 +672,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>Professional design expertise delivered remotely for clients anywhere in the world. Perfect for self-directed individuals who want expert guidance with the flexibility of DIY implementation.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>• Virtual consultation via video call<br>• Custom mood boards and design concepts<br>• Detailed floor plans and layouts<br>• Curated shopping lists with direct links<br>• Color and material specifications<br>• Styling and arrangement guidelines<br>• Two revision rounds<br>• Email support during implementation</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $2,500</p>"
+                    "editor": "<p style='color: #2C1810CC; font-size: 16px; line-height: 1.8; margin: 0 0 20px 0; font-weight: 300;'>Professional design expertise delivered remotely for clients anywhere in the world. Perfect for self-directed individuals who want expert guidance with the flexibility of DIY implementation.</p><p style='color: #2C1810CC; font-size: 15px; line-height: 1.8; margin: 0; font-weight: 300;'><strong style='font-weight: 500;'>What's included:</strong><br>\u2022 Virtual consultation via video call<br>\u2022 Custom mood boards and design concepts<br>\u2022 Detailed floor plans and layouts<br>\u2022 Curated shopping lists with direct links<br>\u2022 Color and material specifications<br>\u2022 Styling and arrangement guidelines<br>\u2022 Two revision rounds<br>\u2022 Email support during implementation</p><p style='color: #C9A96E; font-size: 16px; margin: 20px 0 0 0; font-weight: 400;'>Investment begins at $2,500</p>"
                   }
                 }
               ]

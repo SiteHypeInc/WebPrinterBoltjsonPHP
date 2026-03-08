@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Studio Home",
+  "type": "page",
   "content": [
     {
       "id": "hero-section",
@@ -157,7 +160,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "[TAGLINE] — We create spaces that reflect your story, enhance your daily life, and stand the test of time.",
+                "editor": "[TAGLINE] \u2014 We create spaces that reflect your story, enhance your daily life, and stand the test of time.",
                 "typography_typography": "custom",
                 "typography_font_family": "Lato, sans-serif",
                 "typography_font_size": {
@@ -366,7 +369,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "We believe that great design is invisible. It doesn't shout—it whispers. Each space we create is a careful balance of aesthetics and livability, designed to enrich your everyday moments without ever demanding attention.",
+                "editor": "We believe that great design is invisible. It doesn't shout\u2014it whispers. Each space we create is a careful balance of aesthetics and livability, designed to enrich your everyday moments without ever demanding attention.",
                 "typography_typography": "custom",
                 "typography_font_family": "Lato, sans-serif",
                 "typography_font_size": {
@@ -1322,7 +1325,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "We manage every detail of execution—sourcing, coordination, and white-glove installation.",
+                    "editor": "We manage every detail of execution\u2014sourcing, coordination, and white-glove installation.",
                     "typography_typography": "custom",
                     "typography_font_family": "Lato, sans-serif",
                     "typography_font_size": {
@@ -1429,7 +1432,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "Your completed space is delivered, styled, and ready to live in—exactly as envisioned.",
+                    "editor": "Your completed space is delivered, styled, and ready to live in\u2014exactly as envisioned.",
                     "typography_typography": "custom",
                     "typography_font_family": "Lato, sans-serif",
                     "typography_font_size": {

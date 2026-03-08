@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Blueprint Home",
+  "type": "page",
   "content": [
     {
       "id": "hero-section",
@@ -148,7 +151,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "[TAGLINE] — We combine architectural vision with structural engineering expertise to deliver projects that are as technically sound as they are visually striking.",
+                "editor": "[TAGLINE] \u2014 We combine architectural vision with structural engineering expertise to deliver projects that are as technically sound as they are visually striking.",
                 "typography_typography": "custom",
                 "typography_font_family": "DM Sans, sans-serif",
                 "typography_font_size": {

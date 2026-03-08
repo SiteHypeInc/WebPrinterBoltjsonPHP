@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Atelier Home",
+  "type": "page",
   "content": [
     {
       "id": "hero-section",
@@ -340,7 +343,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='text-align: center; color: #2C1810CC; font-size: 17px; line-height: 1.8; margin: 0; font-weight: 300;'>I believe every space should tell a story—your story. My approach blends classical principles with modern sensibilities, creating interiors that feel both elevated and intimately personal. Each project begins with listening, evolves through collaboration, and culminates in spaces that stand the test of time.</p>",
+                "editor": "<p style='text-align: center; color: #2C1810CC; font-size: 17px; line-height: 1.8; margin: 0; font-weight: 300;'>I believe every space should tell a story\u2014your story. My approach blends classical principles with modern sensibilities, creating interiors that feel both elevated and intimately personal. Each project begins with listening, evolves through collaboration, and culminates in spaces that stand the test of time.</p>",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",

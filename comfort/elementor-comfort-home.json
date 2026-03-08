@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Comfort Home",
+  "type": "page",
   "content": [
     {
       "id": "emergency-banner",
@@ -52,7 +55,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<svg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='#FFFFFF' stroke-width='2' style='display: inline-block; vertical-align: middle; margin-right: 12px;'><circle cx='12' cy='12' r='10'/><line x1='12' y1='8' x2='12' y2='12'/><line x1='12' y1='16' x2='12.01' y2='16'/></svg><strong style='color: #FFFFFF; font-size: 15px;'>24/7 Emergency HVAC Service Available</strong><span style='color: rgba(255, 255, 255, 0.95); font-size: 15px; margin-left: 8px;'>— Fast response when you need it most</span>",
+            "editor": "<svg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='#FFFFFF' stroke-width='2' style='display: inline-block; vertical-align: middle; margin-right: 12px;'><circle cx='12' cy='12' r='10'/><line x1='12' y1='8' x2='12' y2='12'/><line x1='12' y1='16' x2='12.01' y2='16'/></svg><strong style='color: #FFFFFF; font-size: 15px;'>24/7 Emergency HVAC Service Available</strong><span style='color: rgba(255, 255, 255, 0.95); font-size: 15px; margin-left: 8px;'>\u2014 Fast response when you need it most</span>",
             "align": "center",
             "align_mobile": "center",
             "typography_typography": "custom",
@@ -205,7 +208,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "[TAGLINE] — Expert installation, repair, and maintenance for residential and commercial HVAC systems. Certified technicians, transparent pricing, and satisfaction guaranteed.",
+                "editor": "[TAGLINE] \u2014 Expert installation, repair, and maintenance for residential and commercial HVAC systems. Certified technicians, transparent pricing, and satisfaction guaranteed.",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",

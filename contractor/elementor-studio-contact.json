@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Studio Contact",
+  "type": "page",
   "content": [
     {
       "id": "contact-hero",

@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Studio About",
+  "type": "page",
   "content": [
     {
       "id": "about-hero",
@@ -107,7 +110,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "We believe your home should be a reflection of who you are—not a collection of trends. Our approach is rooted in timeless design, thoughtful curation, and a deep respect for how spaces shape daily life.",
+            "editor": "We believe your home should be a reflection of who you are\u2014not a collection of trends. Our approach is rooted in timeless design, thoughtful curation, and a deep respect for how spaces shape daily life.",
             "typography_typography": "custom",
             "typography_font_family": "Lato, sans-serif",
             "typography_font_size": {
@@ -303,7 +306,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "Founded in [CITY, STATE], [COMPANY NAME] began with a simple belief: that great design doesn't shout—it resonates. We create interiors that feel effortless, intentional, and deeply personal.",
+                "editor": "Founded in [CITY, STATE], [COMPANY NAME] began with a simple belief: that great design doesn't shout\u2014it resonates. We create interiors that feel effortless, intentional, and deeply personal.",
                 "typography_typography": "custom",
                 "typography_font_family": "Lato, sans-serif",
                 "typography_font_size": {
@@ -331,7 +334,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "Our work has been featured in leading design publications, but what we're most proud of are the homes we've helped transform—spaces where families gather, inspiration strikes, and life unfolds beautifully.",
+                "editor": "Our work has been featured in leading design publications, but what we're most proud of are the homes we've helped transform\u2014spaces where families gather, inspiration strikes, and life unfolds beautifully.",
                 "typography_typography": "custom",
                 "typography_font_family": "Lato, sans-serif",
                 "typography_font_size": {
@@ -568,7 +571,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "We design spaces that honor your unique story—not what's trending this season. Every choice is intentional, every detail meaningful.",
+                    "editor": "We design spaces that honor your unique story\u2014not what's trending this season. Every choice is intentional, every detail meaningful.",
                     "typography_typography": "custom",
                     "typography_font_family": "Lato, sans-serif",
                     "typography_font_size": {

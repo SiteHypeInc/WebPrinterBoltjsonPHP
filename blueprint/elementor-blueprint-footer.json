@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Blueprint Footer",
+  "type": "page",
   "content": [
     {
       "id": "footer-container",
@@ -328,7 +331,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "© 2024 [COMPANY NAME]. All rights reserved.",
+                "editor": "\u00a9 2024 [COMPANY NAME]. All rights reserved.",
                 "typography_typography": "custom",
                 "typography_font_family": "DM Sans, sans-serif",
                 "typography_font_size": {

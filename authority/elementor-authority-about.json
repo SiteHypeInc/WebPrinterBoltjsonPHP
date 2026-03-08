@@ -1,4 +1,7 @@
 {
+  "version": "0.4",
+  "title": "Authority About",
+  "type": "page",
   "content": [
     {
       "id": "about-hero",
@@ -281,7 +284,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "From local morning shows to national networks, I've spent two decades mastering the art of authentic connection. My journey from [CITY, STATE] to screens across America has taught me one truth: the best stories don't just inform—they transform.<br><br>Today, I partner with visionary brands who understand that true influence isn't bought, it's built. Through strategic storytelling and genuine audience engagement, we create campaigns that don't just reach people—they move them.",
+                    "editor": "From local morning shows to national networks, I've spent two decades mastering the art of authentic connection. My journey from [CITY, STATE] to screens across America has taught me one truth: the best stories don't just inform\u2014they transform.<br><br>Today, I partner with visionary brands who understand that true influence isn't bought, it's built. Through strategic storytelling and genuine audience engagement, we create campaigns that don't just reach people\u2014they move them.",
                     "typography_typography": "custom",
                     "typography_font_family": "Inter",
                     "typography_font_size": {

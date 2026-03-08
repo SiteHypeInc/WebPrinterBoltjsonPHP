@@ -1,7 +1,14 @@
 {
+  "version": "0.4",
+  "title": "Tsconfig",
+  "type": "page",
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
   ]
 }
