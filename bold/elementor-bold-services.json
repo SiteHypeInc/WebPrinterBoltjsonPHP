@@ -7,6 +7,12 @@
         "content_width": "full",
         "background_background": "classic",
         "background_color": "#1A1A1A",
+        "background_image": { "url": "[SERVICE IMAGE URL]", "id": 0 },
+        "background_size": "cover",
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(0,0,0,0.6)",
         "padding": {
           "unit": "px",
           "top": "120",
