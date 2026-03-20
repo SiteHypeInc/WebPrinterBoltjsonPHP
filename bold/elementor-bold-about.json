@@ -7,6 +7,12 @@
         "content_width": "full",
         "background_background": "classic",
         "background_color": "#1A1A1A",
+        "background_image": { "url": "[ABOUT IMAGE URL]", "id": 0 },
+        "background_size": "cover",
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(0,0,0,0.6)",
         "padding": {
           "unit": "px",
           "top": "120",
@@ -204,7 +210,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p style='font-family: Roboto; font-size: 17px; line-height: 1.8; color: #4A4A4A; margin: 0 0 20px 0;'>[COMPANY NAME] has been serving [CITY, STATE] for over [X] years. We built our reputation on honest work, quality craftsmanship, and treating every job like it's our own home.</p><p style='font-family: Roboto; font-size: 17px; line-height: 1.8; color: #4A4A4A; margin: 0 0 20px 0;'>Our team consists of licensed, insured professionals who take pride in their work. We don't cut corners, and we don't make excuses. When you hire us, you get skilled tradespeople who show up on time and get the job done right.</p><p style='font-family: Roboto; font-size: 17px; line-height: 1.8; color: #4A4A4A; margin: 0;'>We're not here to win awards or impress anyone. We're here to do solid work for fair prices. That's it.</p>",
+                "editor": "\n\n[ABOUT]\n\n",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
