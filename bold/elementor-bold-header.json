@@ -75,7 +75,7 @@
               "widgetType": "image",
               "settings": {
                 "image": {
-                  "url": "",
+                  "url": "[LOGO_URL]",
                   "id": ""
                 },
                 "image_size": "full",
