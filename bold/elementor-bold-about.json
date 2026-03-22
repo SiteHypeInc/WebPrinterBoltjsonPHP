@@ -7,7 +7,7 @@
         "content_width": "full",
         "background_background": "classic",
         "background_color": "#1A1A1A",
-        "background_image": { "url": "[ABOUT IMAGE URL]", "id": 0 },
+        "background_image": { "url": "[ABOUT IMAGE URL]", "id": "[ABOUT IMAGE ID]"},
         "background_size": "cover",
         "background_position": "center center",
         "background_repeat": "no-repeat",
