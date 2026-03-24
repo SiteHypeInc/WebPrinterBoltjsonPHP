@@ -1,0 +1,233 @@
+{
+  "content": [
+    {
+      "id": "footer-main",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A1A1A",
+        "padding": { "unit": "px", "top": "60", "right": "24", "bottom": "40", "left": "24" },
+        "padding_tablet": { "unit": "px", "top": "50", "right": "20", "bottom": "30", "left": "20" },
+        "padding_mobile": { "unit": "px", "top": "40", "right": "16", "bottom": "24", "left": "16" }
+      },
+      "elements": [
+        {
+          "id": "footer-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_gap": { "unit": "px", "row": 50 },
+            "flex_gap_tablet": { "unit": "px", "row": 40 },
+            "flex_gap_mobile": { "unit": "px", "row": 32 }
+          },
+          "elements": [
+            {
+              "id": "footer-top",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_direction_tablet": "row",
+                "flex_direction_mobile": "column",
+                "flex_gap": { "unit": "px", "column": 60, "row": 40 },
+                "flex_gap_tablet": { "unit": "px", "column": 40, "row": 32 },
+                "flex_gap_mobile": { "unit": "px", "row": 32 },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "footer-company",
+                  "elType": "container",
+                  "settings": {
+                    "width": { "unit": "%", "size": 40 },
+                    "width_tablet": { "unit": "%", "size": 100 },
+                    "width_mobile": { "unit": "%", "size": 100 },
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "row": 20 },
+                    "flex_gap_tablet": { "unit": "px", "row": 16 },
+                    "flex_gap_mobile": { "unit": "px", "row": 14 }
+                  },
+                  "elements": [
+                    {
+                      "id": "footer-company-name",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[COMPANY NAME]",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Oswald",
+                        "typography_font_size": { "unit": "px", "size": 28 },
+                        "typography_font_size_tablet": { "unit": "px", "size": 26 },
+                        "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                        "typography_font_weight": "700",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": { "unit": "px", "size": 1 },
+                        "title_color": "#FFFFFF",
+                        "margin": { "unit": "px", "bottom": 0 }
+                      }
+                    },
+                    {
+                      "id": "footer-tagline",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #E65100; font-family: Roboto; font-size: 16px; margin: 0;'>[TAGLINE]</p>",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 16 },
+                        "typography_font_size_tablet": { "unit": "px", "size": 15 },
+                        "typography_font_size_mobile": { "unit": "px", "size": 14 }
+                      }
+                    },
+                    {
+                      "id": "footer-company-info",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #999999; font-family: Roboto; font-size: 15px; line-height: 1.7; margin: 0;'>Serving [CITY, STATE] and surrounding areas with professional [TRADE] services.</p>",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 15 },
+                        "typography_font_size_tablet": { "unit": "px", "size": 14 },
+                        "typography_font_size_mobile": { "unit": "px", "size": 14 }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-nav",
+                  "elType": "container",
+                  "settings": {
+                    "width": { "unit": "%", "size": 25 },
+                    "width_tablet": { "unit": "%", "size": 45 },
+                    "width_mobile": { "unit": "%", "size": 100 },
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "row": 18 },
+                    "flex_gap_tablet": { "unit": "px", "row": 16 },
+                    "flex_gap_mobile": { "unit": "px", "row": 14 }
+                  },
+                  "elements": [
+                    {
+                      "id": "footer-nav-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "QUICK LINKS",
+                        "header_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Oswald",
+                        "typography_font_size": { "unit": "px", "size": 18 },
+                        "typography_font_weight": "600",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": { "unit": "px", "size": 1 },
+                        "title_color": "#FFFFFF",
+                        "margin": { "unit": "px", "bottom": 8 }
+                      }
+                    },
+                    {
+                      "id": "footer-nav-links",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style='list-style: none; padding: 0; margin: 0; font-family: Roboto; font-size: 15px;'><li style='margin-bottom: 10px;'><a href='/' style='color: #999999; text-decoration: none;'>Home</a></li><li style='margin-bottom: 10px;'><a href='/services' style='color: #999999; text-decoration: none;'>Services</a></li><li style='margin-bottom: 10px;'><a href='/about' style='color: #999999; text-decoration: none;'>About Us</a></li><li style='margin-bottom: 10px;'><a href='/contact' style='color: #999999; text-decoration: none;'>Contact</a></li><li><a href='/quote' style='color: #E65100; text-decoration: none; font-weight: 600;'>Get a Quote</a></li></ul>",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 15 }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-contact",
+                  "elType": "container",
+                  "settings": {
+                    "width": { "unit": "%", "size": 30 },
+                    "width_tablet": { "unit": "%", "size": 45 },
+                    "width_mobile": { "unit": "%", "size": 100 },
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "row": 18 },
+                    "flex_gap_tablet": { "unit": "px", "row": 16 },
+                    "flex_gap_mobile": { "unit": "px", "row": 14 }
+                  },
+                  "elements": [
+                    {
+                      "id": "footer-contact-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "CONTACT",
+                        "header_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Oswald",
+                        "typography_font_size": { "unit": "px", "size": 18 },
+                        "typography_font_weight": "600",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": { "unit": "px", "size": 1 },
+                        "title_color": "#FFFFFF",
+                        "margin": { "unit": "px", "bottom": 8 }
+                      }
+                    },
+                    {
+                      "id": "footer-contact-info",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-family: Roboto; font-size: 15px; line-height: 2; margin: 0;'><a href='tel:[PHONE]' style='color: #999999; text-decoration: none;'>[PHONE]</a><br><a href='mailto:[EMAIL]' style='color: #999999; text-decoration: none;'>[EMAIL]</a><br><span style='color: #999999;'>[CITY, STATE]</span></p>",
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 15 }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "footer-bottom",
+              "elType": "container",
+              "settings": {
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": 3, "right": 0, "bottom": 0, "left": 0 },
+                "border_color": "#E65100",
+                "padding": { "unit": "px", "top": "30", "right": "0", "bottom": "0", "left": "0" },
+                "padding_tablet": { "unit": "px", "top": "24", "right": "0", "bottom": "0", "left": "0" },
+                "padding_mobile": { "unit": "px", "top": "20", "right": "0", "bottom": "0", "left": "0" },
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "flex_wrap": "wrap",
+                "flex_gap": { "unit": "px", "row": 16 },
+                "flex_gap_mobile": { "unit": "px", "row": 12 }
+              },
+              "elements": [
+                {
+                  "id": "footer-copyright",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #666666; font-family: Roboto; font-size: 14px; margin: 0;'>© 2025 [COMPANY NAME]. All rights reserved.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 }
+                  }
+                },
+                {
+                  "id": "footer-instabid",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-family: Roboto; font-size: 14px; margin: 0;'><a href='https://instabid.pro' target='_blank' style='color: #E65100; text-decoration: none; font-weight: 500;'>Powered by InstaBid</a></p>",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Bold Footer v2",
+  "type": "section"
+}
