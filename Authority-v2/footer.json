@@ -1,0 +1,70 @@
+{
+  "version": "0.4",
+  "title": "Authority Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "auth-footer-wrap",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": 1, "right": 0, "bottom": 0, "left": 0, "isLinked": false },
+        "border_color": "#C9A84C33",
+        "padding": { "unit": "px", "top": 60, "right": 40, "bottom": 40, "left": 40, "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": 48, "right": 24, "bottom": 32, "left": 24, "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": 40, "right": 16, "bottom": 28, "left": 16, "isLinked": false },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 48 }
+      },
+      "elements": [
+        {
+          "id": "auth-footer-top",
+          "elType": "container",
+          "settings": { "flex_direction": "row", "flex_wrap": "wrap", "flex_gap": { "unit": "px", "size": 48 }, "flex_justify_content": "space-between", "flex_align_items": "flex-start" },
+          "elements": [
+            {
+              "id": "auth-footer-brand",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 35 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 20 } },
+              "elements": [
+                { "id": "auth-f-name", "elType": "widget", "widgetType": "heading", "settings": { "title": "[COMPANY NAME]", "html_tag": "h3", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 26 }, "typography_font_weight": "700", "title_color": "#F8F5F0" } },
+                { "id": "auth-f-tag", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[TAGLINE]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 15 }, "text_color": "#C9A84C" } }
+              ]
+            },
+            {
+              "id": "auth-footer-contact",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 28 }, "width_tablet": { "unit": "%", "size": 45 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 16 } },
+              "elements": [
+                { "id": "auth-fc-title", "elType": "widget", "widgetType": "heading", "settings": { "title": "Contact", "html_tag": "h4", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 13 }, "typography_font_weight": "600", "typography_letter_spacing": { "unit": "px", "size": 1 }, "title_color": "#F8F5F066" } },
+                { "id": "auth-fc-phone", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<a href='tel:[PHONE]' style='color:#F8F5F0CC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>[PHONE]</a>", "text_color": "#F8F5F0CC" } },
+                { "id": "auth-fc-email", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<a href='mailto:[EMAIL]' style='color:#F8F5F0CC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>[EMAIL]</a>", "text_color": "#F8F5F0CC" } },
+                { "id": "auth-fc-addr", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[ADDRESS]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 15 }, "text_color": "#F8F5F0CC" } }
+              ]
+            },
+            {
+              "id": "auth-footer-nav",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 20 }, "width_tablet": { "unit": "%", "size": 45 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 16 } },
+              "elements": [
+                { "id": "auth-fn-title", "elType": "widget", "widgetType": "heading", "settings": { "title": "Quick Links", "html_tag": "h4", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 13 }, "typography_font_weight": "600", "typography_letter_spacing": { "unit": "px", "size": 1 }, "title_color": "#F8F5F066" } },
+                { "id": "auth-fn-links", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p><a href='/about' style='color:#F8F5F0CC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>About</a></p><p><a href='/services' style='color:#F8F5F0CC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>Services</a></p><p><a href='/contact' style='color:#F8F5F0CC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>Contact</a></p><p><a href='/quote' style='color:#C9A84C;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>Get a Quote</a></p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "auth-footer-bottom",
+          "elType": "container",
+          "settings": { "flex_direction": "row", "flex_justify_content": "center", "border_border": "solid", "border_width": { "unit": "px", "top": 1, "right": 0, "bottom": 0, "left": 0, "isLinked": false }, "border_color": "#F8F5F011", "padding": { "unit": "px", "top": 24, "right": 0, "bottom": 0, "left": 0, "isLinked": false } },
+          "elements": [
+            { "id": "auth-copy", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "© 2025 [COMPANY NAME]. All Rights Reserved. Serving [CITY, STATE].", "align": "center", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 13 }, "text_color": "#F8F5F044" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

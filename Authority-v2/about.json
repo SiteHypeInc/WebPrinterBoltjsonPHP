@@ -1,0 +1,357 @@
+{
+  "version": "0.4",
+  "title": "Authority About",
+  "type": "page",
+  "content": [
+    {
+      "id": "about-hero",
+      "elType": "container",
+      "settings": {
+        "_wp_img": "about",
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "background_image": { "url": "" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "min_height": { "unit": "vh", "size": 50 },
+        "padding": { "unit": "px", "top": 140, "right": 40, "bottom": 80, "left": 40, "isLinked": false },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_justify_content": "center",
+        "position": "relative"
+      },
+      "elements": [
+        {
+          "id": "about-hero-overlay",
+          "elType": "container",
+          "settings": {
+            "position": "absolute",
+            "width": { "unit": "%", "size": 100 },
+            "height": { "unit": "%", "size": 100 },
+            "background_background": "classic",
+            "background_color": "#0D0D0DCC",
+            "z_index": 1
+          }
+        },
+        {
+          "id": "about-hero-content",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 16 },
+            "z_index": 2
+          },
+          "elements": [
+            {
+              "id": "about-hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "About [COMPANY NAME]",
+                "html_tag": "h1",
+                "align": "center",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 56 },
+                "typography_font_size_tablet": { "unit": "px", "size": 42 },
+                "typography_font_size_mobile": { "unit": "px", "size": 32 },
+                "typography_font_weight": "700",
+                "title_color": "#F8F5F0"
+              }
+            },
+            {
+              "id": "about-hero-sub",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Serving [CITY, STATE] with Pride",
+                "html_tag": "h2",
+                "align": "center",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 20 },
+                "typography_font_weight": "300",
+                "title_color": "#C9A84C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-story",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "padding": { "unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": 70, "right": 24, "bottom": 70, "left": 24, "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": 50, "right": 16, "bottom": 50, "left": 16, "isLinked": false },
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_gap": { "unit": "px", "size": 80 },
+        "flex_align_items": "center",
+        "flex_justify_content": "center"
+      },
+      "elements": [
+        {
+          "id": "about-story-image",
+          "elType": "container",
+          "settings": {
+            "_wp_img": "service",
+            "width": { "unit": "%", "size": 45 },
+            "width_tablet": { "unit": "%", "size": 100 },
+            "width_mobile": { "unit": "%", "size": 100 },
+            "min_height": { "unit": "px", "size": 450 },
+            "background_background": "classic",
+            "background_image": { "url": "" },
+            "background_position": "center center",
+            "background_size": "cover",
+            "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }
+          }
+        },
+        {
+          "id": "about-story-text",
+          "elType": "container",
+          "settings": {
+            "width": { "unit": "%", "size": 46 },
+            "width_tablet": { "unit": "%", "size": 100 },
+            "width_mobile": { "unit": "%", "size": 100 },
+            "flex_direction": "column",
+            "flex_gap": { "unit": "px", "size": 32 }
+          },
+          "elements": [
+            {
+              "id": "about-story-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Who We Are",
+                "html_tag": "h2",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 42 },
+                "typography_font_size_tablet": { "unit": "px", "size": 34 },
+                "typography_font_size_mobile": { "unit": "px", "size": 28 },
+                "typography_font_weight": "700",
+                "title_color": "#F8F5F0"
+              }
+            },
+            {
+              "id": "about-story-body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[ABOUT]",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 17 },
+                "typography_font_weight": "300",
+                "typography_line_height": { "unit": "em", "size": 1.8 },
+                "text_color": "#F8F5F0CC"
+              }
+            },
+            {
+              "id": "about-story-cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get a Free Quote",
+                "link": { "url": "/quote" },
+                "size": "lg",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "500",
+                "button_background_color": "#C9A84C",
+                "button_text_color": "#0D0D0D",
+                "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true },
+                "button_padding": { "unit": "px", "top": 16, "right": 36, "bottom": 16, "left": 36, "isLinked": false }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-values",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": { "unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": 70, "right": 24, "bottom": 70, "left": 24, "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": 50, "right": 16, "bottom": 50, "left": 16, "isLinked": false },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": { "unit": "px", "size": 60 }
+      },
+      "elements": [
+        {
+          "id": "about-values-title",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Why Choose [COMPANY NAME]",
+            "html_tag": "h2",
+            "align": "center",
+            "typography_font_family": "Playfair Display",
+            "typography_font_size": { "unit": "px", "size": 42 },
+            "typography_font_size_tablet": { "unit": "px", "size": 34 },
+            "typography_font_size_mobile": { "unit": "px", "size": 28 },
+            "typography_font_weight": "700",
+            "title_color": "#F8F5F0"
+          }
+        },
+        {
+          "id": "about-values-grid",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": { "unit": "px", "size": 32 },
+            "width": { "unit": "%", "size": 100 },
+            "max_width": { "unit": "px", "size": 1100 },
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "value-1",
+              "elType": "container",
+              "settings": {
+                "width": { "unit": "%", "size": 28 },
+                "width_tablet": { "unit": "%", "size": 45 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "background_background": "classic",
+                "background_color": "#0D0D0D",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true },
+                "border_color": "#C9A84C33",
+                "padding": { "unit": "px", "top": 36, "right": 28, "bottom": 36, "left": 28, "isLinked": false },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 16 },
+                "flex_align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "value-1-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Licensed & Insured",
+                    "html_tag": "h3",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": { "unit": "px", "size": 22 },
+                    "typography_font_weight": "700",
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "value-1-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Fully licensed and insured for your complete peace of mind on every project.",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_font_weight": "300",
+                    "text_color": "#F8F5F099"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "value-2",
+              "elType": "container",
+              "settings": {
+                "width": { "unit": "%", "size": 28 },
+                "width_tablet": { "unit": "%", "size": 45 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "background_background": "classic",
+                "background_color": "#0D0D0D",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true },
+                "border_color": "#C9A84C33",
+                "padding": { "unit": "px", "top": 36, "right": 28, "bottom": 36, "left": 28, "isLinked": false },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 16 },
+                "flex_align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "value-2-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Free Estimates",
+                    "html_tag": "h3",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": { "unit": "px", "size": 22 },
+                    "typography_font_weight": "700",
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "value-2-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "No obligation estimates so you always know exactly what to expect before we start.",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_font_weight": "300",
+                    "text_color": "#F8F5F099"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "value-3",
+              "elType": "container",
+              "settings": {
+                "width": { "unit": "%", "size": 28 },
+                "width_tablet": { "unit": "%", "size": 45 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "background_background": "classic",
+                "background_color": "#0D0D0D",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true },
+                "border_color": "#C9A84C33",
+                "padding": { "unit": "px", "top": 36, "right": 28, "bottom": 36, "left": 28, "isLinked": false },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 16 },
+                "flex_align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "value-3-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Local Experts",
+                    "html_tag": "h3",
+                    "typography_font_family": "Playfair Display",
+                    "typography_font_size": { "unit": "px", "size": 22 },
+                    "typography_font_weight": "700",
+                    "title_color": "#C9A84C"
+                  }
+                },
+                {
+                  "id": "value-3-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Proud members of the [CITY, STATE] community — we live and work here too.",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_font_weight": "300",
+                    "text_color": "#F8F5F099"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
