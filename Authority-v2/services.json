@@ -1,0 +1,114 @@
+{
+  "version": "0.4",
+  "title": "Authority Services",
+  "type": "page",
+  "content": [
+    {
+      "id": "auth-svc-hero",
+      "elType": "container",
+      "settings": {
+        "_wp_img": "service",
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#0D0D0D",
+        "background_image": { "url": "" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "min_height": { "unit": "vh", "size": 50 },
+        "padding": { "unit": "px", "top": 140, "right": 40, "bottom": 80, "left": 40, "isLinked": false },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_justify_content": "center",
+        "position": "relative"
+      },
+      "elements": [
+        { "id": "auth-svc-overlay", "elType": "container", "settings": { "position": "absolute", "width": { "unit": "%", "size": 100 }, "height": { "unit": "%", "size": 100 }, "background_background": "classic", "background_color": "#0D0D0DCC", "z_index": 1 } },
+        {
+          "id": "auth-svc-hero-inner",
+          "elType": "container",
+          "settings": { "flex_direction": "column", "flex_align_items": "center", "flex_gap": { "unit": "px", "size": 16 }, "z_index": 2 },
+          "elements": [
+            { "id": "auth-svc-title", "elType": "widget", "widgetType": "heading", "settings": { "title": "Our Services", "html_tag": "h1", "align": "center", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 56 }, "typography_font_size_tablet": { "unit": "px", "size": 42 }, "typography_font_size_mobile": { "unit": "px", "size": 32 }, "typography_font_weight": "700", "title_color": "#F8F5F0" } },
+            { "id": "auth-svc-sub", "elType": "widget", "widgetType": "heading", "settings": { "title": "[TRADE] Services in [CITY, STATE]", "html_tag": "h2", "align": "center", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 20 }, "typography_font_weight": "300", "title_color": "#C9A84C" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auth-svc-grid",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#111111",
+        "padding": { "unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": 70, "right": 24, "bottom": 70, "left": 24, "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": 50, "right": 16, "bottom": 50, "left": 16, "isLinked": false },
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_gap": { "unit": "px", "size": 32 },
+        "flex_justify_content": "center"
+      },
+      "elements": [
+        {
+          "id": "auth-svc-1",
+          "elType": "container",
+          "settings": { "width": { "unit": "%", "size": 47 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "background_background": "classic", "background_color": "#0D0D0D", "border_border": "solid", "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true }, "border_color": "#C9A84C33", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "padding": { "unit": "px", "top": 48, "right": 40, "bottom": 48, "left": 40, "isLinked": false }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 20 } },
+          "elements": [
+            { "id": "auth-svc-1-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "[SERVICE 1 NAME]", "html_tag": "h2", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 32 }, "typography_font_weight": "700", "title_color": "#F8F5F0" } },
+            { "id": "auth-svc-1-d", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[SERVICE 1 description]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 16 }, "typography_font_weight": "300", "typography_line_height": { "unit": "em", "size": 1.7 }, "text_color": "#F8F5F0CC" } },
+            { "id": "auth-svc-1-btn", "elType": "widget", "widgetType": "button", "settings": { "text": "Get a Quote", "link": { "url": "/quote" }, "button_background_color": "#C9A84C", "button_text_color": "#0D0D0D", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "button_padding": { "unit": "px", "top": 12, "right": 28, "bottom": 12, "left": 28, "isLinked": false } } }
+          ]
+        },
+        {
+          "id": "auth-svc-2",
+          "elType": "container",
+          "settings": { "width": { "unit": "%", "size": 47 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "background_background": "classic", "background_color": "#0D0D0D", "border_border": "solid", "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true }, "border_color": "#C9A84C33", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "padding": { "unit": "px", "top": 48, "right": 40, "bottom": 48, "left": 40, "isLinked": false }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 20 } },
+          "elements": [
+            { "id": "auth-svc-2-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "[SERVICE 2 NAME]", "html_tag": "h2", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 32 }, "typography_font_weight": "700", "title_color": "#F8F5F0" } },
+            { "id": "auth-svc-2-d", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[SERVICE 2 description]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 16 }, "typography_font_weight": "300", "typography_line_height": { "unit": "em", "size": 1.7 }, "text_color": "#F8F5F0CC" } },
+            { "id": "auth-svc-2-btn", "elType": "widget", "widgetType": "button", "settings": { "text": "Get a Quote", "link": { "url": "/quote" }, "button_background_color": "#C9A84C", "button_text_color": "#0D0D0D", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "button_padding": { "unit": "px", "top": 12, "right": 28, "bottom": 12, "left": 28, "isLinked": false } } }
+          ]
+        },
+        {
+          "id": "auth-svc-3",
+          "elType": "container",
+          "settings": { "width": { "unit": "%", "size": 47 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "background_background": "classic", "background_color": "#0D0D0D", "border_border": "solid", "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true }, "border_color": "#C9A84C33", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "padding": { "unit": "px", "top": 48, "right": 40, "bottom": 48, "left": 40, "isLinked": false }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 20 } },
+          "elements": [
+            { "id": "auth-svc-3-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "[SERVICE 3 NAME]", "html_tag": "h2", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 32 }, "typography_font_weight": "700", "title_color": "#F8F5F0" } },
+            { "id": "auth-svc-3-d", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[SERVICE 3 description]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 16 }, "typography_font_weight": "300", "typography_line_height": { "unit": "em", "size": 1.7 }, "text_color": "#F8F5F0CC" } },
+            { "id": "auth-svc-3-btn", "elType": "widget", "widgetType": "button", "settings": { "text": "Get a Quote", "link": { "url": "/quote" }, "button_background_color": "#C9A84C", "button_text_color": "#0D0D0D", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "button_padding": { "unit": "px", "top": 12, "right": 28, "bottom": 12, "left": 28, "isLinked": false } } }
+          ]
+        },
+        {
+          "id": "auth-svc-4",
+          "elType": "container",
+          "settings": { "width": { "unit": "%", "size": 47 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "background_background": "classic", "background_color": "#0D0D0D", "border_border": "solid", "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true }, "border_color": "#C9A84C33", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "padding": { "unit": "px", "top": 48, "right": 40, "bottom": 48, "left": 40, "isLinked": false }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 20 } },
+          "elements": [
+            { "id": "auth-svc-4-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "[SERVICE 4 NAME]", "html_tag": "h2", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 32 }, "typography_font_weight": "700", "title_color": "#F8F5F0" } },
+            { "id": "auth-svc-4-d", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[SERVICE 4 description]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 16 }, "typography_font_weight": "300", "typography_line_height": { "unit": "em", "size": 1.7 }, "text_color": "#F8F5F0CC" } },
+            { "id": "auth-svc-4-btn", "elType": "widget", "widgetType": "button", "settings": { "text": "Get a Quote", "link": { "url": "/quote" }, "button_background_color": "#C9A84C", "button_text_color": "#0D0D0D", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "button_padding": { "unit": "px", "top": 12, "right": 28, "bottom": 12, "left": 28, "isLinked": false } } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auth-svc-cta",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#C9A84C",
+        "padding": { "unit": "px", "top": 80, "right": 40, "bottom": 80, "left": 40, "isLinked": false },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": { "unit": "px", "size": 24 }
+      },
+      "elements": [
+        { "id": "auth-svc-cta-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "Ready to Get Started?", "html_tag": "h2", "align": "center", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 42 }, "typography_font_weight": "700", "title_color": "#0D0D0D" } },
+        { "id": "auth-svc-cta-d", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "Contact [COMPANY NAME] today for a free estimate. Serving [CITY, STATE].", "align": "center", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 18 }, "text_color": "#0D0D0DCC" } },
+        { "id": "auth-svc-cta-btn", "elType": "widget", "widgetType": "button", "settings": { "text": "Get a Free Quote", "link": { "url": "/quote" }, "size": "lg", "button_background_color": "#0D0D0D", "button_text_color": "#C9A84C", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "button_padding": { "unit": "px", "top": 16, "right": 40, "bottom": 16, "left": 40, "isLinked": false } } }
+      ]
+    }
+  ]
+}
