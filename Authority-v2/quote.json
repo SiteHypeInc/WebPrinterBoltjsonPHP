@@ -279,7 +279,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<div style=\"min-height: 400px; display: flex; align-items: center; justify-content: center; font-family: 'Inter', sans-serif; color: #F8F5F099; font-size: 16px;\"><p style="text-align:center;font-size:18px;">Call us or email for a free estimate — we respond within 24 hours.</p></div>"
+                "editor": "<div style=\"min-height: 400px; display: flex; align-items: center; justify-content: center; font-family: 'Inter', sans-serif; color: #F8F5F099; font-size: 16px;\">Call us or email for a free estimate — we respond within 24 hours.</div>"
               }
             }
           ]
