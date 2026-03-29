@@ -165,8 +165,8 @@ class WebPrinter_Engine {
         // 7. DEPLOY HEADER + FOOTER
         // ---------------------------------------------------------------
         $library_templates = [
-            'header' => [ 'file' => 'header.json', 'slug' => 'bold-header' ],
-            'footer' => [ 'file' => 'footer.json', 'slug' => 'bold-footer' ],
+            'header' => [ 'file' => 'header.json', 'slug' => 'header' ],
+            'footer' => [ 'file' => 'footer.json', 'slug' => 'footer' ],
         ];
 
         foreach ( $library_templates as $label => $cfg ) {
