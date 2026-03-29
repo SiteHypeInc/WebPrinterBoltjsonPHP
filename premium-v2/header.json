@@ -1,0 +1,30 @@
+{
+  "version": "0.4",
+  "title": "Premium Header",
+  "type": "header",
+  "content": [
+    {
+      "id": "prem-header-wrap",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": 0, "right": 0, "bottom": 1, "left": 0, "isLinked": false },
+        "border_color": "#E5E5E5",
+        "padding": { "unit": "px", "top": 20, "right": 40, "bottom": 20, "left": 40, "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": 16, "right": 24, "bottom": 16, "left": 24, "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": 14, "right": 16, "bottom": 14, "left": 16, "isLinked": false },
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_justify_content": "space-between"
+      },
+      "elements": [
+        { "id": "prem-logo", "elType": "widget", "widgetType": "image", "settings": { "_wp_img": "logo", "image": { "url": "" }, "image_size": "medium", "width": { "unit": "px", "size": 160 }, "width_tablet": { "unit": "px", "size": 130 }, "width_mobile": { "unit": "px", "size": 110 } } },
+        { "id": "prem-nav", "elType": "widget", "widgetType": "navigation-menu", "settings": { "layout": "horizontal", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 14 }, "typography_font_weight": "500", "typography_letter_spacing": { "unit": "px", "size": 0.5 }, "color_menu_item": "#2D2D2D", "color_menu_item_hover": "#1A3A5C", "color_menu_item_active": "#1A3A5C" } },
+        { "id": "prem-header-cta", "elType": "widget", "widgetType": "button", "settings": { "text": "Get a Quote", "link": { "url": "/quote" }, "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 13 }, "typography_font_weight": "500", "typography_letter_spacing": { "unit": "px", "size": 0.5 }, "button_background_color": "#1A3A5C", "button_text_color": "#FFFFFF", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "button_padding": { "unit": "px", "top": 12, "right": 22, "bottom": 12, "left": 22, "isLinked": false } } }
+      ]
+    }
+  ]
+}

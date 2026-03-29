@@ -1,0 +1,60 @@
+{
+  "version": "0.4",
+  "title": "Premium Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "prem-footer-wrap",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1A3A5C",
+        "padding": { "unit": "px", "top": 60, "right": 40, "bottom": 40, "left": 40, "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": 48, "right": 24, "bottom": 32, "left": 24, "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": 40, "right": 16, "bottom": 28, "left": 16, "isLinked": false },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 48 }
+      },
+      "elements": [
+        {
+          "id": "prem-footer-top",
+          "elType": "container",
+          "settings": { "flex_direction": "row", "flex_wrap": "wrap", "flex_gap": { "unit": "px", "size": 40 }, "flex_justify_content": "space-between" },
+          "elements": [
+            {
+              "id": "prem-f-brand",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 35 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 16 } },
+              "elements": [
+                { "id": "prem-f-name", "elType": "widget", "widgetType": "heading", "settings": { "title": "[COMPANY NAME]", "html_tag": "h3", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 26 }, "typography_font_weight": "600", "color": "#FFFFFF" } },
+                { "id": "prem-f-tag", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[TAGLINE]", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 15 }, "text_color": "#FFFFFFCC" } }
+              ]
+            },
+            {
+              "id": "prem-f-contact",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 28 }, "width_tablet": { "unit": "%", "size": 45 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 14 } },
+              "elements": [
+                { "id": "prem-fc-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "Contact", "html_tag": "h4", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 12 }, "typography_font_weight": "700", "typography_letter_spacing": { "unit": "px", "size": 1 }, "color": "#FFFFFF99" } },
+                { "id": "prem-fc-p", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<a href='tel:[PHONE]' style='color:#FFFFFFCC;font-family:Lato,sans-serif;font-size:15px;text-decoration:none;'>[PHONE]</a>" } },
+                { "id": "prem-fc-e", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<a href='mailto:[EMAIL]' style='color:#FFFFFFCC;font-family:Lato,sans-serif;font-size:15px;text-decoration:none;'>[EMAIL]</a>" } },
+                { "id": "prem-fc-a", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[ADDRESS]", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 15 }, "text_color": "#FFFFFFCC" } }
+              ]
+            },
+            {
+              "id": "prem-f-nav",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 20 }, "width_tablet": { "unit": "%", "size": 45 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 14 } },
+              "elements": [
+                { "id": "prem-fn-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "Quick Links", "html_tag": "h4", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 12 }, "typography_font_weight": "700", "typography_letter_spacing": { "unit": "px", "size": 1 }, "color": "#FFFFFF99" } },
+                { "id": "prem-fn-l", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p><a href='/about' style='color:#FFFFFFCC;font-family:Lato,sans-serif;font-size:15px;text-decoration:none;'>About</a></p><p><a href='/services' style='color:#FFFFFFCC;font-family:Lato,sans-serif;font-size:15px;text-decoration:none;'>Services</a></p><p><a href='/contact' style='color:#FFFFFFCC;font-family:Lato,sans-serif;font-size:15px;text-decoration:none;'>Contact</a></p><p><a href='/quote' style='color:#FFFFFF;font-family:Lato,sans-serif;font-size:15px;text-decoration:none;font-weight:700;'>Get a Quote →</a></p>" } }
+              ]
+            }
+          ]
+        },
+        { "id": "prem-copy", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "© 2025 [COMPANY NAME]. All Rights Reserved. Serving [CITY, STATE].", "align": "center", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 13 }, "text_color": "#FFFFFF44" } }
+      ]
+    }
+  ]
+}
