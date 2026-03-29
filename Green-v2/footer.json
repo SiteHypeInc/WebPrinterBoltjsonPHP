@@ -1,0 +1,60 @@
+{
+  "version": "0.4",
+  "title": "Green Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "green-footer-wrap",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#1B5E20",
+        "padding": { "unit": "px", "top": 60, "right": 40, "bottom": 40, "left": 40, "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": 48, "right": 24, "bottom": 32, "left": 24, "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": 40, "right": 16, "bottom": 28, "left": 16, "isLinked": false },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 48 }
+      },
+      "elements": [
+        {
+          "id": "green-footer-top",
+          "elType": "container",
+          "settings": { "flex_direction": "row", "flex_wrap": "wrap", "flex_gap": { "unit": "px", "size": 40 }, "flex_justify_content": "space-between" },
+          "elements": [
+            {
+              "id": "green-f-brand",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 35 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 16 } },
+              "elements": [
+                { "id": "green-f-name", "elType": "widget", "widgetType": "heading", "settings": { "title": "[COMPANY NAME]", "html_tag": "h3", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 24 }, "typography_font_weight": "700", "color": "#FFFFFF" } },
+                { "id": "green-f-tag", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[TAGLINE]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 15 }, "text_color": "#FFFFFFCC" } }
+              ]
+            },
+            {
+              "id": "green-f-contact",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 28 }, "width_tablet": { "unit": "%", "size": 45 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 14 } },
+              "elements": [
+                { "id": "green-fc-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "Contact", "html_tag": "h4", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 13 }, "typography_font_weight": "700", "color": "#FFFFFF99" } },
+                { "id": "green-fc-p", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<a href='tel:[PHONE]' style='color:#FFFFFFCC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>[PHONE]</a>" } },
+                { "id": "green-fc-e", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<a href='mailto:[EMAIL]' style='color:#FFFFFFCC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>[EMAIL]</a>" } },
+                { "id": "green-fc-a", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[ADDRESS]", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 15 }, "text_color": "#FFFFFFCC" } }
+              ]
+            },
+            {
+              "id": "green-f-nav",
+              "elType": "container",
+              "settings": { "width": { "unit": "%", "size": 20 }, "width_tablet": { "unit": "%", "size": 45 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 14 } },
+              "elements": [
+                { "id": "green-fn-t", "elType": "widget", "widgetType": "heading", "settings": { "title": "Quick Links", "html_tag": "h4", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 13 }, "typography_font_weight": "700", "color": "#FFFFFF99" } },
+                { "id": "green-fn-l", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p><a href='/about' style='color:#FFFFFFCC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>About</a></p><p><a href='/services' style='color:#FFFFFFCC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>Services</a></p><p><a href='/contact' style='color:#FFFFFFCC;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;'>Contact</a></p><p><a href='/quote' style='color:#A5D6A7;font-family:Inter,sans-serif;font-size:15px;text-decoration:none;font-weight:600;'>Get a Quote</a></p>" } }
+              ]
+            }
+          ]
+        },
+        { "id": "green-copy", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "© 2025 [COMPANY NAME]. All Rights Reserved. Serving [CITY, STATE].", "align": "center", "typography_font_family": "Inter", "typography_font_size": { "unit": "px", "size": 13 }, "text_color": "#FFFFFF55" } }
+      ]
+    }
+  ]
+}
