@@ -279,7 +279,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<div style=\"min-height: 400px; display: flex; align-items: center; justify-content: center; font-family: 'Inter', sans-serif; color: #F8F5F099; font-size: 16px;\">[INSTABID EMBED PLACEHOLDER]</div>"
+                "editor": "<div style=\"min-height: 400px; display: flex; align-items: center; justify-content: center; font-family: 'Inter', sans-serif; color: #F8F5F099; font-size: 16px;\"><p style="text-align:center;font-size:18px;">Call us or email for a free estimate — we respond within 24 hours.</p></div>"
               }
             }
           ]
@@ -554,7 +554,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<strong style=\"color: #F8F5F0; font-family: 'Inter', sans-serif; font-size: 17px;\">[YEARS IN BUSINESS]+ Years Experience</strong><br><span style=\"color: #F8F5F0CC; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 300;\">Licensed, insured, and locally trusted</span>"
+                    "editor": "<strong style=\"color: #F8F5F0; font-family: 'Inter', sans-serif; font-size: 17px;\">Trusted Local Experts</strong><br><span style=\"color: #F8F5F0CC; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 300;\">Licensed, insured, and locally trusted</span>"
                   }
                 }
               ]
@@ -645,7 +645,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "Call us directly at [PHONE NUMBER] \u2014 we're happy to talk through your project.",
+            "editor": "Call us directly at [PHONE] \u2014 we're happy to talk through your project.",
             "align": "center",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -676,7 +676,7 @@
           "settings": {
             "text": "Call Us Now",
             "link": {
-              "url": "tel:[PHONE NUMBER]"
+              "url": "tel:[PHONE]"
             },
             "size": "lg",
             "typography_font_family": "Inter",
