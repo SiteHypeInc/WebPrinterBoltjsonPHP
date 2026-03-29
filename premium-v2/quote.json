@@ -1,5 +1,3 @@
-quote.json
-
 {
   "version": "0.4",
   "title": "Premium Quote",
@@ -8,36 +6,265 @@ quote.json
     {
       "id": "prem-quote-hero",
       "elType": "container",
-      "settings": { "content_width": "full", "background_background": "classic", "background_color": "#FAFAFA", "min_height": { "unit": "vh", "size": 40 }, "padding": { "unit": "px", "top": 140, "right": 40, "bottom": 80, "left": 40, "isLinked": false }, "flex_direction": "column", "flex_align_items": "center", "flex_justify_content": "center", "flex_gap": { "unit": "px", "size": 16 } },
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FAFAFA",
+        "min_height": {
+          "unit": "vh",
+          "size": 40
+        },
+        "padding": {
+          "unit": "px",
+          "top": 140,
+          "right": 40,
+          "bottom": 80,
+          "left": 40,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_justify_content": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 16
+        }
+      },
       "elements": [
-        { "id": "prem-q-h1", "elType": "widget", "widgetType": "heading", "settings": { "title": "Get a Free Quote", "html_tag": "h1", "align": "center", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 52 }, "typography_font_weight": "600", "color": "#1A3A5C" } },
-        { "id": "prem-q-sub", "elType": "widget", "widgetType": "heading", "settings": { "title": "No obligation. Fast response.", "html_tag": "h2", "align": "center", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 22 }, "typography_font_weight": "300", "color": "#2D2D2D" } }
+        {
+          "id": "prem-q-h1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Get a Free Quote",
+            "html_tag": "h1",
+            "align": "center",
+            "typography_font_family": "Playfair Display",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "typography_font_weight": "600",
+            "color": "#1A3A5C"
+          }
+        },
+        {
+          "id": "prem-q-sub",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "No obligation. Fast response.",
+            "html_tag": "h2",
+            "align": "center",
+            "typography_font_family": "Lato",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "typography_font_weight": "300",
+            "color": "#2D2D2D"
+          }
+        }
       ]
     },
     {
       "id": "prem-quote-body",
       "elType": "container",
-      "settings": { "content_width": "full", "background_background": "classic", "background_color": "#FFFFFF", "padding": { "unit": "px", "top": 100, "right": 40, "bottom": 100, "left": 40, "isLinked": false }, "flex_direction": "row", "flex_wrap": "wrap", "flex_gap": { "unit": "px", "size": 70 }, "flex_justify_content": "center" },
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": 100,
+          "right": 40,
+          "bottom": 100,
+          "left": 40,
+          "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 70
+        },
+        "flex_justify_content": "center"
+      },
       "elements": [
         {
           "id": "prem-quote-info",
           "elType": "container",
-          "settings": { "width": { "unit": "%", "size": 35 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 28 } },
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 35
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 28
+            }
+          },
           "elements": [
-            { "id": "prem-qi-name", "elType": "widget", "widgetType": "heading", "settings": { "title": "[COMPANY NAME]", "html_tag": "h2", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 32 }, "typography_font_weight": "600", "color": "#1A3A5C" } },
-            { "id": "prem-qi-tag", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "[TAGLINE]", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 17 }, "text_color": "#1A3A5C" } },
-            { "id": "prem-qi-phone", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:17px;'>📞 <a href='tel:[PHONE]' style='color:#1A3A5C;text-decoration:none;font-weight:600;'>[PHONE]</a></p>" } },
-            { "id": "prem-qi-area", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style='color:#777777;font-family:Lato,sans-serif;font-size:15px;'>Proudly serving [CITY, STATE] and surrounding areas.</p>" } }
+            {
+              "id": "prem-qi-name",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "[COMPANY NAME]",
+                "html_tag": "h2",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "600",
+                "color": "#1A3A5C"
+              }
+            },
+            {
+              "id": "prem-qi-tag",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[TAGLINE]",
+                "typography_font_family": "Lato",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "text_color": "#1A3A5C"
+              }
+            },
+            {
+              "id": "prem-qi-phone",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color:#2D2D2D;font-family:Lato,sans-serif;font-size:17px;'>\ud83d\udcde <a href='tel:[PHONE]' style='color:#1A3A5C;text-decoration:none;font-weight:600;'>[PHONE]</a></p>"
+              }
+            },
+            {
+              "id": "prem-qi-area",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color:#777777;font-family:Lato,sans-serif;font-size:15px;'>Proudly serving [CITY, STATE] and surrounding areas.</p>"
+              }
+            }
           ]
         },
         {
           "id": "prem-quote-form",
           "elType": "container",
-          "settings": { "width": { "unit": "%", "size": 50 }, "width_tablet": { "unit": "%", "size": 100 }, "width_mobile": { "unit": "%", "size": 100 }, "background_background": "classic", "background_color": "#FAFAFA", "border_border": "solid", "border_width": { "unit": "px", "top": 1, "right": 1, "bottom": 1, "left": 1, "isLinked": true }, "border_color": "#E5E5E5", "padding": { "unit": "px", "top": 48, "right": 40, "bottom": 48, "left": 40, "isLinked": false }, "flex_direction": "column", "flex_gap": { "unit": "px", "size": 24 } },
+          "settings": {
+            "width": {
+              "unit": "%",
+              "size": 50
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_background": "classic",
+            "background_color": "#FAFAFA",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "#E5E5E5",
+            "padding": {
+              "unit": "px",
+              "top": 48,
+              "right": 40,
+              "bottom": 48,
+              "left": 40,
+              "isLinked": false
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            }
+          },
           "elements": [
-            { "id": "prem-qf-title", "elType": "widget", "widgetType": "heading", "settings": { "title": "Request Your Free Estimate", "html_tag": "h2", "typography_font_family": "Playfair Display", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "600", "color": "#1A3A5C" } },
-            { "id": "prem-qf-text", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "Call us at <strong style='color:#1A3A5C;'>[PHONE]</strong> or email <strong style='color:#1A3A5C;'>[EMAIL]</strong>. We'll respond within 24 hours.", "typography_font_family": "Lato", "typography_font_size": { "unit": "px", "size": 16 }, "text_color": "#444444" } },
-            { "id": "prem-qf-btn", "elType": "widget", "widgetType": "button", "settings": { "text": "Call [PHONE] Now", "link": { "url": "tel:[PHONE]" }, "size": "lg", "button_background_color": "#1A3A5C", "button_text_color": "#FFFFFF", "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true }, "button_padding": { "unit": "px", "top": 18, "right": 40, "bottom": 18, "left": 40, "isLinked": false } } }
+            {
+              "id": "prem-qf-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Request Your Free Estimate",
+                "html_tag": "h2",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "600",
+                "color": "#1A3A5C"
+              }
+            },
+            {
+              "id": "prem-qf-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Call us at <strong style='color:#1A3A5C;'>[PHONE]</strong> or email <strong style='color:#1A3A5C;'>[EMAIL]</strong>. We'll respond within 24 hours.",
+                "typography_font_family": "Lato",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "text_color": "#444444"
+              }
+            },
+            {
+              "id": "prem-qf-btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Call [PHONE] Now",
+                "link": {
+                  "url": "tel:[PHONE]"
+                },
+                "size": "lg",
+                "button_background_color": "#1A3A5C",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 2,
+                  "right": 2,
+                  "bottom": 2,
+                  "left": 2,
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": 18,
+                  "right": 40,
+                  "bottom": 18,
+                  "left": 40,
+                  "isLinked": false
+                }
+              }
+            }
           ]
         }
       ]
