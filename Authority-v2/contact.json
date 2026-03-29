@@ -369,7 +369,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "[PHONE NUMBER]",
+                    "editor": "[PHONE]",
                     "align": "center",
                     "typography_typography": "custom",
                     "typography_font_family": "Inter",
@@ -507,7 +507,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "[EMAIL ADDRESS]",
+                    "editor": "[EMAIL]",
                     "align": "center",
                     "typography_typography": "custom",
                     "typography_font_family": "Inter",
