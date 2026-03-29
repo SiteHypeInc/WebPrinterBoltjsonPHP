@@ -1,4 +1,3 @@
-
 {
   "version": "0.4",
   "title": "Authority Header",
@@ -11,9 +10,30 @@
         "content_width": "full",
         "background_background": "classic",
         "background_color": "#0D0D0D",
-        "padding": { "unit": "px", "top": 20, "right": 40, "bottom": 20, "left": 40, "isLinked": false },
-        "padding_tablet": { "unit": "px", "top": 16, "right": 24, "bottom": 16, "left": 24, "isLinked": false },
-        "padding_mobile": { "unit": "px", "top": 14, "right": 16, "bottom": 14, "left": 16, "isLinked": false },
+        "padding": {
+          "unit": "px",
+          "top": 20,
+          "right": 40,
+          "bottom": 20,
+          "left": 40,
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": 16,
+          "right": 24,
+          "bottom": 16,
+          "left": 24,
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": 14,
+          "right": 16,
+          "bottom": 14,
+          "left": 16,
+          "isLinked": false
+        },
         "flex_direction": "row",
         "flex_align_items": "center",
         "flex_justify_content": "space-between"
@@ -25,11 +45,22 @@
           "widgetType": "image",
           "settings": {
             "_wp_img": "logo",
-            "image": { "url": "" },
+            "image": {
+              "url": ""
+            },
             "image_size": "medium",
-            "width": { "unit": "px", "size": 160 },
-            "width_tablet": { "unit": "px", "size": 130 },
-            "width_mobile": { "unit": "px", "size": 110 }
+            "width": {
+              "unit": "px",
+              "size": 160
+            },
+            "width_tablet": {
+              "unit": "px",
+              "size": 130
+            },
+            "width_mobile": {
+              "unit": "px",
+              "size": 110
+            }
           }
         },
         {
@@ -39,9 +70,15 @@
           "settings": {
             "layout": "horizontal",
             "typography_font_family": "Inter",
-            "typography_font_size": { "unit": "px", "size": 13 },
+            "typography_font_size": {
+              "unit": "px",
+              "size": 13
+            },
             "typography_font_weight": "500",
-            "typography_letter_spacing": { "unit": "px", "size": 1 },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1
+            },
             "typography_text_transform": "uppercase",
             "color_menu_item": "#F8F5F0CC",
             "color_menu_item_hover": "#C9A84C",
@@ -56,15 +93,37 @@
           "widgetType": "button",
           "settings": {
             "text": "Get a Quote",
-            "link": { "url": "/quote" },
+            "link": {
+              "url": "/quote"
+            },
             "typography_font_family": "Inter",
-            "typography_font_size": { "unit": "px", "size": 13 },
+            "typography_font_size": {
+              "unit": "px",
+              "size": 13
+            },
             "typography_font_weight": "500",
-            "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 0.5
+            },
             "button_background_color": "#C9A84C",
             "button_text_color": "#0D0D0D",
-            "border_radius": { "unit": "px", "top": 2, "right": 2, "bottom": 2, "left": 2, "isLinked": true },
-            "button_padding": { "unit": "px", "top": 12, "right": 24, "bottom": 12, "left": 24, "isLinked": false }
+            "border_radius": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": 12,
+              "right": 24,
+              "bottom": 12,
+              "left": 24,
+              "isLinked": false
+            }
           }
         }
       ]
