@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WebPrinter Engine
  * Description: Template-agnostic REST endpoint to deploy contractor demo sites from n8n.
- * Version:     4.4
+ * Version:     4.5
  * Author:      Team Platypus
  *
  * REQUIRES in wp-config.php:
@@ -92,9 +92,15 @@ class WebPrinter_Engine {
         }
 
         // ---------------------------------------------------------------
-        // 3b. SET ELEMENTOR KIT BRAND COLORS
+        // 3b. SET ELEMENTOR KIT BRAND COLORS (template-aware)
         // ---------------------------------------------------------------
-        $this->set_elementor_kit_accent_color( '#C9A84C' );
+        $template_colors = [
+            'authority-v2' => '#C9A84C', // HVAC gold
+            'green-v2'     => '#2E7D32', // Roofing green
+            'premium-v2'   => '#1A3A5C', // Plumbing navy
+        ];
+        $accent_color = $template_colors[ $template ] ?? '#C9A84C';
+        $this->set_elementor_kit_accent_color( $accent_color );
 
         // ---------------------------------------------------------------
         // 4. SIDELOAD ALL IMAGES INTO MEDIA LIBRARY
@@ -209,14 +215,29 @@ class WebPrinter_Engine {
         }
 
         // ---------------------------------------------------------------
-        // 8. FLUSH BREEZE PAGE CACHE
+        // 8. FLUSH BREEZE PAGE CACHE + LOOPBACK WARM REQUEST
         // ---------------------------------------------------------------
         do_action( 'breeze_clear_all_cache' );
         if ( class_exists( 'Breeze_PurgeCache' ) ) {
             Breeze_PurgeCache::breeze_cache_flush();
         }
 
+        // Capture site URL while still in switched-blog context before restoring
+        $deployed_site_url = is_multisite() ? get_blog_option( $blog_id, 'siteurl' ) : get_option( 'siteurl' );
+
         if ( is_multisite() ) restore_current_blog();
+
+        // Loopback warm request: forces Breeze to regenerate a fresh page after
+        // cache flush, so the next visitor (and QA) sees correct Elementor CSS.
+        // This works outside switch_to_blog() context, so Breeze scoping is correct.
+        if ( ! empty( $deployed_site_url ) ) {
+            wp_remote_get( trailingslashit( $deployed_site_url ), [
+                'timeout'   => 15,
+                'headers'   => [ 'Cache-Control' => 'no-cache, no-store, must-revalidate' ],
+                'sslverify' => false,
+                'blocking'  => false, // fire-and-forget; don't hold up the response
+            ] );
+        }
 
         $success = empty( $errors );
 
