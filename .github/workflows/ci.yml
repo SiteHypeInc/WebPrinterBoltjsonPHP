@@ -1,0 +1,49 @@
+name: CI — Plugin Lint & Validate
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: PHP syntax check
+        run: php -l webprinter-engine-v4.3.php
+
+      - name: Validate template JSON files
+        run: |
+          find . -name "*.json" -not -path "./.git/*" -not -path "./node_modules/*" | while read f; do
+            python3 -c "import json,sys; json.load(open('$f'))" && echo "OK: $f" || { echo "INVALID JSON: $f"; exit 1; }
+          done
+
+      - name: Check template token coverage
+        run: |
+          python3 << 'EOF'
+          import json, os, sys
+
+          REQUIRED_TOKENS = ['[COMPANY NAME]', '[PHONE]', '[CITY, STATE]', '[TRADE]']
+          templates = ['Authority-v2', 'Green-v2', 'premium-v2']
+          ok = True
+
+          for tmpl in templates:
+              home = f'{tmpl}/home.json'
+              if not os.path.exists(home):
+                  print(f'MISSING: {home}')
+                  ok = False
+                  continue
+              with open(home) as f:
+                  content = f.read()
+              for token in REQUIRED_TOKENS:
+                  if token not in content:
+                      print(f'MISSING TOKEN {token} in {home}')
+                      ok = False
+
+          if ok:
+              print('All templates have required tokens.')
+          sys.exit(0 if ok else 1)
+          EOF

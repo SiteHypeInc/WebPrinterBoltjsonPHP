@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WebPrinter Engine
  * Description: Template-agnostic REST endpoint to deploy contractor demo sites from n8n.
- * Version:     4.6
+ * Version:     4.7
  * Author:      Team Platypus
  *
  * REQUIRES in wp-config.php:
@@ -44,6 +44,20 @@ class WebPrinter_Engine {
             'callback'            => [ $this, 'handle_setup_breeze' ],
             'permission_callback' => [ $this, 'check_auth' ],
         ] );
+        register_rest_route( 'webprinter/v1', '/health', [
+            'methods'             => 'GET',
+            'callback'            => [ $this, 'handle_health' ],
+            'permission_callback' => '__return_true',
+        ] );
+    }
+
+    /** Lightweight healthcheck — used by uptime monitoring. */
+    public function handle_health( WP_REST_Request $request ) {
+        return new WP_REST_Response( [
+            'status'  => 'ok',
+            'version' => '4.7',
+            'ts'      => time(),
+        ], 200 );
     }
 
     /**
