@@ -99,7 +99,7 @@ class WebPrinter_Engine {
             'green-v2'     => '#2E7D32', // Roofing green
             'premium-v2'   => '#1A3A5C', // Plumbing navy
         ];
-        $accent_color = $template_colors[ $template ] ?? '#C9A84C';
+        $accent_color = $template_colors[ strtolower( $template ) ] ?? '#C9A84C';
         $this->set_elementor_kit_accent_color( $accent_color );
 
         // ---------------------------------------------------------------
