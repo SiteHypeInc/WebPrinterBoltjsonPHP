@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WebPrinter Engine
  * Description: Template-agnostic REST endpoint to deploy contractor demo sites from n8n.
- * Version:     4.3
+ * Version:     4.4
  * Author:      Team Platypus
  *
  * REQUIRES in wp-config.php:
@@ -90,6 +90,11 @@ class WebPrinter_Engine {
             }
             switch_to_blog( $blog_id );
         }
+
+        // ---------------------------------------------------------------
+        // 3b. SET ELEMENTOR KIT BRAND COLORS
+        // ---------------------------------------------------------------
+        $this->set_elementor_kit_accent_color( '#C9A84C' );
 
         // ---------------------------------------------------------------
         // 4. SIDELOAD ALL IMAGES INTO MEDIA LIBRARY
@@ -201,6 +206,14 @@ class WebPrinter_Engine {
             } else {
                 $errors[$label] = $result->get_error_message();
             }
+        }
+
+        // ---------------------------------------------------------------
+        // 8. FLUSH BREEZE PAGE CACHE
+        // ---------------------------------------------------------------
+        do_action( 'breeze_clear_all_cache' );
+        if ( class_exists( 'Breeze_PurgeCache' ) ) {
+            Breeze_PurgeCache::breeze_cache_flush();
         }
 
         if ( is_multisite() ) restore_current_blog();
@@ -432,9 +445,43 @@ class WebPrinter_Engine {
         return intval( $id );
     }
 
+    private function set_elementor_kit_accent_color( string $color ) {
+        $kit_id = (int) get_option( 'elementor_active_kit' );
+        if ( ! $kit_id ) return;
+
+        $settings = get_post_meta( $kit_id, '_elementor_page_settings', true );
+        if ( ! is_array( $settings ) ) $settings = [];
+
+        if ( empty( $settings['system_colors'] ) ) {
+            $settings['system_colors'] = [
+                [ '_id' => 'primary',   'title' => 'Primary',   'color' => '#6EC1E4' ],
+                [ '_id' => 'secondary', 'title' => 'Secondary', 'color' => '#54595F' ],
+                [ '_id' => 'text',      'title' => 'Text',      'color' => '#7A7A7A' ],
+                [ '_id' => 'accent',    'title' => 'Accent',    'color' => $color ],
+            ];
+        } else {
+            foreach ( $settings['system_colors'] as &$c ) {
+                if ( ( $c['_id'] ?? '' ) === 'accent' ) {
+                    $c['color'] = $color;
+                }
+            }
+            unset( $c );
+        }
+
+        update_post_meta( $kit_id, '_elementor_page_settings', $settings );
+
+        // Regenerate kit CSS
+        delete_post_meta( $kit_id, '_elementor_css' );
+        if ( class_exists( '\Elementor\Core\Files\CSS\Post' ) ) {
+            \Elementor\Core\Files\CSS\Post::create( $kit_id )->update();
+        }
+        if ( class_exists( '\Elementor\Plugin' ) && isset( \Elementor\Plugin::$instance->files_manager ) ) {
+            \Elementor\Plugin::$instance->files_manager->clear_cache();
+        }
+    }
+
     private function clear_elementor_cache( int $post_id ) {
         delete_post_meta( $post_id, '_elementor_css' );
-        delete_post_meta( $post_id, '_elementor_page_settings' );
         clean_post_cache( $post_id );
         wp_cache_delete( $post_id, 'posts' );
         wp_cache_delete( $post_id, 'post_meta' );
