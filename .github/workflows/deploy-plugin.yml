@@ -1,0 +1,31 @@
+name: Deploy Plugin to Cloudways
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'webprinter-engine-v4.3.php'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy plugin via SCP
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: 143.244.189.113
+          username: master_frbsbmyvbn
+          password: ${{ secrets.CLOUDWAYS_SSH_PASSWORD }}
+          port: 22
+          source: webprinter-engine-v4.3.php
+          target: ~/applications/vzsjwpdgwr/public_html/wp-content/plugins/
+          overwrite: true
+
+      - name: Verify deploy
+        run: |
+          VERSION=$(curl -s -u "${{ secrets.WP_APP_PASSWORD }}" \
+            "https://wordpress-1600468-6288295.cloudwaysapps.com/wp-json/wp/v2/plugins?search=webprinter" \
+            | python3 -c "import sys,json; d=json.load(sys.stdin); print(d[0]['version'] if d else 'not found')")
+          echo "Deployed version: $VERSION"
