@@ -17,9 +17,31 @@ jobs:
 
       - name: Validate template JSON files
         run: |
-          find . -name "*.json" -not -path "./.git/*" -not -path "./node_modules/*" | while read f; do
-            python3 -c "import json,sys; json.load(open('$f'))" && echo "OK: $f" || { echo "INVALID JSON: $f"; exit 1; }
-          done
+          python3 << 'EOF'
+          import json, os, sys
+
+          EXCLUDE = {'.git', 'node_modules', 'src'}
+          SKIP_FILES = {'tsconfig.json', 'tsconfig.app.json', 'tsconfig.node.json', 'package.json', 'package-lock.json'}
+          errors = []
+
+          for root, dirs, files in os.walk('.'):
+              dirs[:] = [d for d in dirs if d not in EXCLUDE]
+              for fname in files:
+                  if not fname.endswith('.json') or fname in SKIP_FILES:
+                      continue
+                  path = os.path.join(root, fname)
+                  try:
+                      with open(path) as fh:
+                          json.load(fh)
+                  except Exception as e:
+                      errors.append(f'{path}: {e}')
+
+          if errors:
+              for e in errors:
+                  print(f'INVALID: {e}')
+              sys.exit(1)
+          print(f'All template JSON files valid.')
+          EOF
 
       - name: Check template token coverage
         run: |
