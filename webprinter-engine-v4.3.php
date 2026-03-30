@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WebPrinter Engine
  * Description: Template-agnostic REST endpoint to deploy contractor demo sites from n8n.
- * Version:     4.5
+ * Version:     4.6
  * Author:      Team Platypus
  *
  * REQUIRES in wp-config.php:
@@ -39,6 +39,58 @@ class WebPrinter_Engine {
             'callback'            => [ $this, 'handle_deploy' ],
             'permission_callback' => [ $this, 'check_auth' ],
         ] );
+        register_rest_route( 'webprinter/v1', '/setup-breeze', [
+            'methods'             => 'POST',
+            'callback'            => [ $this, 'handle_setup_breeze' ],
+            'permission_callback' => [ $this, 'check_auth' ],
+        ] );
+    }
+
+    /**
+     * Set Breeze cache exclusion URLs for all demo slot blogs.
+     * Call once after initial deploy to prevent Breeze from re-caching
+     * demo sites without Elementor CSS after TTL expiry.
+     *
+     * POST /wp-json/webprinter/v1/setup-breeze
+     * Body: { "blog_ids": [4, 7, 10], "paths": ["/slot-hvac-1/", ...] }
+     */
+    public function handle_setup_breeze( WP_REST_Request $request ) {
+        if ( ! is_multisite() ) {
+            return new WP_REST_Response( [ 'success' => false, 'error' => 'Not multisite' ], 400 );
+        }
+
+        $params   = $request->get_json_params() ?: $request->get_params();
+        $blog_ids = array_map( 'intval', $params['blog_ids'] ?? [] );
+        $paths    = array_map( 'sanitize_text_field', $params['paths'] ?? [] );
+
+        if ( empty( $blog_ids ) || empty( $paths ) ) {
+            return new WP_REST_Response( [ 'success' => false, 'error' => 'blog_ids and paths required' ], 400 );
+        }
+
+        $results = [];
+        foreach ( $blog_ids as $blog_id ) {
+            switch_to_blog( $blog_id );
+
+            $settings = get_option( 'breeze_basic_settings', [] );
+            if ( ! is_array( $settings ) ) $settings = [];
+
+            // Merge new paths into existing exclusions, deduplicated
+            $existing   = isset( $settings['breeze-exclude-urls'] ) ? (array) $settings['breeze-exclude-urls'] : [];
+            $merged     = array_values( array_unique( array_merge( $existing, $paths ) ) );
+            $settings['breeze-exclude-urls'] = $merged;
+            update_option( 'breeze_basic_settings', $settings );
+
+            // Also flush any existing Breeze cache for this blog
+            do_action( 'breeze_clear_all_cache' );
+            if ( class_exists( 'Breeze_PurgeCache' ) ) {
+                Breeze_PurgeCache::breeze_cache_flush();
+            }
+
+            restore_current_blog();
+            $results[ $blog_id ] = [ 'excluded_paths' => $merged ];
+        }
+
+        return new WP_REST_Response( [ 'success' => true, 'results' => $results ], 200 );
     }
 
     public function check_auth( WP_REST_Request $request ) {
@@ -101,6 +153,16 @@ class WebPrinter_Engine {
         ];
         $accent_color = $template_colors[ strtolower( $template ) ] ?? '#C9A84C';
         $this->set_elementor_kit_accent_color( $accent_color );
+
+        // ---------------------------------------------------------------
+        // 3c. CLEAR ALL ELEMENTOR CSS ONCE (before page deployments)
+        // Each page deploy regenerates its own CSS via Post::update().
+        // Clearing once here prevents stale CSS; clearing per-page would
+        // nuke every previously-regenerated file on each loop iteration.
+        // ---------------------------------------------------------------
+        if ( class_exists( '\Elementor\Plugin' ) && isset( \Elementor\Plugin::$instance->files_manager ) ) {
+            \Elementor\Plugin::$instance->files_manager->clear_cache();
+        }
 
         // ---------------------------------------------------------------
         // 4. SIDELOAD ALL IMAGES INTO MEDIA LIBRARY
@@ -491,13 +553,11 @@ class WebPrinter_Engine {
 
         update_post_meta( $kit_id, '_elementor_page_settings', $settings );
 
-        // Regenerate kit CSS
+        // Regenerate kit CSS only — do NOT call files_manager->clear_cache() here;
+        // that wipes all CSS files and is called once centrally in handle_deploy().
         delete_post_meta( $kit_id, '_elementor_css' );
         if ( class_exists( '\Elementor\Core\Files\CSS\Post' ) ) {
             \Elementor\Core\Files\CSS\Post::create( $kit_id )->update();
-        }
-        if ( class_exists( '\Elementor\Plugin' ) && isset( \Elementor\Plugin::$instance->files_manager ) ) {
-            \Elementor\Plugin::$instance->files_manager->clear_cache();
         }
     }
 
@@ -507,11 +567,11 @@ class WebPrinter_Engine {
         wp_cache_delete( $post_id, 'posts' );
         wp_cache_delete( $post_id, 'post_meta' );
 
+        // Regenerate this post's CSS only.
+        // Do NOT call files_manager->clear_cache() here — it nukes ALL Elementor
+        // CSS files and is invoked once centrally in handle_deploy() before the loop.
         if ( class_exists( '\Elementor\Core\Files\CSS\Post' ) ) {
             \Elementor\Core\Files\CSS\Post::create( $post_id )->update();
-        }
-        if ( class_exists( '\Elementor\Plugin' ) && isset( \Elementor\Plugin::$instance->files_manager ) ) {
-            \Elementor\Plugin::$instance->files_manager->clear_cache();
         }
     }
 
