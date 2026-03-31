@@ -17,7 +17,7 @@ jobs:
         with:
           host: 143.244.189.113
           username: master_frbsbmyvbn
-          password: ${{ secrets.CLOUDWAYS_SSH_KEY }}
+          key: ${{ secrets.CLOUDWAYS_SSH_KEY }}
           port: 22
           source: webprinter-engine-v4.3.php
           target: ~/applications/vzsjwpdgwr/public_html/wp-content/plugins/
